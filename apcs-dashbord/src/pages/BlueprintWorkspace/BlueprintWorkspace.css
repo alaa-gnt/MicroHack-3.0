@@ -1,19 +1,38 @@
 /* Blueprint Workspace Styling - High tech, architect design */
 
 .blueprint-page {
-    background-color: #f3f6ff;
+    background-color: #f8fafc;
+    background-image:
+        linear-gradient(rgba(148, 163, 184, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(148, 163, 184, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
     min-height: 100vh;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 .blueprint-header {
     margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+    padding: 24px 0;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.header-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 .back-link {
@@ -22,186 +41,278 @@
     gap: 8px;
     background: none;
     border: none;
-    color: #1d4ed8;
-    font-weight: 600;
+    color: #475569;
+    font-weight: 500;
     cursor: pointer;
-    padding: 0;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: all 0.2s;
 }
 
 .back-link:hover {
-    text-decoration: underline;
+    background-color: #f1f5f9;
+    color: #1e293b;
 }
 
 .blueprint-badge {
-    background-color: #dbeafe;
-    color: #1e40af;
-    padding: 4px 12px;
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    color: #1d4ed8;
+    padding: 6px 16px;
     border-radius: 9999px;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 0.05em;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     border: 1px solid #bfdbfe;
+    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.1);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.regenerate-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    color: #475569;
+    padding: 6px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.regenerate-btn:hover {
+    background: #f8fafc;
+    color: #1d4ed8;
+    border-color: #cbd5e1;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 .header-main h1 {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 800;
     color: #0f172a;
     margin: 0;
+    letter-spacing: -0.025em;
+    background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .subtitle {
     color: #64748b;
     font-size: 16px;
-    margin: 4px 0 0 0;
+    margin: 8px 0 0 0;
+    font-weight: 400;
 }
 
 /* Layout Grid */
 .blueprint-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 32px;
+    max-width: 1400px;
+    margin: 32px auto;
+    padding: 0 24px 64px 24px;
 }
 
 /* Spec Cards */
 .blueprint-spec-card,
 .blueprint-tool-card {
-    background: #fff;
-    border-radius: 16px;
-    border: 1px solid #e2e8f0;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    border: 1px solid rgba(226, 232, 240, 0.6);
+    box-shadow:
+        0 10px 15px -3px rgba(0, 0, 0, 0.05),
+        0 4px 6px -2px rgba(0, 0, 0, 0.025);
     overflow: hidden;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
+    backdrop-filter: blur(8px);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.blueprint-spec-card:hover,
+.blueprint-tool-card:hover {
+    box-shadow:
+        0 20px 25px -5px rgba(0, 0, 0, 0.05),
+        0 10px 10px -5px rgba(0, 0, 0, 0.02);
 }
 
 .card-header {
-    padding: 16px 20px;
-    background-color: #f8fafc;
-    border-bottom: 1px solid #e2e8f0;
+    padding: 20px 24px;
+    background: linear-gradient(to right, #f8fafc, #fff);
+    border-bottom: 1px solid #f1f5f9;
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
 .card-header h2 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: #334155;
     margin: 0;
     text-transform: uppercase;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.05em;
 }
 
 .card-header .icon {
-    color: #1d4ed8;
+    color: #2563eb;
+    filter: drop-shadow(0 2px 4px rgba(37, 99, 235, 0.2));
 }
 
 .card-body {
-    padding: 20px;
+    padding: 24px;
 }
 
 .card-body p {
-    line-height: 1.6;
+    line-height: 1.7;
     color: #475569;
     margin: 0;
-    font-size: 14px;
+    font-size: 15px;
+    white-space: pre-wrap;
 }
 
 .code-style .card-body {
     background-color: #0f172a;
     color: #e2e8f0;
-    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Roboto Mono', monospace;
     font-size: 13px;
+    line-height: 1.8;
+    position: relative;
 }
 
-.spec-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
+.code-style .card-body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+    opacity: 0.8;
 }
 
 /* Right Column Tools */
 .v0-card {
-    border: 2px solid #1d4ed8;
+    border: 1px solid #e2e8f0;
     position: relative;
+    /* faint blue glow */
+    box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.1), 0 2px 4px -1px rgba(59, 130, 246, 0.06);
 }
 
 .tool-desc {
-    font-size: 13px;
+    font-size: 14px;
     color: #64748b;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
 .prompt-container {
-    background-color: #f1f5f9;
+    background-color: #f8fafc;
     border-radius: 12px;
-    padding: 16px;
-    border: 1px dashed #cbd5e1;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
     position: relative;
+    /* transition: all 0.2s; */
+}
+
+.prompt-container:hover {
+    border-color: #cbd5e1;
+    background-color: #fff;
 }
 
 .prompt-text {
-    font-size: 13px;
-    font-style: italic;
-    color: #334155;
-    margin: 0 0 40px 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #475569;
+    margin: 0 0 48px 0;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    line-clamp: 4;
+    line-clamp: 5;
+    opacity: 0.9;
 }
 
 .copy-prompt-btn {
     position: absolute;
-    bottom: 12px;
-    right: 12px;
-    background-color: #1d4ed8;
-    color: #fff;
-    border: none;
-    padding: 6px 14px;
-    border-radius: 6px;
+    bottom: 16px;
+    right: 16px;
+    background: white;
+    color: #1d4ed8;
+    border: 1px solid #e2e8f0;
+    padding: 8px 16px;
+    border-radius: 8px;
     font-size: 12px;
     font-weight: 600;
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     cursor: pointer;
     transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .copy-prompt-btn:hover {
-    background-color: #1e40af;
+    background-color: #f8fafc;
+    border-color: #cbd5e1;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 /* Logic Flow */
 .logic-card .card-body {
-    background-color: #fff;
-    min-height: 300px;
+    background-color: #ffffff;
+    min-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: auto;
+    /* Subtle dot pattern for the diagram background */
+    background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+    background-size: 20px 20px;
 }
 
 /* GitHub Manifest */
 .manifest-files {
     background-color: #f8fafc;
-    border-radius: 8px;
-    padding: 12px;
-    margin-bottom: 16px;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #e2e8f0;
 }
 
 .file-item {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     font-size: 14px;
-    color: #334155;
-    padding: 4px 0;
+    color: #475569;
+    padding: 8px;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+
+.file-item:hover {
+    background-color: #fff;
+    color: #1e293b;
 }
 
 .file-item span {
-    font-family: monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 13px;
+    color: #0f172a;
 }
 
 .download-manifest-btn {
@@ -209,66 +320,49 @@
     background-color: #0f172a;
     color: #fff;
     border: none;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 14px;
+    border-radius: 12px;
     font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 10px;
     cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.1);
 }
 
-/* Loading States */
+.download-manifest-btn:hover {
+    background-color: #1e293b;
+    transform: translateY(-1px);
+    box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.15);
+}
+
+/* Loading States with blurred background */
 .blueprint-loading {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 60vh;
+    min-height: 80vh;
     text-align: center;
 }
 
 .spinner {
     animation: spin 1s linear infinite;
-    color: #1d4ed8;
-    margin-bottom: 16px;
+    color: #2563eb;
+    margin-bottom: 24px;
+    filter: drop-shadow(0 0 8px rgba(37, 99, 235, 0.4));
 }
 
 .pulse-ai {
-    width: 80px;
-    height: 80px;
-    background-color: #1d4ed8;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%);
     border-radius: 50%;
     animation: pulse 2s infinite;
-    margin-bottom: 24px;
-}
-
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(29, 78, 216, 0.7);
-    }
-
-    70% {
-        transform: scale(1);
-        box-shadow: 0 0 0 30px rgba(29, 78, 216, 0);
-    }
-
-    100% {
-        transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(29, 78, 216, 0);
-    }
+    margin-bottom: 32px;
+    box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
 }
 
 /* Empty State */
@@ -279,38 +373,72 @@
     justify-content: center;
     min-height: 60vh;
     text-align: center;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 24px;
-    padding: 40px;
+    padding: 64px 40px;
+    border: 1px dashed #cbd5e1;
+    backdrop-filter: blur(10px);
 }
 
 .terminal-icon {
     color: #cbd5e1;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
 }
 
 .generate-blueprint-btn {
-    background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+    background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%);
     color: #fff;
     border: none;
-    padding: 14px 28px;
-    border-radius: 12px;
+    padding: 16px 32px;
+    border-radius: 16px;
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
-    margin-bottom: 16px;
-    box-shadow: 0 10px 15px -3px rgba(29, 78, 216, 0.3);
-    transition: transform 0.2s;
+    margin-bottom: 24px;
+    box-shadow:
+        0 4px 6px -1px rgba(79, 70, 229, 0.1),
+        0 10px 15px -3px rgba(79, 70, 229, 0.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.generate-blueprint-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), transparent);
+    opacity: 0;
+    transition: opacity 0.2s;
 }
 
 .generate-blueprint-btn:hover {
     transform: translateY(-2px);
+    box-shadow:
+        0 20px 25px -5px rgba(79, 70, 229, 0.3),
+        0 10px 10px -5px rgba(79, 70, 229, 0.1);
+}
+
+.generate-blueprint-btn:hover::before {
+    opacity: 1;
 }
 
 .back-btn-secondary {
     background: none;
-    border: none;
+    border: 1px solid transparent;
     color: #64748b;
     font-size: 14px;
     cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.back-btn-secondary:hover {
+    background-color: #f1f5f9;
+    color: #334155;
+    border-color: #e2e8f0;
 }

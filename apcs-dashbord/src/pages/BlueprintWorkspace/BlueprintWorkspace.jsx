@@ -13,7 +13,8 @@ import {
     FileCode,
     Network,
     Download,
-    Loader2
+    Loader2,
+    RefreshCw
 } from "lucide-react";
 import { getBlueprintByOpportunity, generateBlueprint } from "../../services/blueprintService";
 import Mermaid from "../../components/common/Mermaid/Mermaid";
@@ -45,11 +46,11 @@ const BlueprintWorkspace = () => {
         fetchBlueprint();
     }, [opportunityId]);
 
-    const handleGenerate = async () => {
+    const handleGenerate = async (force = false) => {
         try {
             setGenerating(true);
             setError(null);
-            const data = await generateBlueprint(opportunityId);
+            const data = await generateBlueprint(opportunityId, force);
             setBlueprint(data);
         } catch (err) {
             setError("Strategic generation failed. Please check your AI connection.");
@@ -82,7 +83,7 @@ const BlueprintWorkspace = () => {
                     <Terminal size={64} className="terminal-icon" />
                     <h1>Venture Blueprint Pending</h1>
                     <p>This opportunity is ready for high-fidelity architectural mapping.</p>
-                    <button onClick={handleGenerate} className="generate-blueprint-btn">
+                    <button onClick={() => handleGenerate(false)} className="generate-blueprint-btn">
                         Generate Day-Zero Blueprint
                     </button>
                     <button onClick={() => navigate(-1)} className="back-btn-secondary">
@@ -112,7 +113,12 @@ const BlueprintWorkspace = () => {
                     <button onClick={() => navigate(-1)} className="back-link">
                         <ArrowLeft size={16} /> Back to Strategic Analysis
                     </button>
-                    <div className="blueprint-badge">DAY-ZERO READY</div>
+                    <div className="header-actions">
+                        <button onClick={() => handleGenerate(true)} className="regenerate-btn">
+                            <RefreshCw size={14} /> Regenerate Blueprint
+                        </button>
+                        <div className="blueprint-badge">DAY-ZERO READY</div>
+                    </div>
                 </div>
                 <div className="header-main">
                     <h1>Autonomous Venture Blueprint</h1>

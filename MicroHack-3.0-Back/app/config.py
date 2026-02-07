@@ -13,6 +13,9 @@ class Settings(BaseSettings):
     POSTGRES_HOST: str = "db"
     POSTGRES_PORT: str = "5432"
     
+    MISTRAL_API_KEY: Optional[str] = None
+    GOOGLE_API_KEY: Optional[str] = None
+    
     @computed_field
     @property
     def SQLALCHEMY_DATABASE_URL(self) -> str:

@@ -13,6 +13,7 @@ import {
     Zap,
     Rocket
 } from "lucide-react";
+import ReactMarkdown from 'react-markdown';
 import { getFeasibilityByOpportunity } from "../../services/feasibilityService";
 import "./FeasibilityDetail.css";
 
@@ -82,68 +83,50 @@ const FeasibilityDetail = () => {
                 <h1 className="signals-inbox-title">Project Feasibility Deep-Dive</h1>
             </header>
 
-            <div className="feasibility-grid">
+            <div className="feasibility-sections">
                 {/* Technical Assessment */}
-                <section className="feasibility-card">
-                    <div className="card-header">
-                        <Settings className="card-icon" size={20} />
+                <section className="feasibility-section">
+                    <div className="section-header">
+                        <Settings className="section-icon" size={24} />
                         <h2>Technical Assessment</h2>
                     </div>
-                    <div className="card-content">
-                        <p>{study.technical_assessment}</p>
-                    </div>
-                </section>
-
-                {/* Technology Stack */}
-                <section className="feasibility-card">
-                    <div className="card-header">
-                        <Database className="card-icon" size={20} />
-                        <h2>Implementation Blueprint</h2>
-                    </div>
-                    <div className="card-content">
-                        <div className="stack-tags">
-                            {study.required_technology_stack?.split(",").map((tech, i) => (
-                                <span key={i} className="stack-tag">{tech.trim()}</span>
-                            ))}
-                        </div>
+                    <div className="section-content markdown-body">
+                        <ReactMarkdown>{study.technical_assessment}</ReactMarkdown>
                     </div>
                 </section>
 
                 {/* Market Analysis */}
-                <section className="feasibility-card">
-                    <div className="card-header">
-                        <TrendingUp className="card-icon" size={20} />
+                <section className="feasibility-section">
+                    <div className="section-header">
+                        <TrendingUp className="section-icon" size={24} />
                         <h2>Strategic Intelligence</h2>
                     </div>
-                    <div className="card-content">
-                        <p>{study.market_analysis}</p>
+                    <div className="section-content markdown-body">
+                        <ReactMarkdown>{study.market_analysis}</ReactMarkdown>
                     </div>
                 </section>
 
                 {/* Recommendation */}
-                <section className="feasibility-card recommendation-card">
-                    <div className="card-header">
-                        <CheckCircle className="card-icon" size={20} />
+                <section className="feasibility-section recommendation-section">
+                    <div className="section-header">
+                        <CheckCircle className="section-icon" size={24} />
                         <h2>Executive Verdict</h2>
                     </div>
-                    <div className="card-content highlighted">
-                        <p>{study.final_recommendation}</p>
+                    <div className="section-content highlighted markdown-body">
+                        <ReactMarkdown>{study.final_recommendation}</ReactMarkdown>
                     </div>
                 </section>
             </div>
 
-            <section className="feasibility-card blueprint-trigger-card">
-                <div className="card-header">
-                    <Rocket className="card-icon" size={20} color="#1d4ed8" />
-                    <h2>Strategic Realization</h2>
-                </div>
-                <div className="card-content">
-                    <p>Transform this approved idea into a full architectural blueprint and MVP code manifest.</p>
+            <section className="action-footer">
+                <div className="action-container">
+                    <p>Ready to move forward? Generate the architecture and diagrams.</p>
                     <button
                         onClick={() => navigate(`/blueprint/${study.opportunity_id}`)}
-                        className="transform-blueprint-btn"
+                        className="help-implementation-btn"
                     >
-                        Convert to Venture Blueprint
+                        Help me with implementation
+                        <ArrowLeft size={20} style={{ transform: 'rotate(180deg)' }} />
                     </button>
                 </div>
             </section>

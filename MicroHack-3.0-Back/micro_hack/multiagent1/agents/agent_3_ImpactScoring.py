@@ -2,14 +2,14 @@ import os
 import json
 import re
 from typing import Dict
-from langchain_mistralai import ChatMistralAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from state import GraphState
 
 class ImpactScoringAgent:
     def __init__(self, api_key: str = None):
-        self.api_key = api_key or os.getenv("MISTRAL_API_KEY")
-        self.llm = ChatMistralAI(model="mistral-large-latest", temperature=0.3, api_key=self.api_key)
+        self.api_key = api_key or os.getenv("GOOGLE_API_KEY")
+        self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.3, google_api_key=self.api_key)
         
         self.prompt = ChatPromptTemplate.from_messages([
             ("system", """You are an impact assessment expert. Evaluate the potential IMPACT (0.0 to 1.0).

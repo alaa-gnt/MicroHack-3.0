@@ -1,10 +1,10 @@
-from langchain_mistralai import ChatMistralAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from state import Tier2State
 
 class StackDesignerAgent:
     def __init__(self):
-        self.llm = ChatMistralAI(model="mistral-small-latest", temperature=0.1)
+        self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.1)
         self.prompt = ChatPromptTemplate.from_messages([
             ("system", """Suggest a tech stack. If retrying, simplify for an MVP.
              Format: SCORE: [0.0-1.0] | STACK: [comma-separated list]"""),

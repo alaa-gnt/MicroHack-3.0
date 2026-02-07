@@ -3,16 +3,13 @@ import mermaid from 'mermaid';
 
 mermaid.initialize({
     startOnLoad: true,
-    theme: 'base',
-    themeVariables: {
-        primaryColor: '#1d4ed8',
-        primaryTextColor: '#fff',
-        primaryBorderColor: '#1e3a8a',
-        lineColor: '#555',
-        secondaryColor: '#00d1b2',
-        tertiaryColor: '#fff',
-    },
+    theme: 'neutral',
     securityLevel: 'loose',
+    flowchart: {
+        useMaxWidth: true,
+        htmlLabels: true,
+        curve: 'basis'
+    }
 });
 
 const Mermaid = ({ chart }) => {
@@ -33,10 +30,8 @@ const Mermaid = ({ chart }) => {
                 width: '100%',
                 display: 'flex',
                 justifyContent: 'center',
-                backgroundColor: '#fff',
-                padding: '20px',
-                borderRadius: '8px',
-                border: '1px solid #e5e7eb'
+                alignItems: 'center',
+                minHeight: '100%'
             }}
         >
             {chart}

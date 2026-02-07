@@ -1,15 +1,31 @@
-from langchain_mistralai import ChatMistralAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from state import Tier2State
 
 class TechnicalAssessorAgent:
     def __init__(self):
-        self.llm = ChatMistralAI(model="mistral-large-latest", temperature=0.2)
+        self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.2)
         self.prompt = ChatPromptTemplate.from_messages([
             ("system", """Analyze the technical requirements. 
              If this is a RETRY, improve your previous analysis.
              You MUST return your response in this EXACT format:
-             SCORE: [0.0-1.0] | ANALYSIS: [Your detailed technical breakdown]"""),
+             SCORE: [0.0-1.0] | ANALYSIS: [Markdown Formatted Analysis]
+
+             **Markdown Structure for ANALYSIS:**
+             ### Executive Tech Summary
+             (1 sentence overview)
+
+             ### Core Components
+             - **Component 1**: Description
+             - **Component 2**: Description
+
+             ### Architecture Highlights
+             - **Scalability**: Assessment
+             - **Security**: Assessment
+
+             ### Implementation Risks
+             - Risk 1
+             - Risk 2"""),
             ("human", "Text: {text}\nPrevious Thoughts: {thoughts}")
         ])
         self.chain = self.prompt | self.llm

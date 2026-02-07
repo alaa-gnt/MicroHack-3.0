@@ -1,11 +1,11 @@
-from langchain_mistralai import ChatMistralAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from state import Tier2State
 
 
 class StrategistAgent:
     def __init__(self):
-        self.llm = ChatMistralAI(model="mistral-large-latest", temperature=0.5)
+        self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.5)
         self.prompt = ChatPromptTemplate.from_messages([
             ("system", "Provide a final executive recommendation and the immediate next step for this project."),
             ("human", "Project: {text}\nFeasibility Score: {score}")

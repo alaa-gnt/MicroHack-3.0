@@ -3,21 +3,21 @@ import os
 import json
 import re
 from typing import Dict
-from langchain_mistralai import ChatMistralAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from state import GraphState
 
 
 class ClassifyDomainAgent:
     def __init__(self, api_key: str = None):
-        self.api_key = api_key or os.getenv("MISTRAL_API_KEY")
+        self.api_key = api_key or os.getenv("GOOGLE_API_KEY")
         if not self.api_key:
-            raise ValueError("MISTRAL_API_KEY not found in environment")
+            raise ValueError("GOOGLE_API_KEY not found in environment")
             
-        self.llm = ChatMistralAI(
-            model="mistral-large-latest",
+        self.llm = ChatGoogleGenerativeAI(
+            model="gemini-1.5-flash",
             temperature=0.2,
-            api_key=self.api_key
+            google_api_key=self.api_key
         )
         
         self.domains = [

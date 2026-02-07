@@ -1,10 +1,10 @@
-from langchain_mistralai import ChatMistralAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from state import Tier2State
 
 class FeasibilityExpertAgent:
     def __init__(self):
-        self.llm = ChatMistralAI(model="mistral-large-latest", temperature=0)
+        self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)
         self.prompt = ChatPromptTemplate.from_messages([
             ("system", "Review the Tech and Market data. Provide a final feasibility score (0.0 to 1.0). Return ONLY the number."),
             ("human", "Tech: {tech}\nMarket: {market}")

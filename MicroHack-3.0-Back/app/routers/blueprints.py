@@ -18,10 +18,10 @@ def get_blueprint(opportunity_id: str, db: Session = Depends(get_db), current_us
     return blueprint
 
 @router.post("/{opportunity_id}/generate", response_model=VentureBlueprintResponse)
-def generate_blueprint(opportunity_id: str, db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
+def generate_blueprint(opportunity_id: str, force: bool = False, db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
     service = BlueprintService(db)
     try:
-        blueprint = service.generate_blueprint(opportunity_id)
+        blueprint = service.generate_blueprint(opportunity_id, force=force)
         return blueprint
     except ValueError as ve:
         raise HTTPException(status_code=404, detail=str(ve))

@@ -16,9 +16,13 @@ export const getBlueprintByOpportunity = async (opportunityId) => {
 /**
  * Trigger generation of a new blueprint
  */
-export const generateBlueprint = async (opportunityId) => {
+export const generateBlueprint = async (opportunityId, force = false) => {
     try {
-        const data = await fetchData(`/blueprints/${opportunityId}/generate`, {
+        const url = force
+            ? `/blueprints/${opportunityId}/generate?force=true`
+            : `/blueprints/${opportunityId}/generate`;
+
+        const data = await fetchData(url, {
             method: 'POST'
         });
         return data;
