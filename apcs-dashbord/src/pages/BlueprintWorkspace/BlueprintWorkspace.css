@@ -1,0 +1,316 @@
+/* Blueprint Workspace Styling - High tech, architect design */
+
+.blueprint-page {
+    background-color: #f3f6ff;
+    min-height: 100vh;
+}
+
+.blueprint-header {
+    margin-bottom: 30px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    color: #1d4ed8;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.blueprint-badge {
+    background-color: #dbeafe;
+    color: #1e40af;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    border: 1px solid #bfdbfe;
+}
+
+.header-main h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 0;
+}
+
+.subtitle {
+    color: #64748b;
+    font-size: 16px;
+    margin: 4px 0 0 0;
+}
+
+/* Layout Grid */
+.blueprint-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+/* Spec Cards */
+.blueprint-spec-card,
+.blueprint-tool-card {
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.card-header {
+    padding: 16px 20px;
+    background-color: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.card-header h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #334155;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.card-header .icon {
+    color: #1d4ed8;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body p {
+    line-height: 1.6;
+    color: #475569;
+    margin: 0;
+    font-size: 14px;
+}
+
+.code-style .card-body {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 13px;
+}
+
+.spec-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+/* Right Column Tools */
+.v0-card {
+    border: 2px solid #1d4ed8;
+    position: relative;
+}
+
+.tool-desc {
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 16px;
+}
+
+.prompt-container {
+    background-color: #f1f5f9;
+    border-radius: 12px;
+    padding: 16px;
+    border: 1px dashed #cbd5e1;
+    position: relative;
+}
+
+.prompt-text {
+    font-size: 13px;
+    font-style: italic;
+    color: #334155;
+    margin: 0 0 40px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-clamp: 4;
+}
+
+.copy-prompt-btn {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background-color: #1d4ed8;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.copy-prompt-btn:hover {
+    background-color: #1e40af;
+}
+
+/* Logic Flow */
+.logic-card .card-body {
+    background-color: #fff;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* GitHub Manifest */
+.manifest-files {
+    background-color: #f8fafc;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #334155;
+    padding: 4px 0;
+}
+
+.file-item span {
+    font-family: monospace;
+}
+
+.download-manifest-btn {
+    width: 100%;
+    background-color: #0f172a;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+/* Loading States */
+.blueprint-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+}
+
+.spinner {
+    animation: spin 1s linear infinite;
+    color: #1d4ed8;
+    margin-bottom: 16px;
+}
+
+.pulse-ai {
+    width: 80px;
+    height: 80px;
+    background-color: #1d4ed8;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+    margin-bottom: 24px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(29, 78, 216, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 30px rgba(29, 78, 216, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(29, 78, 216, 0);
+    }
+}
+
+/* Empty State */
+.blueprint-empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+    background: #fff;
+    border-radius: 24px;
+    padding: 40px;
+}
+
+.terminal-icon {
+    color: #cbd5e1;
+    margin-bottom: 20px;
+}
+
+.generate-blueprint-btn {
+    background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+    color: #fff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 16px;
+    box-shadow: 0 10px 15px -3px rgba(29, 78, 216, 0.3);
+    transition: transform 0.2s;
+}
+
+.generate-blueprint-btn:hover {
+    transform: translateY(-2px);
+}
+
+.back-btn-secondary {
+    background: none;
+    border: none;
+    color: #64748b;
+    font-size: 14px;
+    cursor: pointer;
+}

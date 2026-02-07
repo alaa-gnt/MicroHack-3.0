@@ -10,7 +10,8 @@ import {
     FileText,
     Binary,
     ShieldCheck,
-    Zap
+    Zap,
+    Rocket
 } from "lucide-react";
 import { getFeasibilityByOpportunity } from "../../services/feasibilityService";
 import "./FeasibilityDetail.css";
@@ -130,6 +131,22 @@ const FeasibilityDetail = () => {
                     </div>
                 </section>
             </div>
+
+            <section className="feasibility-card blueprint-trigger-card">
+                <div className="card-header">
+                    <Rocket className="card-icon" size={20} color="#1d4ed8" />
+                    <h2>Strategic Realization</h2>
+                </div>
+                <div className="card-content">
+                    <p>Transform this approved idea into a full architectural blueprint and MVP code manifest.</p>
+                    <button
+                        onClick={() => navigate(`/blueprint/${study.opportunity_id}`)}
+                        className="transform-blueprint-btn"
+                    >
+                        Convert to Venture Blueprint
+                    </button>
+                </div>
+            </section>
 
             <footer className="feasibility-footer">
                 <div className="audit-info">

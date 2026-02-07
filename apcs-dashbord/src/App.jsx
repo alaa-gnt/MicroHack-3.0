@@ -10,6 +10,7 @@ import SignalsInbox from "./pages/SignalsInbox/SignalsInbox";
 import Alerts from "./pages/Alerts/Alerts";
 import InnovationPipeline from "./pages/InnovationPipeline/InnovationPipeline";
 import FeasibilityDetail from "./pages/FeasibilityDetail/FeasibilityDetail";
+import BlueprintWorkspace from "./pages/BlueprintWorkspace/BlueprintWorkspace";
 
 const PrivateRoute = ({ children }) => {
   const { isAuthenticated, loading } = useAuth();
@@ -54,6 +55,10 @@ function AppRoutes() {
                 <Route
                   path="/feasibility/:opportunityId"
                   element={<FeasibilityDetail />}
+                />
+                <Route
+                  path="/blueprint/:opportunityId"
+                  element={<BlueprintWorkspace />}
                 />
               </Routes>
             </Layout>

@@ -10,31 +10,21 @@ import { loginAPI, verifyToken, logoutAPI } from "../services/authService";
 const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {
-  const [user, setUser] = useState({
-    id: 'user_001',
-    email: 'admin@apcs.com',
-    name: 'Admin User',
-    role: 'admin',
-  });
-  const [loading, setLoading] = useState(false);
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   // Check existing token on mount
   useEffect(() => {
-    const token = localStorage.getItem("authToken");
-    if (token) {
-      verifyToken(token)
-        .then((userData) => {
-          setUser(userData);
-          setIsAuthenticated(true);
-        })
-        .catch(() => {
-          localStorage.removeItem("authToken");
-        })
-        .finally(() => setLoading(false));
-    } else {
-      setLoading(false);
-    }
+    // 🧪 TEMPORARY TEST BYPASS
+    setUser({
+      id: 'user_001',
+      email: 'admin@apcs.com',
+      name: 'Test Admin',
+      role: 'admin',
+    });
+    setIsAuthenticated(true);
+    setLoading(false);
   }, []);
 
   const login = useCallback(async (credentials) => {

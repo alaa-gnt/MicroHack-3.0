@@ -21,3 +21,4 @@ class Opportunity(Base):
     # Relationships
     signal = relationship("Signal", back_populates="opportunity")
     feasibility_study = relationship("FeasibilityStudy", back_populates="opportunity", uselist=False)
+    venture_blueprint = relationship("VentureBlueprint", back_populates="opportunity", uselist=False)

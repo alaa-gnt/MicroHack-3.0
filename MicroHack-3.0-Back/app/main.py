@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
-from app.routers import signals, pipeline, alerts, analytics, knowledge_base, auth, opportunities, feasibility, alert_rules
+from app.routers import signals, pipeline, alerts, analytics, knowledge_base, auth, opportunities, feasibility, alert_rules, blueprints
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -10,9 +10,15 @@ app = FastAPI(
 )
 
 # Set up CORS
+origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:3000",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -33,3 +39,4 @@ app.include_router(analytics.router, prefix=f"{settings.API_V1_STR}/analytics", 
 app.include_router(knowledge_base.router, prefix=f"{settings.API_V1_STR}/kb", tags=["Knowledge Base"])
 app.include_router(opportunities.router, prefix=f"{settings.API_V1_STR}/opportunities", tags=["Opportunities"])
 app.include_router(feasibility.router, prefix=f"{settings.API_V1_STR}/feasibility-studies", tags=["Feasibility Studies"])
+app.include_router(blueprints.router, prefix=f"{settings.API_V1_STR}/blueprints", tags=["Venture Blueprints"])

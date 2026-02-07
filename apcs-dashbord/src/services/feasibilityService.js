@@ -6,7 +6,7 @@ import { apiFetch } from './api';
  */
 export const getFeasibilityByOpportunity = async (opportunityId) => {
     try {
-        const data = await apiFetch(`/feasibility?opportunity_id=${opportunityId}`);
+        const data = await apiFetch(`/feasibility-studies/?opportunity_id=${opportunityId}`);
         // The API returns a list, we take the first one or null
         return data.length > 0 ? data[0] : null;
     } catch (err) {
