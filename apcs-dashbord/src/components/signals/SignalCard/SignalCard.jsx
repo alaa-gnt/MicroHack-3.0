@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./SignalCard.css";
 
 const STATUS_COLORS = {
@@ -9,6 +10,8 @@ const STATUS_COLORS = {
 };
 
 const SignalCard = ({ signal, onAccept, onReject }) => {
+  const navigate = useNavigate();
+  const [isExpanded, setIsExpanded] = useState(false);
   const statusColor = STATUS_COLORS[signal.status] || STATUS_COLORS["New"];
   const isActionable =
     signal.status !== "Accepted" && signal.status !== "Rejected";
@@ -16,7 +19,10 @@ const SignalCard = ({ signal, onAccept, onReject }) => {
   return (
     <div className="signal-inbox-card">
       {/* Blue title above the card body */}
-      <h3 className="signal-card-title">{signal.title}</h3>
+      <div className="signal-card-title-row">
+        <h3 className="signal-card-title">{signal.title}</h3>
+        {signal.hasStudy && <span className="analysis-ready-badge">Analysis Ready</span>}
+      </div>
 
       {/* Card body */}
       <div className="signal-card-body">
@@ -29,13 +35,20 @@ const SignalCard = ({ signal, onAccept, onReject }) => {
             <span className="signal-card-pipe">|</span>
             <span className="signal-card-system">{signal.system}</span>
           </div>
-          <button className="signal-view-more">View more</button>
+          <button
+            className="signal-view-more"
+            onClick={() => setIsExpanded(!isExpanded)}
+          >
+            {isExpanded ? "Show less" : "View more"}
+          </button>
         </div>
 
         {/* Description */}
         <div className="signal-card-description">
           <span className="desc-label">Description :</span>
-          <p className="desc-text">{signal.description}</p>
+          <p className={`desc-text ${isExpanded ? "expanded" : "collapsed"}`}>
+            {signal.description}
+          </p>
         </div>
 
         {/* Metadata row */}
@@ -62,19 +75,13 @@ const SignalCard = ({ signal, onAccept, onReject }) => {
             />
           </div>
 
-          {isActionable && (
+          {signal.opportunity && (
             <div className="signal-card-actions">
               <button
-                className="signal-action-btn accept-btn"
-                onClick={() => onAccept(signal.id)}
+                className="signal-action-btn deep-dive-btn"
+                onClick={() => navigate(`/feasibility/${signal.opportunity.id}`)}
               >
-                Accept
-              </button>
-              <button
-                className="signal-action-btn reject-btn"
-                onClick={() => onReject(signal.id)}
-              >
-                Reject
+                Deep-Dive Feasibility Study
               </button>
             </div>
           )}

@@ -31,6 +31,7 @@ class SignalResponse(SignalBase):
     id: str
     date: datetime
     is_processed: bool
+    has_feasibility_study: bool = False
     opportunity: Optional[OpportunityShort] = None
 
     class Config:

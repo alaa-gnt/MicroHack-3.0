@@ -23,7 +23,8 @@ def save_to_db_node(state: GraphState) -> GraphState:
         estimated_trl, 
         companies_mentioned, 
         technologies_mentioned, 
-        locations_mentioned
+        locations_mentioned,
+        corrected_text
     ) VALUES (
         %(id)s, 
         %(signal_id)s, 
@@ -33,7 +34,8 @@ def save_to_db_node(state: GraphState) -> GraphState:
         %(estimated_trl)s, 
         %(companies_mentioned)s, 
         %(technologies_mentioned)s, 
-        %(locations_mentioned)s
+        %(locations_mentioned)s,
+        %(corrected_text)s
     )
     ON CONFLICT (id) DO UPDATE SET 
         primary_domain = EXCLUDED.primary_domain,
@@ -42,7 +44,8 @@ def save_to_db_node(state: GraphState) -> GraphState:
         estimated_trl = EXCLUDED.estimated_trl,
         companies_mentioned = EXCLUDED.companies_mentioned,
         technologies_mentioned = EXCLUDED.technologies_mentioned,
-        locations_mentioned = EXCLUDED.locations_mentioned;
+        locations_mentioned = EXCLUDED.locations_mentioned,
+        corrected_text = EXCLUDED.corrected_text;
     """
     
     signal_query = """
@@ -59,7 +62,8 @@ def save_to_db_node(state: GraphState) -> GraphState:
         "estimated_trl": int(state.get("tri", 0) * 9), # Scaling TRI (0-1) to TRL (1-9)
         "companies_mentioned": ", ".join(state.get("companies", [])),
         "technologies_mentioned": ", ".join(state.get("technologies", [])),
-        "locations_mentioned": state.get("location", "")
+        "locations_mentioned": state.get("location", ""),
+        "corrected_text": state.get("corrected_text", "")
     }
 
     try:

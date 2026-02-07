@@ -21,7 +21,7 @@ const SignalsInbox = () => {
       />
 
       {/* Page title */}
-      <h1 className="signals-inbox-title">Signals Inbox</h1>
+      <h1 className="signals-inbox-title">Opportunity Sheets</h1>
 
       {/* Loading state */}
       {loading && (

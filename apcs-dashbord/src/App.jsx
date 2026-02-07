@@ -9,6 +9,7 @@ import TechnologyTrends from "./pages/TechnologyTrends/TechnologyTrends";
 import SignalsInbox from "./pages/SignalsInbox/SignalsInbox";
 import Alerts from "./pages/Alerts/Alerts";
 import InnovationPipeline from "./pages/InnovationPipeline/InnovationPipeline";
+import FeasibilityDetail from "./pages/FeasibilityDetail/FeasibilityDetail";
 
 const PrivateRoute = ({ children }) => {
   const { isAuthenticated, loading } = useAuth();
@@ -49,6 +50,10 @@ function AppRoutes() {
                 <Route
                   path="/innovation-pipeline"
                   element={<InnovationPipeline />}
+                />
+                <Route
+                  path="/feasibility/:opportunityId"
+                  element={<FeasibilityDetail />}
                 />
               </Routes>
             </Layout>

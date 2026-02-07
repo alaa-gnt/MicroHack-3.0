@@ -16,6 +16,7 @@ class Opportunity(Base):
     companies_mentioned = Column(Text)
     technologies_mentioned = Column(Text)
     locations_mentioned = Column(Text)
+    corrected_text = Column(Text)
     
     # Relationships
     signal = relationship("Signal", back_populates="opportunity")

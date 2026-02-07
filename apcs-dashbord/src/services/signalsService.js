@@ -1,4 +1,4 @@
-// Signals Inbox data service
+// Opportunity Sheets data service
 import { API_BASE_URL, fetchData } from './api';
 
 // Mock data for development — replace with API calls when backend is ready
@@ -78,7 +78,9 @@ export const getSignals = async (category = 'All') => {
                 impactScore: s.opportunity?.impact_score || 0,
                 urgencyScore: s.opportunity?.urgency_score || 0,
                 status: s.is_processed ? 'Processed' : 'New',
-                sourceUrl: s.source_url
+                sourceUrl: s.source_url,
+                opportunity: s.opportunity,
+                hasStudy: s.has_feasibility_study
             })),
             total: rawSignals.length
         };

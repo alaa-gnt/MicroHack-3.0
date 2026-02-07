@@ -25,7 +25,7 @@ const Sidebar = () => {
     },
     {
       icon: <Search size={20} />,
-      label: "Signals Inbox",
+      label: "Opportunity Sheets",
       id: "signals",
       path: "/signals-inbox",
     },
