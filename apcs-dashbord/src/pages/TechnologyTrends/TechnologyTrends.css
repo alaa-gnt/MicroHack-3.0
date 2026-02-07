@@ -1,0 +1,126 @@
+.trends-container {
+    padding: 0 40px 40px 40px;
+}
+
+/* Page title - matches the Dashboard title style */
+.trends-page-title {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 28px;
+}
+
+/* Section 1 — Technology Trends */
+.trends-section {
+    margin-bottom: 40px;
+}
+
+.trends-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.trends-section-title {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text-primary);
+}
+
+/* Legend */
+.trends-legend {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.legend-color {
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.legend-ai {
+    background-color: #22C55E;
+}
+
+.legend-blockchain {
+    background-color: #EF4444;
+}
+
+.legend-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+}
+
+/* Section 2 — Radar Graph */
+.radar-section {
+    margin-top: 20px;
+}
+
+.radar-layout {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.radar-text-block {
+    flex: 1;
+    min-width: 0;
+}
+
+.radar-title {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 16px;
+}
+
+.radar-description {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #444;
+    max-width: 480px;
+}
+
+.radar-chart-block {
+    flex-shrink: 0;
+    width: 380px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .radar-layout {
+        flex-direction: column;
+    }
+
+    .radar-chart-block {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .trends-container {
+        padding: 0 20px 20px 20px;
+    }
+
+    .trends-section-header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .trends-legend {
+        flex-direction: row;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "patents": [
+        {
+            "url": "https://patents.google.com/patent/US12345678",
+            "source": "Google Patents",
+            "title": "Smart Port IoT System for Container Tracking",
+            "text": "ABSTRACT:\nA smart port system utilizing IoT sensors for real-time container tracking and logistics optimization.\n\nDESCRIPTION:\nThe invention relates to a comprehensive IoT-based monitoring system designed for maritime port operations. The system includes distributed sensors capable of tracking container positions, environmental conditions, and equipment status in real-time.\n\nCLAIMS:\n1. A system for tracking maritime containers comprising: a plurality of IoT sensors; a central processing unit; and a data transmission module.",
+            "published_date": "2026-02-01T00:00:00Z"
+        },
+        {
+            "url": "https://patents.google.com/patent/US87654321",
+            "source": "Google Patents", 
+            "title": "Autonomous Vessel Navigation System Using Machine Learning",
+            "text": "ABSTRACT:\nAn autonomous navigation system for maritime vessels employing deep learning algorithms for collision avoidance and route optimization.\n\nDESCRIPTION:\nThis invention presents a novel approach to autonomous vessel navigation using convolutional neural networks trained on AIS data.\n\nCLAIMS:\n1. A method for autonomous vessel navigation comprising: collecting sensor data; processing said data through a neural network; and generating navigation commands.",
+            "published_date": "2026-01-28T00:00:00Z"
+        }
+    ]
+}

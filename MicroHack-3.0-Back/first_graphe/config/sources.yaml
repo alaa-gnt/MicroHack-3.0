@@ -1,0 +1,61 @@
+# Patent sources configuration
+patents:
+  google_patents:
+    enabled: true
+    api_url: "https://patents.google.com"
+    priority: high
+    timeout_seconds: 120
+    max_results: 50
+    
+  lens_org:
+    enabled: true
+    api_url: "https://api.lens.org/patent/search"
+    api_key_env: "LENS_API_KEY"  # Read from environment
+    priority: medium
+    timeout_seconds: 120
+    max_results: 50
+
+# RSS feed sources
+rss_feeds:
+  - name: "Port Technology"
+    url: "https://www.porttechnology.org/feed/"
+    enabled: true
+    category: "maritime"
+    
+  - name: "Maritime Executive"
+    url: "https://www.maritime-executive.com/articles.rss"
+    enabled: true
+    category: "maritime"
+    
+  - name: "Supply Chain Dive"
+    url: "https://www.supplychaindive.com/feeds/news/"
+    enabled: true
+    category: "logistics"
+
+# Tech news sources
+tech_news:
+  techcrunch:
+    enabled: true
+    base_url: "https://techcrunch.com"
+    search_topics: ["maritime-tech", "logistics-ai", "smart-ports"]
+    max_articles: 20
+    
+  venturebeat:
+    enabled: true
+    base_url: "https://venturebeat.com"
+    search_topics: ["supply-chain", "ai-logistics"]
+    max_articles: 20
+
+# Academic sources
+academic:
+  arxiv:
+    enabled: true
+    api_url: "http://export.arxiv.org/api/query"
+    categories: ["cs.AI", "cs.CY", "cs.LG"]
+    max_results: 15
+    
+  ieee:
+    enabled: false  # Requires subscription
+    api_url: "https://ieeexploreapi.ieee.org/api/v1/search/articles"
+    api_key_env: "IEEE_API_KEY"
+    max_results: 10

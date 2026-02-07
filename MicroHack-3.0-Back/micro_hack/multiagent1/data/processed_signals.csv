@@ -1,0 +1,16 @@
+signal_id,corrected_text,domain,impact,urgency,tri,technologies,companies,location,retry_count
+SIG-1,"IBM has announced its new 1,000-qubit quantum processor, named Condor.",Quantum Computing,0.85,0.75,6.5,"['1,000-qubit quantum processor', 'Condor']",['IBM'],,0
+SIG-2,A new IoT sensor system for smart grids has been implemented in Singapore.,IoT,0.85,0.7,9.0,"['IoT sensor system', 'smart grids']",[],Singapore,0
+SIG-3,A cybersecurity breach occurred at a major financial institution.,Cybersecurity,0.9,0.95,0.0,[],[],,0
+SIG-4,NVIDIA has developed a new AI chip for autonomous vehicles.,AI/ML,0.85,0.85,8.5,"['AI chip', 'autonomous vehicles']",['NVIDIA'],,0
+SIG-5,A new biometric authentication system has been deployed in China.,Cybersecurity,0.85,0.7,9.0,['biometric authentication system'],[],China,0
+SIG-6,Google has achieved a new breakthrough in quantum computing.,Quantum Computing,0.9,0.85,6.5,['quantum computing'],['Google'],,0
+SIG-7,Microsoft is exploring underwater data centers as a solution for sustainable cooling.,Cloud Computing,0.75,0.6,6.5,['underwater data centers'],['Microsoft'],,0
+SIG-8,Toyota collaborates with Panasonic to develop next-generation solid-state batteries.,Clean Energy,0.85,0.85,7.5,['solid-state batteries'],"['Toyota', 'Panasonic']",,0
+SIG-9,SpaceX has successfully landed a Starship booster on its launch platform.,Space Technology,0.9,0.85,9.0,['Starship'],['SpaceX'],,0
+SIG-10,Ethereum's transition to Proof of Stake has reduced its energy consumption by 99%.,Blockchain,0.95,0.8,9.0,"['Ethereum', 'Proof of Stake']",[],,0
+SIG-11,Meta unveils a new augmented reality glasses prototype designed for social interactions.,AR/VR,0.85,0.75,7.5,['augmented reality glasses'],['Meta'],,0
+SIG-12,Amazon has launched Project Kuiper satellites to provide global internet coverage.,Space Technology,0.85,0.75,8.5,['satellites'],"['Amazon', 'Project Kuiper']",Global,0
+SIG-13,"Apple unveils the M4 chip, featuring a Neural Engine designed for AI tasks.",AI/ML,0.85,0.75,8.5,"['M4 chip', 'Neural Engine']",['Apple'],,0
+SIG-14,DeepMind's AlphaFold has predicted the structures of nearly all known proteins.,AI/ML,0.95,0.9,9.5,['AlphaFold'],['DeepMind'],,0
+SIG-15,TSMC has begun mass production of 2nm chips at its facility in Hsinchu.,Other,0.95,0.85,9.0,['2nm chips'],['TSMC'],"Hsinchu, Taiwan",0

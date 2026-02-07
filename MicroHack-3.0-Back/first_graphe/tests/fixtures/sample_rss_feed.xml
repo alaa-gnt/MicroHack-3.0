@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Port Technology International</title>
+    <link>https://www.porttechnology.org</link>
+    <description>Latest news in port and maritime technology</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Feb 2026 10:00:00 GMT</lastBuildDate>
+    
+    <item>
+      <title>New AI-Powered Crane System Deployed at Rotterdam Port</title>
+      <link>https://www.porttechnology.org/news/ai-crane-rotterdam</link>
+      <description>Rotterdam port has unveiled its latest AI-powered crane system designed to improve container handling efficiency by 40%. The system uses computer vision and machine learning algorithms to optimize container placement and reduce turnaround times.</description>
+      <pubDate>Wed, 05 Feb 2026 14:30:00 GMT</pubDate>
+      <guid>https://www.porttechnology.org/news/ai-crane-rotterdam</guid>
+    </item>
+    
+    <item>
+      <title>Smart Port Initiative Launches in Singapore</title>
+      <link>https://www.porttechnology.org/news/smart-port-singapore</link>
+      <description>Singapore's Maritime and Port Authority has announced a $500 million investment in smart port technologies, including IoT sensors, autonomous vehicles, and blockchain-based supply chain tracking. The initiative aims to position Singapore as the global leader in maritime innovation.</description>
+      <pubDate>Tue, 04 Feb 2026 09:15:00 GMT</pubDate>
+      <guid>https://www.porttechnology.org/news/smart-port-singapore</guid>
+    </item>
+    
+    <item>
+      <title>Green Hydrogen Fuel Cells for Maritime Vessels</title>
+      <link>https://www.porttechnology.org/news/green-hydrogen-maritime</link>
+      <description>A consortium of European shipping companies has successfully tested green hydrogen fuel cells on a cargo vessel, marking a significant milestone in the industry's push toward zero-emission shipping. The technology could reduce maritime emissions by up to 90%.</description>
+      <pubDate>Mon, 03 Feb 2026 11:45:00 GMT</pubDate>
+      <guid>https://www.porttechnology.org/news/green-hydrogen-maritime</guid>
+    </item>
+    
+  </channel>
+</rss>

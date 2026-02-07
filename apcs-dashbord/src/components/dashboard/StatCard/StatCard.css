@@ -1,0 +1,117 @@
+.stat-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 20px 22px 18px 22px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 180px;
+    border: 1px solid #F0F0F0;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+}
+
+.stat-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.stat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+
+.stat-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.3;
+}
+
+.stat-action-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1.5px solid var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-primary);
+    background: transparent;
+    padding: 0;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.stat-action-circle:hover {
+    background-color: var(--text-primary);
+    color: #ffffff;
+}
+
+.stat-subtitle {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.stat-value-row {
+    display: flex;
+    align-items: baseline;
+}
+
+.stat-value {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+.stat-trend-row {
+    margin-top: 6px;
+}
+
+.stat-trend {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.stat-trend.signals {
+    color: var(--accent-blue);
+}
+
+.stat-trend.poc {
+    color: var(--accent-purple);
+}
+
+.stat-trend.projects {
+    color: var(--text-muted);
+}
+
+/* Alert breakdown */
+.alert-breakdown {
+    display: flex;
+    gap: 14px;
+    margin-top: 8px;
+}
+
+.alert-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.alert-item.critical {
+    color: #DC2626;
+}
+
+.alert-item.minors {
+    color: #D97706;
+}

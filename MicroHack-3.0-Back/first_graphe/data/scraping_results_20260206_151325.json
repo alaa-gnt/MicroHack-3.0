@@ -1,0 +1,538 @@
+{
+  "batch_id": "batch_d916765db3df4ab38fd2ee0d49e88d3a",
+  "timestamp": "2026-02-06T15:13:55.912766",
+  "signals_count": 59,
+  "signals": [
+    {
+      "id": "a2b10bf9-334b-45c6-8bde-8ec58f7be097",
+      "url": "https://maritime-executive.com/article/after-swift-turnaround-for-new-deployment-uss-truxton-returns-to-the-pier",
+      "source": "The Maritime Executive",
+      "title": "After Swift Turnaround for New Deployment, USS Truxton Returns to the Pier",
+      "text": "On February 3, the destroyer USS Truxton conducted a fast turnaround from Naval Station Norfolk in order to redeploy to an unknown destination. The n...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "a0553242-2752-4c29-9f3e-74179a7d3034",
+      "url": "https://maritime-executive.com/article/french-navy-seizes-four-tonnes-of-cocaine-then-releases-smugglers",
+      "source": "The Maritime Executive",
+      "title": "French Navy Seizes Four Tonnes of Cocaine, Releases Smugglers",
+      "text": "Just weeks after a major multitonne drug bust off French Polynesia, the French Navy has again seized a large cargo of cocaine from a passing vessel,...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "1cbe5496-a6c9-49c1-89aa-892a0f0fc4c0",
+      "url": "https://maritime-executive.com/article/u-s-coast-guard-passes-200-000-pound-milestone-in-cocaine-bust-campaign",
+      "source": "The Maritime Executive",
+      "title": "As Pentagon Lauds Drug-Boat Strikes, USCG Marks Drug-Bust Milestone",
+      "text": "After two more large-scale busts at sea, the U.S. Coast Guard has raised the tally of cocaine seized under its new enhanced patrol campaign to 200,000...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "f9f2b0d6-7844-445b-8100-5301ecbacc7a",
+      "url": "https://maritime-executive.com/article/bureau-veritas-launches-gas-center-of-excellence-in-doha",
+      "source": "The Maritime Executive",
+      "title": "Bureau Veritas Launches Gas Center of Excellence in Doha",
+      "text": "Bureau Veritas Marine & Offshore (BV) today announced the launch of its Gas Center of Excellence in Doha, Qatar, strengthening its commitment to suppo...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "cfd56938-0eda-421a-b8c8-5cb9a60a63b9",
+      "url": "https://maritime-executive.com/article/cosco-orders-milestone-dual-fuel-order",
+      "source": "The Maritime Executive",
+      "title": "COSCO Orders Milestone Dual-Fuel Order",
+      "text": "Everllence reports that it has received the 2,000th order for a dual-fuel engine from its two-stroke portfolio. COSCO Shipping Lines Co. Ltd. reached...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "87d1d246-04ab-46a9-83bb-f986dd12597e",
+      "url": "https://maritime-executive.com/article/roll-group-ordered-two-heavy-duty-deck-barges-for-its-expanding-fleet",
+      "source": "The Maritime Executive",
+      "title": "Roll Group Ordered Two Heavy-Duty Deck Barges for Its Expanding Fleet",
+      "text": "Roll Group has announced the purchase of two new barges in Indonesia as part of the company’s ongoing fleet expansion. Built to DNV classification sta...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "bc572bdf-fa7f-4ed1-a28f-1ad4585e2815",
+      "url": "https://maritime-executive.com/article/ngo-shipbreaking-platform-reports-on-2025-and-calls-for-more-regulation",
+      "source": "The Maritime Executive",
+      "title": "NGO Shipbreaking Platform Reports on 2025 and Calls for More Regulation",
+      "text": "The NGO Shipbreaking Platform compiled a report on the ships sold for dismantling in 2025 while calling for continued efforts to improve the industry’...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "8581fff9-c98b-4392-89d8-576b785d3d13",
+      "url": "https://maritime-executive.com/article/count-down-to-cma-shipping-2026-global-maritime-meeting-in-north-america",
+      "source": "The Maritime Executive",
+      "title": "Count Down to CMA Shipping 2026: Global Maritime Meeting in North America",
+      "text": "The count down is on for this year’s highly anticipated CMA Shipping 2026 conference and exhibition taking place from 10–12 March 2026 at the Hilton S...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "f5ed11b6-e6af-449b-98cc-9eb378642b6f",
+      "url": "https://maritime-executive.com/article/china-moves-to-penalize-panama-for-court-ruling-against-hutchison-s-ports",
+      "source": "The Maritime Executive",
+      "title": "China Moves to Penalize Panama for Court Ruling Against CK Hutchison",
+      "text": "The Chinese government has reportedly forced a pause on infrastructure deals in Panama in retaliation for a Panamanian court's decision to suspend CK...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "1d3a9a30-35c1-489a-a2a8-cff21fa3c958",
+      "url": "https://maritime-executive.com/article/maersk-predicts-difficult-times-for-industry-after-a-strong-performance-in",
+      "source": "The Maritime Executive",
+      "title": "Maersk Predicts Difficult Times for Industry After a Strong Performance",
+      "text": "Maersk, long considered a bellwether of the container shipping industry and broader global economy, presented a bleak near-term outlook as it reporte...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "e25766e6-8aa1-4fbe-92d9-3c39e901756d",
+      "url": "https://maritime-executive.com/article/regent-secures-a-buyer-for-its-wig-passenger-craft-in-latin-america",
+      "source": "The Maritime Executive",
+      "title": "Regent Secures a Buyer for its WIG Passenger Craft in Latin America",
+      "text": "All-electric wing-in-ground craft company Regent Craft has sold another 10 units to a passenger plane company - this time, Synerget, a Brazilian firm...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "ccee94c6-9b32-4307-bf79-ca68cb07e729",
+      "url": "https://maritime-executive.com/article/captain-of-solong-gets-six-years-as-court-cites-complacency-and-arrogance",
+      "source": "The Maritime Executive",
+      "title": "Captain of Solong Gets Six Years as Court Cites “Complacency and Arrogance\"",
+      "text": "A judge at the UK’s “Old Bailey” court in London sentenced the former master of the Solong containership to six years in jail for causing the death of...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "d4511efd-df9f-4ad0-9abe-742f504a07a0",
+      "url": "https://maritime-executive.com/article/chinese-nationals-paid-to-marry-us-navy-personnel-and-get-base-access",
+      "source": "The Maritime Executive",
+      "title": "Chinese Nationals Paid to Marry US Navy Personnel - And Get Base Access",
+      "text": "Four U.S. Navy sailors have pleaded guilty to charges of bribery for taking money from Chinese nationals for sham marriage arrangements. These fake m...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "4a6dd10f-a26b-49de-9801-16434c22ee26",
+      "url": "https://maritime-executive.com/article/iran-seizes-two-more-vessels-accused-of-fuel-smuggling",
+      "source": "The Maritime Executive",
+      "title": "Iran Seizes Two More Vessels Accused of Fuel Smuggling",
+      "text": "Iranian officials reported on Thursday, February 5, that the Islamic Revolutionary Guard Corps had seized two more vessels accused of fuel smuggling....",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "2acb4ca3-44d9-4963-b036-1b879e0c586d",
+      "url": "https://maritime-executive.com/article/future-prospects-for-the-port-of-churchill-on-canada-s-hudson-bay",
+      "source": "The Maritime Executive",
+      "title": "Future Prospects for the Port of Churchill on Canada’s Hudson Bay",
+      "text": "Discussions are underway in Canada in regard to the future development of the Port of Churchill on Hudson Bay. During the early to mid-1900s and prio...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "bf512c53-87f4-40c7-ab4b-0ce86821180c",
+      "url": "https://maritime-executive.com/article/estonia-releases-ship-saying-smuggling-allegations-were-not-confirmed",
+      "source": "The Maritime Executive",
+      "title": "Estonia Releases Ship Saying Smuggling Allegations Were Not Confirmed",
+      "text": "Estonia’s Tax and Customs Board completed its investigation of the refrigerated containership Baltic Spirit and permitted the vessel to continue its t...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "499bb6ba-28db-435a-b1db-e54e85df4d23",
+      "url": "https://maritime-executive.com/article/russian-rescue-service-responds-to-explosion-and-fire-on-msc-boxship",
+      "source": "The Maritime Executive",
+      "title": "Russian Rescue Service Responds to Explosion and Fire on MSC Boxship",
+      "text": "An MSC containership inbound for Saint Petersburg, Russia was reportedly disabled after an explosion and fire in the Gulf of Finland. Details are comi...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "5ef37b97-3bbb-4e6f-9c5e-35caf6d57590",
+      "url": "https://maritime-executive.com/article/photos-future-carrier-uss-john-f-kennedy-completes-builder-s-trials",
+      "source": "The Maritime Executive",
+      "title": "Photos: Future Carrier USS John F. Kennedy Completes Builder's Trials",
+      "text": "The future USS John F. Kennedy, the second Ford-class carrier for the U.S. Navy, has completed builder's sea trials at Huntington Ingalls Newport New...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "100d34b4-2f20-484b-b97f-370d14c491ab",
+      "url": "https://maritime-executive.com/article/posidonia-to-break-all-records-as-duration-of-shipping-gathering-extends",
+      "source": "The Maritime Executive",
+      "title": "Posidonia to Break All Records as Duration of Shipping Gathering Extends",
+      "text": "The world’s most prestigious shipping exhibition is now also set to become the longest in duration shipping event, as Posidonia 2026 prepares to engag...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "9aae2f19-680c-4ba2-ac76-bc335c8668ef",
+      "url": "https://maritime-executive.com/article/hempel-completes-first-round-of-successful-applications-with-hempaguard-nb",
+      "source": "The Maritime Executive",
+      "title": "Hempel Completes First Round of Successful Applications with Hempaguard NB",
+      "text": "Hempel has successfully completed the first ever applications of its next-generation silicone hull coating, Hempaguard NB, with one of the newbuilding...",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "608ac6d4-9bec-4f06-b95b-943f06a01161",
+      "url": "https://www.supplychaindive.com/news/eu-resumes-us-trade-deal-tariffs/811499/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "EU renews efforts to advance US tariff deal after Trump reverses threats",
+      "text": "The bloc will continue work on the framework pact after U.S. President Donald Trump rescinded plans to enact levies to advance his campaign to annex Greenland.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "53064920-4da3-4adb-984f-cf30b0153637",
+      "url": "https://www.supplychaindive.com/news/eli-lilly-chooses-lehigh-valley-pennsylvania-weight-loss-drug-production-3-billion/811207/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "Eli Lilly plans $3.5B weight-loss drug factory",
+      "text": "The Pennsylvania facility, part of a larger initiative to boost U.S. operations, will help the company meet increasing demand, according to CEO David Ricks.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "e1efa957-0d61-42d3-8057-98a7d7de9156",
+      "url": "https://www.supplychaindive.com/news/walmart-automation-robotics-opelousas-louisiana-distribution-center/811025/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "Walmart to add automation, robotics to Louisiana distribution center",
+      "text": "The retailer’s $330 million investment, slated to start this year, is part of a larger effort to upgrade all 42 of its regional distribution facilities.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "29edee4f-0200-467f-8bff-8d0f6188eeb0",
+      "url": "https://www.supplychaindive.com/news/4-ways-shippers-can-succeed-post-de-minimis-supply-chain-event/811371/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "4 ways shippers can succeed in a post-de minimis world",
+      "text": "Negotiating shipping rates and reviewing SKU catalogs can help control product import costs, according to industry experts.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "1489dedd-563c-4572-b7cf-96b4e729a5b2",
+      "url": "https://www.supplychaindive.com/news/tractor-supply-final-mile-delivery-2026/811258/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "Tractor Supply readies next phase of final-mile delivery plan",
+      "text": "The retailer plans to expand its delivery capabilities to over 1,200 stores as it looks to reduce transportation costs.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "1411ce7d-0d38-4766-8ddb-f5fc5a309003",
+      "url": "https://www.supplychaindive.com/news/food-traceability-regulations-grocery-fda/810994/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "How grocers are taking charge of food traceability requirements",
+      "text": "Walmart and Kroger are among the retailers setting stricter standards that go beyond the federal requirements.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "792c26c0-d4e4-47c4-b9ed-bb00268e13ac",
+      "url": "https://www.supplychaindive.com/news/usps-ddu-delivery-bid-portal-what-to-know/811227/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "USPS last-mile bidding process: What shippers should know",
+      "text": "Use of agency facilities near end customers will depend partly on a bidder's sortation and transportation capabilities, a Postal Service executive said.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "ee96371f-6207-49a0-b38f-14c0c7c250cc",
+      "url": "https://www.supplychaindive.com/news/trump-launches-critical-mineral-reserve-project-vault/811279/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "Trump launches $12B critical mineral reserve to curb foreign reliance",
+      "text": "The federal initiative will build the stockpile with government-backed financing and private partners to protect key U.S. industries from supply shocks.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "e8ca7b5d-fdb5-4037-9897-a9a6bdb2b22d",
+      "url": "https://www.supplychaindive.com/news/augmenting-artificial-intelligence-employees-increase-gdp/810995/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "Teaching employees to use AI could add up to $6.6T to US economy",
+      "text": "Adding more training to artificial intelligence implementation, rather than replacing workers, could help drive the ROI companies have been missing, according to a Pearson report.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "e86602f3-e6aa-40aa-856d-4f1594af025d",
+      "url": "https://www.supplychaindive.com/news/ups-store-rfid-labeling-tag-smart-package/811117/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "UPS expands RFID deployment to woo shippers, up productivity",
+      "text": "The carrier's UPS Store locations are now processing 1.3 million packages with the technology daily as retailers seek improved shipment visibility.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "7ffb5486-7c99-4902-a97b-5e07613494da",
+      "url": "https://venturebeat.com/security/recruitment-fraud-cloud-iam-2-billion-attack-surface",
+      "source": "VentureBeat",
+      "title": "How recruitment fraud turned cloud IAM into a $2 billion attack surface",
+      "text": "A developer gets a LinkedIn message from a recruiter. The role looks legitimate. The coding assessment requires installing a package. That package exfiltrates all cloud credentials from the developer’s machine — GitHub personal access tokens, AWS API keys, Azure service principals and more — are exfiltrated, and the adversary is inside the cloud environment within minutes. Your email security never saw it. Your dependency scanner might have flagged the package. Nobody was watching what happened next. The attack chain is quickly becoming known as the identity and access management (IAM) pivot, and it represents a fundamental gap in how enterprises monitor identity-based attacks. CrowdStrike Intelligence research published on January 29 documents how adversary groups operationalized this attack chain at an industrial scale. Threat actors are cloaking the delivery of trojanized Python and npm packages through recruitment fraud, then pivoting from stolen developer credentials to full cloud IAM compromise. In one late-2024 case, attackers delivered malicious Python packages to a European FinTech company through recruitment-themed lures, pivoted to cloud IAM configurations and diverted cryptocurrency to adversary-controlled wallets. Entry to exit never touched the corporate email gateway, and there is no digital evidence to go on. On a recent episode of CrowdStrike’s Adversary Universe podcast , Adam Meyers, the company's SVP of intelligence and head of counter adversary operations, described the scale: More than $2 billion associated with cryptocurrency operations run by one adversary unit. Decentralized currency, Meyers explained, is ideal because it allows attackers to avoid sanctions and detection simultaneously. CrowdStrike's field CTO of the Americas, Cristian Rodriguez, explained that revenue success has driven organizational specialization. What was once a single threat group has split into three distinct units targeting cryptocurrency, fintech and espionage objectives. That case wasn’t isolated. The Cybersecurity and Infrastructure Security Agency ( CISA ) and security company JFrog have tracked overlapping campaigns across the npm ecosystem, with JFrog identifying 796 compromised packages in a self-replicating worm that spread through infected dependencies. The research further documents WhatsApp messaging as a primary initial compromise vector, with adversaries delivering malicious ZIP files containing trojanized applications through the platform. Corporate email security never intercepts this channel. Most security stacks are optimized for an entry point that these attackers abandoned entirely. When dependency scanning isn’t enough Adversaries are shifting entry vectors in real-time. Trojanized packages aren’t arriving through typosquatting as in the past — they’re hand-delivered via personal messaging channels and social platforms that corporate email gateways don’t touch. CrowdStrike documented adversaries tailoring employment-themed lures to specific industries and roles, and observed deployments of specialized malware at FinTech firms as recently as June 2025. CISA documented this at scale in September, issuing an advisory on a widespread npm supply chain compromise targeting GitHub personal access tokens and AWS, GCP and Azure API keys. Malicious code was scanned for credentials during package installation and exfiltrated to external domains. Dependency scanning catches the package. That’s the first control, and most organizations have it. Almost none have the second, which is runtime behavioral monitoring that detects credential exfiltration during the install process itself. “When you strip this attack down to its essentials, what stands out isn’t a breakthrough technique,” Shane Barney, CISO at Keeper Security, said in an analysis of a recent cloud attack chain . “It’s how little resistance the environment offered once the attacker obtained legitimate access.” Adversaries are getting better at creating lethal, unmonitored pivots Google Cloud’s Threat Horizons Report found that weak or absent credentials accounted for 47.1% of cloud incidents in the first half of 2025, with misconfigurations adding another 29.4%. Those numbers have held steady across consecutive reporting periods. This is a chronic condition, not an emerging threat. Attackers with valid credentials don’t need to exploit anything. They log in. Research published earlier this month demonstrated exactly how fast this pivot executes . Sysdig documented an attack chain where compromised credentials reached cloud administrator privileges in eight minutes, traversing 19 IAM roles before enumerating Amazon Bedrock AI models and disabling model invocation logging. Eight minutes. No malware. No exploit. Just a valid credential and the absence of IAM behavioral baselines. Ram Varadarajan, CEO at Acalvio , put it bluntly : Breach speed has shifted from days to minutes, and defending against this class of attack demands technology that can ",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "1fed2e30-611e-4a70-b06a-c905124bafe3",
+      "url": "http://arxiv.org/abs/2602.05817v1",
+      "source": "arXiv",
+      "title": "Interpreting Manifolds and Graph Neural Embeddings from Internet of Things Traffic Flows",
+      "text": "TITLE: Interpreting Manifolds and Graph Neural Embeddings from Internet of Things Traffic Flows\n\nAUTHORS: Enrique Feito-Casares, Francisco M. Melgarejo-Meseguer, Elena Casiraghi, Giorgio Valentini, José-Luis Rojo-Álvarez\n\nCATEGORIES: cs.CR, cs.LG, cs.NI\n\nABSTRACT:\nThe rapid expansion of Internet of Things (IoT) ecosystems has led to increasingly complex and heterogeneous network topologies. Traditional network monitoring and visualization tools rely on aggregated metrics or static representations, which fail to capture the evolving relationships and structural dependencies between devices. Although Graph Neural Networks (GNNs) offer a powerful way to learn from relational data, their internal representations often remain opaque and difficult to interpret for security-critical operations. Consequently, this work introduces an interpretable pipeline that generates directly visualizable low-dimensional representations by mapping high-dimensional embeddings onto a latent manifold. This projection enables the interpretable monitoring and interoperability of evolving network states, while integrated feature attribution techniques decode the specific characteristics shaping the manifold structure. The framework achieves a classification F1-score of 0.830 for intrusion detection while also highlighting phenomena such as concept drift. Ultimately, the presented approach bridges the gap between high-dimensional GNN embeddings and human-understandable network behavior, offering new insights for network administrators and security analysts.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "1e85797d-ac05-438f-8852-b088f1bd71e4",
+      "url": "http://arxiv.org/abs/2602.04881v1",
+      "source": "arXiv",
+      "title": "Contrastive Continual Learning for Model Adaptability in Internet of Things",
+      "text": "TITLE: Contrastive Continual Learning for Model Adaptability in Internet of Things\n\nAUTHORS: Ajesh Koyatan Chathoth\n\nCATEGORIES: cs.LG, cs.AI\n\nABSTRACT:\nInternet of Things (IoT) deployments operate in nonstationary, dynamic environments where factors such as sensor drift, evolving user behavior, and heterogeneous user privacy requirements can affect application utility. Continual learning (CL) addresses this by adapting models over time without catastrophic forgetting. Meanwhile, contrastive learning has emerged as a powerful representation-learning paradigm that improves robustness and sample efficiency in a self-supervised manner. This paper reviews the usage of \\emph{contrastive continual learning} (CCL) for IoT, connecting algorithmic design (replay, regularization, distillation, prompts) with IoT system realities (TinyML constraints, intermittent connectivity, privacy). We present a unifying problem formulation, derive common objectives that blend contrastive and distillation losses, propose an IoT-oriented reference architecture for on-device, edge, and cloud-based CCL, and provide guidance on evaluation protocols and metrics. Finally, we highlight open unique challenges with respect to the IoT domain, such as spanning tabular and streaming IoT data, concept drift, federated settings, and energy-aware training.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "35f64a70-c8ab-449b-935d-cb5ebfd67fb2",
+      "url": "http://arxiv.org/abs/2602.02355v1",
+      "source": "arXiv",
+      "title": "Hierarchical Federated Learning with SignSGD: A Highly Communication-Efficient Approach",
+      "text": "TITLE: Hierarchical Federated Learning with SignSGD: A Highly Communication-Efficient Approach\n\nAUTHORS: Amirreza Kazemi, Seyed Mohammad Azimi-Abarghouyi, Gabor Fodor, Carlo Fischione\n\nCATEGORIES: cs.DC, cs.IT, cs.LG\n\nABSTRACT:\nHierarchical federated learning (HFL) has emerged as a key architecture for large-scale wireless and Internet of Things systems, where devices communicate with nearby edge servers before reaching the cloud. In these environments, uplink bandwidth and latency impose strict communication limits, thereby making aggressive gradient compression essential. One-bit methods such as sign-based stochastic gradient descent (SignSGD) offer an attractive solution in flat federated settings, but existing theory and algorithms do not naturally extend to hierarchical settings. In particular, the interaction between majority-vote aggregation at the edge layer and model aggregation at the cloud layer, and its impact on end-to-end performance, remains unknown. To bridge this gap, we propose a highly communication-efficient sign-based HFL framework and develop its corresponding formulation for nonconvex learning, where devices send only signed stochastic gradients, edge servers combine them through majority-vote, and the cloud periodically averages the obtained edge models, while utilizing downlink quantization to broadcast the global model. We introduce the resulting scalable HFL algorithm, HierSignSGD, and provide the convergence analysis for SignSGD in a hierarchical setting. Our core technical contribution is a characterization of how biased sign compression, two-level aggregation intervals, and inter-cluster heterogeneity collectively affect convergence. Numerical experiments under homogeneous and heterogeneous data splits show that HierSignSGD, despite employing extreme compression, achieves accuracy comparable to or better than full-precision stochastic gradient descent while reducing communication cost in the process, and remains robust under aggressive downlink sparsification.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "c4533b04-7ac7-405c-ab61-33817dd8eedb",
+      "url": "http://arxiv.org/abs/2602.02055v1",
+      "source": "arXiv",
+      "title": "FORLER: Federated Offline Reinforcement Learning with Q-Ensemble and Actor Rectification",
+      "text": "TITLE: FORLER: Federated Offline Reinforcement Learning with Q-Ensemble and Actor Rectification\n\nAUTHORS: Nan Qiao, Sheng Yue\n\nCATEGORIES: cs.LG, cs.AI\n\nABSTRACT:\nIn Internet-of-Things systems, federated learning has advanced online reinforcement learning (RL) by enabling parallel policy training without sharing raw data. However, interacting with real environments online can be risky and costly, motivating offline federated RL (FRL), where local devices learn from fixed datasets. Despite its promise, offline FRL may break down under low-quality, heterogeneous data. Offline RL tends to get stuck in local optima, and in FRL, one device's suboptimal policy can degrade the aggregated model, i.e., policy pollution. We present FORLER, combining Q-ensemble aggregation on the server with actor rectification on devices. The server robustly merges device Q-functions to curb policy pollution and shift heavy computation off resource-constrained hardware without compromising privacy. Locally, actor rectification enriches policy gradients via a zeroth-order search for high-Q actions plus a bespoke regularizer that nudges the policy toward them. A $δ$-periodic strategy further reduces local computation. We theoretically provide safe policy improvement performance guarantees. Extensive experiments show FORLER consistently outperforms strong baselines under varying data quality and heterogeneity.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "47fe2f27-d7ce-4f47-9a9f-ea2f3884fdee",
+      "url": "http://arxiv.org/abs/2602.01113v1",
+      "source": "arXiv",
+      "title": "Single-Edge Node Injection Threats to GNN-Based Security Monitoring in Industrial Graph Systems",
+      "text": "TITLE: Single-Edge Node Injection Threats to GNN-Based Security Monitoring in Industrial Graph Systems\n\nAUTHORS: Wenjie Liang, Ranhui Yan, Jia Cai, You-Gan Wang\n\nCATEGORIES: cs.LG\n\nABSTRACT:\nGraph neural networks (GNNs) are increasingly adopted in industrial graph-based monitoring systems (e.g., Industrial internet of things (IIoT) device graphs, power-grid topology models, and manufacturing communication networks) to support anomaly detection, state estimation, and asset classification. In such settings, an adversary that compromises a small number of edge devices may inject counterfeit nodes (e.g., rogue sensors, virtualized endpoints, or spoofed substations) to bias downstream decisions while evading topology- and homophily-based sanitization. This paper formulates deployment-oriented node-injection attacks under constrained resources and proposes the \\emph{Single-Edge Graph Injection Attack} (SEGIA), in which each injected node attaches to the operational graph through a single edge. SEGIA integrates a pruned SGC surrogate, multi-hop neighborhood sampling, and reverse graph convolution-based feature synthesis with a similarity-regularized objective to preserve local homophily and survive edge pruning. Theoretical analysis and extensive evaluations across datasets and defenses show at least $25\\%$ higher attack success than representative baselines under substantially smaller edge budgets. These results indicate a system-level risk in industrial GNN deployments and motivate lightweight admission validation and neighborhood-consistency monitoring.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "29fb5d60-3457-49f7-8962-4fc2d7a1ff0c",
+      "url": "http://arxiv.org/abs/2602.00515v1",
+      "source": "arXiv",
+      "title": "Contrastive Learning for Privacy Enhancements in Industrial Internet of Things",
+      "text": "TITLE: Contrastive Learning for Privacy Enhancements in Industrial Internet of Things\n\nAUTHORS: Lin Liu, Rita Machacy, Simi Kuniyilh\n\nCATEGORIES: cs.LG, cs.AI\n\nABSTRACT:\nThe Industrial Internet of Things (IIoT) integrates intelligent sensing, communication, and analytics into industrial environments, including manufacturing, energy, and critical infrastructure. While IIoT enables predictive maintenance and cross-site optimization of modern industrial control systems, such as those in manufacturing and energy, it also introduces significant privacy and confidentiality risks due to the sensitivity of operational data. Contrastive learning, a self-supervised representation learning paradigm, has recently emerged as a promising approach for privacy-preserving analytics by reducing reliance on labeled data and raw data sharing. Although contrastive learning-based privacy-preserving techniques have been explored in the Internet of Things (IoT) domain, this paper offers a comprehensive review of these techniques specifically for privacy preservation in Industrial Internet of Things (IIoT) systems. It emphasizes the unique characteristics of industrial data, system architectures, and various application scenarios. Additionally, the paper discusses solutions and open challenges and outlines future research directions.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "5b8e6daf-c322-486e-a942-f410686747ae",
+      "url": "http://arxiv.org/abs/2602.00219v1",
+      "source": "arXiv",
+      "title": "Tri-LLM Cooperative Federated Zero-Shot Intrusion Detection with Semantic Disagreement and Trust-Aware Aggregation",
+      "text": "TITLE: Tri-LLM Cooperative Federated Zero-Shot Intrusion Detection with Semantic Disagreement and Trust-Aware Aggregation\n\nAUTHORS: Saeid Jamshidi, Omar Abdul Wahab, Foutse Khomh, Kawser Wazed Nafi\n\nCATEGORIES: cs.CR, cs.AI\n\nABSTRACT:\nFederated learning (FL) has become an effective paradigm for privacy-preserving, distributed Intrusion Detection Systems (IDS) in cyber-physical and Internet of Things (IoT) networks, where centralized data aggregation is often infeasible due to privacy and bandwidth constraints. Despite its advantages, most existing FL-based IDS assume closed-set learning and lack mechanisms such as uncertainty estimation, semantic generalization, and explicit modeling of epistemic ambiguity in zero-day attack scenarios. Additionally, robustness to heterogeneous and unreliable clients remains a challenge in practical applications. This paper introduces a semantics-driven federated IDS framework that incorporates language-derived semantic supervision into federated optimization, enabling open-set and zero-shot intrusion detection for previously unseen attack behaviors. The approach constructs semantic attack prototypes using a Tri-LLM ensemble of GPT-4o, DeepSeek-V3, and LLaMA-3-8B, aligning distributed telemetry features with high-level attack concepts. Inter-LLM semantic disagreement is modeled as epistemic uncertainty for zero-day risk estimation, while a trust-aware aggregation mechanism dynamically weights client updates based on reliability. Experimental results show stable semantic alignment across heterogeneous clients and consistent convergence. The framework achieves over 80% zero-shot detection accuracy on unseen attack patterns, improving zero-day discrimination by more than 10% compared to similarity-based baselines, while maintaining low aggregation instability in the presence of unreliable or compromised clients.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "17908ecb-b80c-4879-83b8-8e510338b063",
+      "url": "http://arxiv.org/abs/2601.23147v1",
+      "source": "arXiv",
+      "title": "Securing Time in Energy IoT: A Clock-Dynamics-Aware Spatio-Temporal Graph Attention Network for Clock Drift Attacks and Y2K38 Failures",
+      "text": "TITLE: Securing Time in Energy IoT: A Clock-Dynamics-Aware Spatio-Temporal Graph Attention Network for Clock Drift Attacks and Y2K38 Failures\n\nAUTHORS: Saeid Jamshidi, Omar Abdul Wahab, Rolando Herrero, Foutse Khomh\n\nCATEGORIES: cs.LG, cs.AI\n\nABSTRACT:\nThe integrity of time in distributed Internet of Things (IoT) devices is crucial for reliable operation in energy cyber-physical systems, such as smart grids and microgrids. However, IoT systems are vulnerable to clock drift, time-synchronization manipulation, and timestamp discontinuities, such as the Year 2038 (Y2K38) Unix overflow, all of which disrupt temporal ordering. Conventional anomaly-detection models, which assume reliable timestamps, fail to capture temporal inconsistencies. This paper introduces STGAT (Spatio-Temporal Graph Attention Network), a framework that models both temporal distortion and inter-device consistency in energy IoT systems. STGAT combines drift-aware temporal embeddings and temporal self-attention to capture corrupted time evolution at individual devices, and uses graph attention to model spatial propagation of timing errors. A curvature-regularized latent representation geometrically separates normal clock evolution from anomalies caused by drift, synchronization offsets, and overflow events. Experimental results on energy IoT telemetry with controlled timing perturbations show that STGAT achieves 95.7% accuracy, outperforming recurrent, transformer, and graph-based baselines with significant improvements (d > 1.8, p < 0.001). Additionally, STGAT reduces detection delay by 26%, achieving a 2.3-time-step delay while maintaining stable performance under overflow, drift, and physical inconsistencies.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "3bf04ae7-1638-4aaa-b575-6e399f2d217e",
+      "url": "http://arxiv.org/abs/2601.22339v1",
+      "source": "arXiv",
+      "title": "Quantum-Inspired Reinforcement Learning for Secure and Sustainable AIoT-Driven Supply Chain Systems",
+      "text": "TITLE: Quantum-Inspired Reinforcement Learning for Secure and Sustainable AIoT-Driven Supply Chain Systems\n\nAUTHORS: Muhammad Bilal Akram Dastagir, Omer Tariq, Shahid Mumtaz, Saif Al-Kuwari, Ahmed Farouk\n\nCATEGORIES: cs.LG, quant-ph\n\nABSTRACT:\nModern supply chains must balance high-speed logistics with environmental impact and security constraints, prompting a surge of interest in AI-enabled Internet of Things (AIoT) solutions for global commerce. However, conventional supply chain optimization models often overlook crucial sustainability goals and cyber vulnerabilities, leaving systems susceptible to both ecological harm and malicious attacks. To tackle these challenges simultaneously, this work integrates a quantum-inspired reinforcement learning framework that unifies carbon footprint reduction, inventory management, and cryptographic-like security measures. We design a quantum-inspired reinforcement learning framework that couples a controllable spin-chain analogy with real-time AIoT signals and optimizes a multi-objective reward unifying fidelity, security, and carbon costs. The approach learns robust policies with stabilized training via value-based and ensemble updates, supported by window-normalized reward components to ensure commensurate scaling. In simulation, the method exhibits smooth convergence, strong late-episode performance, and graceful degradation under representative noise channels, outperforming standard learned and model-based references, highlighting its robust handling of real-time sustainability and risk demands. These findings reinforce the potential for quantum-inspired AIoT frameworks to drive secure, eco-conscious supply chain operations at scale, laying the groundwork for globally connected infrastructures that responsibly meet both consumer and environmental needs.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "5913edfe-63a7-459d-aa83-ef51b50bf6e2",
+      "url": "http://arxiv.org/abs/2601.19315v1",
+      "source": "arXiv",
+      "title": "Generalizable IoT Traffic Representations for Cross-Network Device Identification",
+      "text": "TITLE: Generalizable IoT Traffic Representations for Cross-Network Device Identification\n\nAUTHORS: Arunan Sivanathan, David Warren, Deepak Mishra, Sushmita Ruj, Natasha Fernandes et al. (11 authors)\n\nCATEGORIES: cs.LG\n\nABSTRACT:\nMachine learning models have demonstrated strong performance in classifying network traffic and identifying Internet-of-Things (IoT) devices, enabling operators to discover and manage IoT assets at scale. However, many existing approaches rely on end-to-end supervised pipelines or task-specific fine-tuning, resulting in traffic representations that are tightly coupled to labeled datasets and deployment environments, which can limit generalizability. In this paper, we study the problem of learning generalizable traffic representations for IoT device identification. We design compact encoder architectures that learn per-flow embeddings from unlabeled IoT traffic and evaluate them using a frozen-encoder protocol with a simple supervised classifier. Our specific contributions are threefold. (1) We develop unsupervised encoder--decoder models that learn compact traffic representations from unlabeled IoT network flows and assess their quality through reconstruction-based analysis. (2) We show that these learned representations can be used effectively for IoT device-type classification using simple, lightweight classifiers trained on frozen embeddings. (3) We provide a systematic benchmarking study against the state-of-the-art pretrained traffic encoders, showing that larger models do not necessarily yield more robust representations for IoT traffic. Using more than 18 million real IoT traffic flows collected across multiple years and deployment environments, we learn traffic representations from unlabeled data and evaluate device-type classification on disjoint labeled subsets, achieving macro F1-scores exceeding 0.9 for device-type classification and demonstrating robustness under cross-environment deployment.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "d2f364c0-15d1-4a2b-80aa-75f5503bd253",
+      "url": "http://arxiv.org/abs/2601.18981v1",
+      "source": "arXiv",
+      "title": "Attention-Enhanced Graph Filtering for False Data Injection Attack Detection and Localization",
+      "text": "TITLE: Attention-Enhanced Graph Filtering for False Data Injection Attack Detection and Localization\n\nAUTHORS: Ruslan Abdulin, Mohammad Rasoul Narimani\n\nCATEGORIES: cs.LG, cs.CR, math.OC\n\nABSTRACT:\nThe increasing deployment of Internet-of-Things (IoT)-enabled measurement devices in modern power systems has expanded the cyberattack surface of the grid. As a result, this critical infrastructure is increasingly exposed to cyberattacks, including false data injection attacks (FDIAs) that compromise measurement integrity and threaten reliable system operation. Existing FDIA detection methods primarily exploit spatial correlations and network topology using graph-based learning; however, these approaches often rely on high-dimensional representations and shallow classifiers, limiting their ability to capture local structural dependencies and global contextual relationships. Moreover, naively incorporating Transformer architectures can result in overly deep models that struggle to model localized grid dynamics. This paper proposes a joint FDIA detection and localization framework that integrates auto-regressive moving average (ARMA) graph convolutional filters with an Encoder-Only Transformer architecture. The ARMA-based graph filters provide robust, topology-aware feature extraction and adaptability to abrupt spectral changes, while the Transformer encoder leverages self-attention to capture long-range dependencies among grid elements without sacrificing essential local context. The proposed method is evaluated using real-world load data from the New York Independent System Operator (NYISO) applied to the IEEE 14- and 300-bus systems. Numerical results demonstrate that the proposed model effectively exploits both the state and topology of the power grid, achieving high accuracy in detecting FDIA events and localizing compromised nodes.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "8e8f8a80-42c0-41bb-a7ef-f61f2fee5706",
+      "url": "http://arxiv.org/abs/2601.18736v1",
+      "source": "arXiv",
+      "title": "Benchmarking Machine Learning Models for IoT Malware Detection under Data Scarcity and Drift",
+      "text": "TITLE: Benchmarking Machine Learning Models for IoT Malware Detection under Data Scarcity and Drift\n\nAUTHORS: Jake Lyon, Ehsan Saeedizade, Shamik Sengupta\n\nCATEGORIES: cs.LG, cs.NI\n\nABSTRACT:\nThe rapid expansion of the Internet of Things (IoT) in domains such as smart cities, transportation, and industrial systems has heightened the urgency of addressing their security vulnerabilities. IoT devices often operate under limited computational resources, lack robust physical safeguards, and are deployed in heterogeneous and dynamic networks, making them prime targets for cyberattacks and malware applications. Machine learning (ML) offers a promising approach to automated malware detection and classification, but practical deployment requires models that are both effective and lightweight. The goal of this study is to investigate the effectiveness of four supervised learning models (Random Forest, LightGBM, Logistic Regression, and a Multi-Layer Perceptron) for malware detection and classification using the IoT-23 dataset. We evaluate model performance in both binary and multiclass classification tasks, assess sensitivity to training data volume, and analyze temporal robustness to simulate deployment in evolving threat landscapes. Our results show that tree-based models achieve high accuracy and generalization, even with limited training data, while performance deteriorates over time as malware diversity increases. These findings underscore the importance of adaptive, resource-efficient ML models for securing IoT systems in real-world environments.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "3cdbc54a-af6b-4058-ba4c-fc0dd681208d",
+      "url": "http://arxiv.org/abs/2601.17713v1",
+      "source": "arXiv",
+      "title": "FedCCA: Client-Centric Adaptation against Data Heterogeneity in Federated Learning on IoT Devices",
+      "text": "TITLE: FedCCA: Client-Centric Adaptation against Data Heterogeneity in Federated Learning on IoT Devices\n\nAUTHORS: Kaile Wang, Jiannong Cao, Yu Yang, Xiaoyin Li, Yinfeng Cao\n\nCATEGORIES: cs.LG, cs.AI\n\nABSTRACT:\nWith the rapid development of the Internet of Things (IoT), AI model training on private data such as human sensing data is highly desired. Federated learning (FL) has emerged as a privacy-preserving distributed training framework for this purpuse. However, the data heterogeneity issue among IoT devices can significantly degrade the model performance and convergence speed in FL. Existing approaches limit in fixed client selection and aggregation on cloud server, making the privacy-preserving extraction of client-specific information during local training challenging. To this end, we propose Client-Centric Adaptation federated learning (FedCCA), an algorithm that optimally utilizes client-specific knowledge to learn a unique model for each client through selective adaptation, aiming to alleviate the influence of data heterogeneity. Specifically, FedCCA employs dynamic client selection and adaptive aggregation based on the additional client-specific encoder. To enhance multi-source knowledge transfer, we adopt an attention-based global aggregation strategy. We conducted extensive experiments on diverse datasets to assess the efficacy of FedCCA. The experimental results demonstrate that our approach exhibits a substantial performance advantage over competing baselines in addressing this specific problem.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "67a0ef25-8ae6-43aa-9b42-fad482413482",
+      "url": "http://arxiv.org/abs/2601.17512v1",
+      "source": "arXiv",
+      "title": "One-Shot Federated Clustering of Non-Independent Completely Distributed Data",
+      "text": "TITLE: One-Shot Federated Clustering of Non-Independent Completely Distributed Data\n\nAUTHORS: Yiqun Zhang, Shenghong Cai, Zihua Yang, Sen Feng, Yuzhu Ji et al. (6 authors)\n\nCATEGORIES: cs.LG\n\nABSTRACT:\nFederated Learning (FL) that extracts data knowledge while protecting the privacy of multiple clients has achieved remarkable results in distributed privacy-preserving IoT systems, including smart traffic flow monitoring, smart grid load balancing, and so on. Since most data collected from edge devices are unlabeled, unsupervised Federated Clustering (FC) is becoming increasingly popular for exploring pattern knowledge from complex distributed data. However, due to the lack of label guidance, the common Non-Independent and Identically Distributed (Non-IID) issue of clients have greatly challenged FC by posing the following problems: How to fuse pattern knowledge (i.e., cluster distribution) from Non-IID clients; How are the cluster distributions among clients related; and How does this relationship connect with the global knowledge fusion? In this paper, a more tricky but overlooked phenomenon in Non-IID is revealed, which bottlenecks the clustering performance of the existing FC approaches. That is, different clients could fragment a cluster, and accordingly, a more generalized Non-IID concept, i.e., Non-ICD (Non-Independent Completely Distributed), is derived. To tackle the above FC challenges, a new framework named GOLD (Global Oriented Local Distribution Learning) is proposed. GOLD first finely explores the potential incomplete local cluster distributions of clients, then uploads the distribution summarization to the server for global fusion, and finally performs local cluster enhancement under the guidance of the global distribution. Extensive experiments, including significance tests, ablation studies, scalability evaluations, qualitative results, etc., have been conducted to show the superiority of GOLD.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "3d84b7f6-c40d-4584-8c90-45f8489c1bc1",
+      "url": "http://arxiv.org/abs/2601.17303v1",
+      "source": "arXiv",
+      "title": "Decentralized Multi-Agent Swarms for Autonomous Grid Security in Industrial IoT: A Consensus-based Approach",
+      "text": "TITLE: Decentralized Multi-Agent Swarms for Autonomous Grid Security in Industrial IoT: A Consensus-based Approach\n\nAUTHORS: Samaresh Kumar Singh, Joyjit Roy\n\nCATEGORIES: cs.LG, cs.AI, cs.DC\n\nABSTRACT:\nAs Industrial Internet of Things (IIoT) environments expand to include tens of thousands of connected devices. The centralization of security monitoring architectures creates serious latency issues that savvy attackers can exploit to compromise an entire manufacturing ecosystem. This paper outlines a new, decentralized multi-agent swarm (DMAS) architecture that includes autonomous artificial intelligence (AI) agents at each edge gateway, functioning as a distributed digital \"immune system\" for IIoT networks. Instead of using a traditional static firewall approach, the DMAS agents communicate via a lightweight peer-to-peer protocol to cooperatively detect anomalous behavior across the IIoT network without sending data to a cloud infrastructure. The authors also outline a consensus-based threat validation (CVT) process in which agents vote on the threat level of an identified threat, enabling instant quarantine of a compromised node or nodes. The authors conducted experiments on a testbed that simulated an innovative factory environment with 2000 IIoT devices and found that the DMAS demonstrated sub-millisecond response times (average of 0.85ms), 97.3% accuracy in detecting malicious activity under high load, and 87% accuracy in detecting zero-day attacks. All significantly higher than baseline values for both centralized and edge computing. Additionally, the proposed architecture can prevent real-time cascading failures in industrial control systems and reduce network bandwidth use by 89% compared to cloud-based solutions.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "7b78faec-1ecf-4fdd-8775-b06bacf79829",
+      "url": "http://arxiv.org/abs/2601.16976v1",
+      "source": "arXiv",
+      "title": "Latent Diffusion for Internet of Things Attack Data Generation in Intrusion Detection",
+      "text": "TITLE: Latent Diffusion for Internet of Things Attack Data Generation in Intrusion Detection\n\nAUTHORS: Estela Sánchez-Carballo, Francisco M. Melgarejo-Meseguer, José Luis Rojo-Álvarez\n\nCATEGORIES: cs.LG\n\nABSTRACT:\nIntrusion Detection Systems (IDSs) are a key component for protecting Internet of Things (IoT) environments. However, in Machine Learning-based (ML-based) IDSs, performance is often degraded by the strong class imbalance between benign and attack traffic. Although data augmentation has been widely explored to mitigate this issue, existing approaches typically rely on simple oversampling techniques or generative models that struggle to simultaneously achieve high sample fidelity, diversity, and computational efficiency. To address these limitations, we propose the use of a Latent Diffusion Model (LDM) for attack data augmentation in IoT intrusion detection and provide a comprehensive comparison against state-of-the-art baselines. Experiments were conducted on three representative IoT attack types, specifically Distributed Denial-of-Service (DDoS), Mirai, and Man-in-the-Middle, evaluating both downstream IDS performance and intrinsic generative quality using distributional, dependency-based, and diversity metrics. Results show that balancing the training data with LDM-generated samples substantially improves IDS performance, achieving F1-scores of up to 0.99 for DDoS and Mirai attacks and consistently outperforming competing methods. Additionally, quantitative and qualitative analyses demonstrate that LDMs effectively preserve feature dependencies while generating diverse samples and reduce sampling time by approximately 25\\% compared to diffusion models operating directly in data space. These findings highlight latent diffusion as an effective and scalable solution for synthetic IoT attack data generation, substantially mitigating the impact of class imbalance in ML-based IDSs for IoT scenarios.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "1abb6042-bf9d-473c-b6e9-be7cb8c21461",
+      "url": "http://arxiv.org/abs/2601.16586v1",
+      "source": "arXiv",
+      "title": "Learning Successive Interference Cancellation for Low-Complexity Soft-Output MIMO Detection",
+      "text": "TITLE: Learning Successive Interference Cancellation for Low-Complexity Soft-Output MIMO Detection\n\nAUTHORS: Benedikt Fesl, Fatih Capar\n\nCATEGORIES: eess.SP, cs.IT, cs.LG\n\nABSTRACT:\nLow-complexity multiple-input multiple-output (MIMO) detection remains a key challenge in modern wireless systems, particularly for 5G reduced capability (RedCap) and internet-of-things (IoT) devices. In this context, the growing interest in deploying machine learning on edge devices must be balanced against stringent constraints on computational complexity and memory while supporting high-order modulation. Beyond accurate hard detection, reliable soft information is equally critical, as modern receivers rely on soft-input channel decoding, imposing additional requirements on the detector design. In this work, we propose recurSIC, a lightweight learning-based MIMO detection framework that is structurally inspired by successive interference cancellation (SIC) and incorporates learned processing stages. It generates reliable soft information via multi-path hypothesis tracking with a tunable complexity parameter while requiring only a single forward pass and a minimal parameter count. Numerical results in realistic wireless scenarios show that recurSIC achieves strong hard- and soft-detection performance at very low complexity, making it well suited for edge-constrained MIMO receivers.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "4c46a787-976c-4924-a0f1-d46ecd97862e",
+      "url": "http://arxiv.org/abs/2601.13632v2",
+      "source": "arXiv",
+      "title": "Resilient Routing: Risk-Aware Dynamic Routing in Smart Logistics via Spatiotemporal Graph Learning",
+      "text": "TITLE: Resilient Routing: Risk-Aware Dynamic Routing in Smart Logistics via Spatiotemporal Graph Learning\n\nAUTHORS: Zhiming Xue, Sichen Zhao, Yalun Qi, Xianling Zeng, Zihan Yu\n\nCATEGORIES: cs.AI\n\nABSTRACT:\nWith the rapid development of the e-commerce industry, the logistics network is experiencing unprecedented pressure. The traditional static routing strategy most time cannot tolerate the traffic congestion and fluctuating retail demand. In this paper, we propose a Risk-Aware Dynamic Routing(RADR) framework which integrates Spatiotemporal Graph Neural Networks (ST-GNN) with combinatorial optimization. We first construct a logistics topology graph by using the discrete GPS data using spatial clustering methods. Subsequently, a hybrid deep learning model combining Graph Convolutional Network (GCN) and Gated Recurrent Unit (GRU) is adopted to extract spatial correlations and temporal dependencies for predicting future congestion risks. These prediction results are then integrated into a dynamic edge weight mechanism to perform path planning. We evaluated the framework on the Smart Logistics Dataset 2024, which contains real-world Internet of Things(IoT) sensor data. The experimental results show that the RADR algorithm significantly enhances the resilience of the supply chain. Particularly in the case study of high congestion scenarios, our method reduces the potential congestion risk exposure by 19.3% while only increasing the transportation distance by 2.1%. This empirical evidence confirms that the proposed data-driven approach can effectively balance delivery efficiency and operational safety.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "36526f22-9fd8-4500-ae4b-25404377c090",
+      "url": "http://arxiv.org/abs/2601.14305v1",
+      "source": "arXiv",
+      "title": "An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection",
+      "text": "TITLE: An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection\n\nAUTHORS: Ashikuzzaman, Md. Shawkat Hossain, Jubayer Abdullah Joy, Md Zahid Akon, Md Manjur Ahmed et al. (6 authors)\n\nCATEGORIES: cs.CR, cs.AI\n\nABSTRACT:\nThe increase in the number of Internet of Things (IoT) devices has tremendously increased the attack surface of cyber threats thus making a strong intrusion detection system (IDS) with a clear explanation of the process essential towards resource-constrained environments. Nevertheless, current IoT IDS systems are usually traded off with detection quality, model elucidability, and computational effectiveness, thus the deployment on IoT devices. The present paper counteracts these difficulties by suggesting an explainable AI (XAI) framework based on an optimized Decision Tree classifier with both local and global importance methods: SHAP values that estimate feature attribution using local explanations, and Morris sensitivity analysis that identifies the feature importance in a global view. The proposed system attains the state of art on the test performance with 99.91% accuracy, F1-score of 99.51% and Cohen Kappa of 0.9960 and high stability is confirmed by a cross validation mean accuracy of 98.93%. Efficiency is also enhanced in terms of computations to provide faster inferences compared to those that are generalized in ensemble models. SrcMac has shown as the most significant predictor in feature analyses according to SHAP and Morris methods. Compared to the previous work, our solution eliminates its major drawback lack because it allows us to apply it to edge devices and, therefore, achieve real-time processing, adhere to the new regulation of transparency in AI, and achieve high detection rates on attacks of dissimilar classes. This combination performance of high accuracy, explainability, and low computation make the framework useful and reliable as a resource-constrained IoT security problem in real environments.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "00778ec8-fa49-4e9e-8734-8aa7b2d56370",
+      "url": "http://arxiv.org/abs/2601.12305v1",
+      "source": "arXiv",
+      "title": "Machine Learning as a Service (MLaaS) Dataset Generator Framework for IoT Environments",
+      "text": "TITLE: Machine Learning as a Service (MLaaS) Dataset Generator Framework for IoT Environments\n\nAUTHORS: Deepak Kanneganti, Sajib Mistry, Sheik Fattah, Joshua Boland, Aneesh Krishna\n\nCATEGORIES: cs.LG\n\nABSTRACT:\nWe propose a novel MLaaS Dataset Generator (MDG) framework that creates configurable and reproducible datasets for evaluating Machine Learning as a Service (MLaaS) selection and composition. MDG simulates realistic MLaaS behaviour by training and evaluating diverse model families across multiple real-world datasets and data distribution settings. It records detailed functional attributes, quality of service metrics, and composition-specific indicators, enabling systematic analysis of service performance and cross-service behaviour. Using MDG, we generate more than ten thousand MLaaS service instances and construct a large-scale benchmark dataset suitable for downstream evaluation. We also implement a built-in composition mechanism that models how services interact under varied Internet of Things conditions. Experiments demonstrate that datasets generated by MDG enhance selection accuracy and composition quality compared to existing baselines. MDG provides a practical and extensible foundation for advancing data-driven research on MLaaS selection and composition",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "67ae0caf-5d5d-4b21-a816-f0b369dc6118",
+      "url": "http://arxiv.org/abs/2602.05706v1",
+      "source": "arXiv",
+      "title": "Poster: Camera Tampering Detection for Outdoor IoT Systems",
+      "text": "TITLE: Poster: Camera Tampering Detection for Outdoor IoT Systems\n\nAUTHORS: Shadi Attarha, Kanaga Shanmugi, Anna Förster\n\nCATEGORIES: cs.CV, cs.AI\n\nABSTRACT:\nRecently, the use of smart cameras in outdoor settings has grown to improve surveillance and security. Nonetheless, these systems are susceptible to tampering, whether from deliberate vandalism or harsh environmental conditions, which can undermine their monitoring effectiveness. In this context, detecting camera tampering is more challenging when a camera is capturing still images rather than video as there is no sequence of continuous frames over time. In this study, we propose two approaches for detecting tampered images: a rule-based method and a deep-learning-based method. The aim is to evaluate how each method performs in terms of accuracy, computational demands, and the data required for training when applied to real-world scenarios. Our results show that the deep-learning model provides higher accuracy, while the rule-based method is more appropriate for scenarios where resources are limited and a prolonged calibration phase is impractical. We also offer publicly available datasets with normal, blurred, and rotated images to support the development and evaluation of camera tampering detection methods, addressing the need for such resources.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "b438030e-155b-44f7-b840-19dcc4b37d65",
+      "url": "http://arxiv.org/abs/2602.04566v1",
+      "source": "arXiv",
+      "title": "Dual Mind World Model Inspired Network Digital Twin for Access Scheduling",
+      "text": "TITLE: Dual Mind World Model Inspired Network Digital Twin for Access Scheduling\n\nAUTHORS: Hrishikesh Dutta, Roberto Minerva, Noel Crespi\n\nCATEGORIES: cs.NI, cs.AI, cs.MA\n\nABSTRACT:\nEmerging networked systems such as industrial IoT and real-time cyber-physical infrastructures demand intelligent scheduling strategies capable of adapting to dynamic traffic, deadlines, and interference constraints. In this work, we present a novel Digital Twin-enabled scheduling framework inspired by Dual Mind World Model (DMWM) architecture, for learning-informed and imagination-driven network control. Unlike conventional rule-based or purely data-driven policies, the proposed DMWM combines short-horizon predictive planning with symbolic model-based rollout, enabling the scheduler to anticipate future network states and adjust transmission decisions accordingly. We implement the framework in a configurable simulation testbed and benchmark its performance against traditional heuristics and reinforcement learning baselines under varied traffic conditions. Our results show that DMWM achieves superior performance in bursty, interference-limited, and deadline-sensitive environments, while maintaining interpretability and sample efficiency. The proposed design bridges the gap between network-level reasoning and low-overhead learning, marking a step toward scalable and adaptive NDT-based network optimization.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "e89ebcda-dc54-4663-acb4-17423e1ae389",
+      "url": "http://arxiv.org/abs/2602.04385v1",
+      "source": "arXiv",
+      "title": "Digital Twins & ZeroConf AI: Structuring Automated Intelligent Pipelines for Industrial Applications",
+      "text": "TITLE: Digital Twins & ZeroConf AI: Structuring Automated Intelligent Pipelines for Industrial Applications\n\nAUTHORS: Marco Picone, Fabio Turazza, Matteo Martinelli, Marco Mamei\n\nCATEGORIES: cs.AI, cs.SE\n\nABSTRACT:\nThe increasing complexity of Cyber-Physical Systems (CPS), particularly in the industrial domain, has amplified the challenges associated with the effective integration of Artificial Intelligence (AI) and Machine Learning (ML) techniques. Fragmentation across IoT and IIoT technologies, manifested through diverse communication protocols, data formats and device capabilities, creates a substantial gap between low-level physical layers and high-level intelligent functionalities. Recently, Digital Twin (DT) technology has emerged as a promising solution, offering structured, interoperable and semantically rich digital representations of physical assets. Current approaches are often siloed and tightly coupled, limiting scalability and reuse of AI functionalities. This work proposes a modular and interoperable solution that enables seamless AI pipeline integration into CPS by minimizing configuration and decoupling the roles of DTs and AI components. We introduce the concept of Zero Configuration (ZeroConf) AI pipelines, where DTs orchestrate data management and intelligent augmentation. The approach is demonstrated in a MicroFactory scenario, showing support for concurrent ML models and dynamic data processing, effectively accelerating the deployment of intelligent services in complex industrial settings.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "64fe5a70-3b49-45f5-a7b4-f6c778f42665",
+      "url": "http://arxiv.org/abs/2602.04120v1",
+      "source": "arXiv",
+      "title": "Scalable Explainability-as-a-Service (XaaS) for Edge AI Systems",
+      "text": "TITLE: Scalable Explainability-as-a-Service (XaaS) for Edge AI Systems\n\nAUTHORS: Samaresh Kumar Singh, Joyjit Roy\n\nCATEGORIES: cs.LG, cs.AI, cs.DC\n\nABSTRACT:\nThough Explainable AI (XAI) has made significant advancements, its inclusion in edge and IoT systems is typically ad-hoc and inefficient. Most current methods are \"coupled\" in such a way that they generate explanations simultaneously with model inferences. As a result, these approaches incur redundant computation, high latency and poor scalability when deployed across heterogeneous sets of edge devices. In this work we propose Explainability-as-a-Service (XaaS), a distributed architecture for treating explainability as a first-class system service (as opposed to a model-specific feature). The key innovation in our proposed XaaS architecture is that it decouples inference from explanation generation allowing edge devices to request, cache and verify explanations subject to resource and latency constraints. To achieve this, we introduce three main innovations: (1) A distributed explanation cache with a semantic similarity based explanation retrieval method which significantly reduces redundant computation; (2) A lightweight verification protocol that ensures the fidelity of both cached and newly generated explanations; and (3) An adaptive explanation engine that chooses explanation methods based upon device capability and user requirement. We evaluated the performance of XaaS on three real-world edge-AI use cases: (i) manufacturing quality control; (ii) autonomous vehicle perception; and (iii) healthcare diagnostics. Experimental results show that XaaS reduces latency by 38\\% while maintaining high explanation quality across three real-world deployments. Overall, this work enables the deployment of transparent and accountable AI across large scale, heterogeneous IoT systems, and bridges the gap between XAI research and edge-practicality.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "328f9707-7146-4dfa-8b00-f3fd6bc35425",
+      "url": "http://arxiv.org/abs/2602.02230v2",
+      "source": "arXiv",
+      "title": "SEDformer: Event-Synchronous Spiking Transformers for Irregular Telemetry Time Series Forecasting",
+      "text": "TITLE: SEDformer: Event-Synchronous Spiking Transformers for Irregular Telemetry Time Series Forecasting\n\nAUTHORS: Ziyu Zhou, Yuchen Fang, Weilin Ruan, Shiyu Wang, James Kwok et al. (6 authors)\n\nCATEGORIES: cs.LG, cs.AI\n\nABSTRACT:\nTelemetry streams from large-scale Internet-connected systems (e.g., IoT deployments and online platforms) naturally form an irregular multivariate time series (IMTS) whose accurate forecasting is operationally vital. A closer examination reveals a defining Sparsity-Event Duality (SED) property of IMTS, i.e., long stretches with sparse or no observations are punctuated by short, dense bursts where most semantic events (observations) occur. However, existing Graph- and Transformer-based forecasters ignore SED: pre-alignment to uniform grids with heavy padding violates sparsity by inflating sequences and forcing computation at non-informative steps, while relational recasting weakens event semantics by disrupting local temporal continuity. These limitations motivate a more faithful and natural modeling paradigm for IMTS that aligns with its SED property. We find that Spiking Neural Networks meet this requirement, as they communicate via sparse binary spikes and update in an event-driven manner, aligning naturally with the SED nature of IMTS. Therefore, we present SEDformer, an SED-enhanced Spiking Transformer for telemetry IMTS forecasting that couples: (1) a SED-based Spike Encoder converts raw observations into event synchronous spikes using an Event-Aligned LIF neuron, (2) an Event-Preserving Temporal Downsampling module compresses long gaps while retaining salient firings and (3) a stack of SED-based Spike Transformer blocks enable intra-series dependency modeling with a membrane-based linear attention driven by EA-LIF spiking features. Experiments on public telemetry IMTS datasets show that SEDformer attains state-of-the-art forecasting accuracy while reducing energy and memory usage, providing a natural and efficient path for modeling IMTS.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "52e90fc9-8fb9-4d2f-8bc4-88487e7e3931",
+      "url": "http://arxiv.org/abs/2601.20548v1",
+      "source": "arXiv",
+      "title": "IoT Device Identification with Machine Learning: Common Pitfalls and Best Practices",
+      "text": "TITLE: IoT Device Identification with Machine Learning: Common Pitfalls and Best Practices\n\nAUTHORS: Kahraman Kostas, Rabia Yasa Kostas\n\nCATEGORIES: cs.CR, cs.AI, cs.NI\n\nABSTRACT:\nThis paper critically examines the device identification process using machine learning, addressing common pitfalls in existing literature. We analyze the trade-offs between identification methods (unique vs. class based), data heterogeneity, feature extraction challenges, and evaluation metrics. By highlighting specific errors, such as improper data augmentation and misleading session identifiers, we provide a robust guideline for researchers to enhance the reproducibility and generalizability of IoT security models.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "54604c36-3c73-443c-9148-7c6672fea3ff",
+      "url": "http://arxiv.org/abs/2601.17290v1",
+      "source": "arXiv",
+      "title": "Dynamic Meta-Ensemble Framework for Efficient and Accurate Deep Learning in Plant Leaf Disease Detection on Resource-Constrained Edge Devices",
+      "text": "TITLE: Dynamic Meta-Ensemble Framework for Efficient and Accurate Deep Learning in Plant Leaf Disease Detection on Resource-Constrained Edge Devices\n\nAUTHORS: Weloday Fikadu Moges, Jianmei Su, Amin Waqas\n\nCATEGORIES: cs.CV, cs.AI\n\nABSTRACT:\nDeploying deep learning models for plant disease detection on edge devices such as IoT sensors, smartphones, and embedded systems is severely constrained by limited computational resources and energy budgets. To address this challenge, we introduce a novel Dynamic Meta-Ensemble Framework (DMEF) for high-accuracy plant disease diagnosis under resource constraints. DMEF employs an adaptive weighting mechanism that dynamically combines the predictions of three lightweight convolutional neural networks (MobileNetV2, NASNetMobile, and InceptionV3) by optimizing a trade-off between accuracy improvements (DeltaAcc) and computational efficiency (model size). During training, the ensemble weights are updated iteratively, favoring models exhibiting high performance and low complexity. Extensive experiments on benchmark datasets for potato and maize diseases demonstrate state-of-the-art classification accuracies of 99.53% and 96.61%, respectively, surpassing standalone models and static ensembles by 2.1% and 6.3%. With computationally efficient inference latency (<75ms) and a compact footprint (<1 million parameters), DMEF shows strong potential for edge-based agricultural monitoring, suggesting viability for scalable crop disease management. This bridges the gap between high-accuracy AI and practical field applications.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    },
+    {
+      "id": "7d64949d-80cc-48d1-9362-57e515651bec",
+      "url": "http://arxiv.org/abs/2601.22904v1",
+      "source": "arXiv",
+      "title": "DINO-SAE: DINO Spherical Autoencoder for High-Fidelity Image Reconstruction and Generation",
+      "text": "TITLE: DINO-SAE: DINO Spherical Autoencoder for High-Fidelity Image Reconstruction and Generation\n\nAUTHORS: Hun Chang, Byunghee Cha, Jong Chul Ye\n\nCATEGORIES: cs.CV, cs.AI, cs.LG\n\nABSTRACT:\nRecent studies have explored using pretrained Vision Foundation Models (VFMs) such as DINO for generative autoencoders, showing strong generative performance. Unfortunately, existing approaches often suffer from limited reconstruction fidelity due to the loss of high-frequency details. In this work, we present the DINO Spherical Autoencoder (DINO-SAE), a framework that bridges semantic representation and pixel-level reconstruction. Our key insight is that semantic information in contrastive representations is primarily encoded in the direction of feature vectors, while forcing strict magnitude matching can hinder the encoder from preserving fine-grained details. To address this, we introduce Hierarchical Convolutional Patch Embedding module that enhances local structure and texture preservation, and Cosine Similarity Alignment objective that enforces semantic consistency while allowing flexible feature magnitudes for detail retention. Furthermore, leveraging the observation that SSL-based foundation model representations intrinsically lie on a hypersphere, we employ Riemannian Flow Matching to train a Diffusion Transformer (DiT) directly on this spherical latent manifold. Experiments on ImageNet-1K demonstrate that our approach achieves state-of-the-art reconstruction quality, reaching 0.37 rFID and 26.2 dB PSNR, while maintaining strong semantic alignment to the pretrained VFM. Notably, our Riemannian Flow Matching-based DiT exhibits efficient convergence, achieving a gFID of 3.47 at 80 epochs.",
+      "scraping_date": "2026-02-06T14:13:51Z",
+      "is_processed": false
+    }
+  ]
+}

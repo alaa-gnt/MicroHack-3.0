@@ -1,0 +1,572 @@
+{
+  "batch_id": "batch_be062511249644c2",
+  "timestamp": "2026-02-06T12:59:11.272244",
+  "signals_count": 62,
+  "new_signals_count": 0,
+  "sources_breakdown": {
+    "patents": 0,
+    "rss": 30,
+    "academic": 10,
+    "tech_news": 22
+  },
+  "signals": [
+    {
+      "id": "ed2ff456-5441-4e4e-9358-2c27a5cfe697",
+      "url": "https://maritime-executive.com/article/after-swift-turnaround-for-new-deployment-uss-truxton-returns-to-the-pier",
+      "source": "The Maritime Executive",
+      "title": "After Swift Turnaround for New Deployment, USS Truxton Returns to the Pier",
+      "text": "On February 3, the destroyer USS Truxton conducted a fast turnaround from Naval Station Norfolk in order to redeploy to an unknown destination. The n...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "5c5141b0-8557-468a-91f7-b7ff45bab46b",
+      "url": "https://maritime-executive.com/article/french-navy-seizes-four-tonnes-of-cocaine-then-releases-smugglers",
+      "source": "The Maritime Executive",
+      "title": "French Navy Seizes Four Tonnes of Cocaine, Releases Smugglers",
+      "text": "Just weeks after a major multitonne drug bust off French Polynesia, the French Navy has again seized a large cargo of cocaine from a passing vessel,...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "a7563a61-ef73-4ada-8d14-1f8de5c9783f",
+      "url": "https://maritime-executive.com/article/u-s-coast-guard-passes-200-000-pound-milestone-in-cocaine-bust-campaign",
+      "source": "The Maritime Executive",
+      "title": "As Pentagon Lauds Drug-Boat Strikes, USCG Marks Drug-Bust Milestone",
+      "text": "After two more large-scale busts at sea, the U.S. Coast Guard has raised the tally of cocaine seized under its new enhanced patrol campaign to 200,000...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "f29ff3c6-8f26-4ed2-b435-da8844c57c9e",
+      "url": "https://maritime-executive.com/article/bureau-veritas-launches-gas-center-of-excellence-in-doha",
+      "source": "The Maritime Executive",
+      "title": "Bureau Veritas Launches Gas Center of Excellence in Doha",
+      "text": "Bureau Veritas Marine & Offshore (BV) today announced the launch of its Gas Center of Excellence in Doha, Qatar, strengthening its commitment to suppo...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "1d4f1879-d8a5-4798-8df4-91efb517ca83",
+      "url": "https://maritime-executive.com/article/cosco-orders-milestone-dual-fuel-order",
+      "source": "The Maritime Executive",
+      "title": "COSCO Orders Milestone Dual-Fuel Order",
+      "text": "Everllence reports that it has received the 2,000th order for a dual-fuel engine from its two-stroke portfolio. COSCO Shipping Lines Co. Ltd. reached...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "55ab1153-c873-42a7-912e-bb772cd6cfca",
+      "url": "https://maritime-executive.com/article/roll-group-ordered-two-heavy-duty-deck-barges-for-its-expanding-fleet",
+      "source": "The Maritime Executive",
+      "title": "Roll Group Ordered Two Heavy-Duty Deck Barges for Its Expanding Fleet",
+      "text": "Roll Group has announced the purchase of two new barges in Indonesia as part of the company’s ongoing fleet expansion. Built to DNV classification sta...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "71a7c006-f64b-46e4-993e-b65460eda367",
+      "url": "https://maritime-executive.com/article/ngo-shipbreaking-platform-reports-on-2025-and-calls-for-more-regulation",
+      "source": "The Maritime Executive",
+      "title": "NGO Shipbreaking Platform Reports on 2025 and Calls for More Regulation",
+      "text": "The NGO Shipbreaking Platform compiled a report on the ships sold for dismantling in 2025 while calling for continued efforts to improve the industry’...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "79f12eee-6de7-4c11-9621-db3651961c8b",
+      "url": "https://maritime-executive.com/article/count-down-to-cma-shipping-2026-global-maritime-meeting-in-north-america",
+      "source": "The Maritime Executive",
+      "title": "Count Down to CMA Shipping 2026: Global Maritime Meeting in North America",
+      "text": "The count down is on for this year’s highly anticipated CMA Shipping 2026 conference and exhibition taking place from 10–12 March 2026 at the Hilton S...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "eb6a7970-f609-4293-ac41-853a4b199ae8",
+      "url": "https://maritime-executive.com/article/china-moves-to-penalize-panama-for-court-ruling-against-hutchison-s-ports",
+      "source": "The Maritime Executive",
+      "title": "China Moves to Penalize Panama for Court Ruling Against CK Hutchison",
+      "text": "The Chinese government has reportedly forced a pause on infrastructure deals in Panama in retaliation for a Panamanian court's decision to suspend CK...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "22f6993d-ec18-434e-8b62-aade85f68470",
+      "url": "https://maritime-executive.com/article/maersk-predicts-difficult-times-for-industry-after-a-strong-performance-in",
+      "source": "The Maritime Executive",
+      "title": "Maersk Predicts Difficult Times for Industry After a Strong Performance",
+      "text": "Maersk, long considered a bellwether of the container shipping industry and broader global economy, presented a bleak near-term outlook as it reporte...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "593f6f74-db5b-4f49-be66-8bf44d26ef7e",
+      "url": "https://maritime-executive.com/article/regent-secures-a-buyer-for-its-wig-passenger-craft-in-latin-america",
+      "source": "The Maritime Executive",
+      "title": "Regent Secures a Buyer for its WIG Passenger Craft in Latin America",
+      "text": "All-electric wing-in-ground craft company Regent Craft has sold another 10 units to a passenger plane company - this time, Synerget, a Brazilian firm...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "e6344174-4c5f-4214-9f2f-e664afe2da4d",
+      "url": "https://maritime-executive.com/article/captain-of-solong-gets-six-years-as-court-cites-complacency-and-arrogance",
+      "source": "The Maritime Executive",
+      "title": "Captain of Solong Gets Six Years as Court Cites “Complacency and Arrogance\"",
+      "text": "A judge at the UK’s “Old Bailey” court in London sentenced the former master of the Solong containership to six years in jail for causing the death of...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "b53fb35b-9a5b-4151-bb09-ac27bcba3ec2",
+      "url": "https://maritime-executive.com/article/chinese-nationals-paid-to-marry-us-navy-personnel-and-get-base-access",
+      "source": "The Maritime Executive",
+      "title": "Chinese Nationals Paid to Marry US Navy Personnel - And Get Base Access",
+      "text": "Four U.S. Navy sailors have pleaded guilty to charges of bribery for taking money from Chinese nationals for sham marriage arrangements. These fake m...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "d24617f9-e45d-4529-b8aa-b26de8ddfec4",
+      "url": "https://maritime-executive.com/article/iran-seizes-two-more-vessels-accused-of-fuel-smuggling",
+      "source": "The Maritime Executive",
+      "title": "Iran Seizes Two More Vessels Accused of Fuel Smuggling",
+      "text": "Iranian officials reported on Thursday, February 5, that the Islamic Revolutionary Guard Corps had seized two more vessels accused of fuel smuggling....",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "997ec25e-ab80-4d7a-8036-4170a4d9839d",
+      "url": "https://maritime-executive.com/article/future-prospects-for-the-port-of-churchill-on-canada-s-hudson-bay",
+      "source": "The Maritime Executive",
+      "title": "Future Prospects for the Port of Churchill on Canada’s Hudson Bay",
+      "text": "Discussions are underway in Canada in regard to the future development of the Port of Churchill on Hudson Bay. During the early to mid-1900s and prio...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "cf6bb787-1ad0-430c-a8a8-850383cee712",
+      "url": "https://maritime-executive.com/article/estonia-releases-ship-saying-smuggling-allegations-were-not-confirmed",
+      "source": "The Maritime Executive",
+      "title": "Estonia Releases Ship Saying Smuggling Allegations Were Not Confirmed",
+      "text": "Estonia’s Tax and Customs Board completed its investigation of the refrigerated containership Baltic Spirit and permitted the vessel to continue its t...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "d746aa75-75b1-4f26-9efe-d3d49b474087",
+      "url": "https://maritime-executive.com/article/russian-rescue-service-responds-to-explosion-and-fire-on-msc-boxship",
+      "source": "The Maritime Executive",
+      "title": "Russian Rescue Service Responds to Explosion and Fire on MSC Boxship",
+      "text": "An MSC containership inbound for Saint Petersburg, Russia was reportedly disabled after an explosion and fire in the Gulf of Finland. Details are comi...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "f6803fea-6b2b-4fee-8c14-7feed677c9b3",
+      "url": "https://maritime-executive.com/article/photos-future-carrier-uss-john-f-kennedy-completes-builder-s-trials",
+      "source": "The Maritime Executive",
+      "title": "Photos: Future Carrier USS John F. Kennedy Completes Builder's Trials",
+      "text": "The future USS John F. Kennedy, the second Ford-class carrier for the U.S. Navy, has completed builder's sea trials at Huntington Ingalls Newport New...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "842c4f82-3d85-4999-a082-120d2deab2af",
+      "url": "https://maritime-executive.com/article/posidonia-to-break-all-records-as-duration-of-shipping-gathering-extends",
+      "source": "The Maritime Executive",
+      "title": "Posidonia to Break All Records as Duration of Shipping Gathering Extends",
+      "text": "The world’s most prestigious shipping exhibition is now also set to become the longest in duration shipping event, as Posidonia 2026 prepares to engag...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "dd99671e-eb31-4952-b3ff-96695f404a77",
+      "url": "https://maritime-executive.com/article/hempel-completes-first-round-of-successful-applications-with-hempaguard-nb",
+      "source": "The Maritime Executive",
+      "title": "Hempel Completes First Round of Successful Applications with Hempaguard NB",
+      "text": "Hempel has successfully completed the first ever applications of its next-generation silicone hull coating, Hempaguard NB, with one of the newbuilding...",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "4c0f0713-8bac-418a-9690-6a9b2e59d079",
+      "url": "https://www.supplychaindive.com/news/eu-resumes-us-trade-deal-tariffs/811499/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "EU renews efforts to advance US tariff deal after Trump reverses threats",
+      "text": "The bloc will continue work on the framework pact after U.S. President Donald Trump rescinded plans to enact levies to advance his campaign to annex Greenland.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "99fb6270-e8db-4253-aa4d-9fd6f635f1a6",
+      "url": "https://www.supplychaindive.com/news/eli-lilly-chooses-lehigh-valley-pennsylvania-weight-loss-drug-production-3-billion/811207/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "Eli Lilly plans $3.5B weight-loss drug factory",
+      "text": "The Pennsylvania facility, part of a larger initiative to boost U.S. operations, will help the company meet increasing demand, according to CEO David Ricks.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "59ad7141-ea0e-46ae-9f4f-de69dfe0d328",
+      "url": "https://www.supplychaindive.com/news/walmart-automation-robotics-opelousas-louisiana-distribution-center/811025/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "Walmart to add automation, robotics to Louisiana distribution center",
+      "text": "The retailer’s $330 million investment, slated to start this year, is part of a larger effort to upgrade all 42 of its regional distribution facilities.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "4e838eb4-9c24-48b2-853d-5b2102e32a72",
+      "url": "https://www.supplychaindive.com/news/4-ways-shippers-can-succeed-post-de-minimis-supply-chain-event/811371/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "4 ways shippers can succeed in a post-de minimis world",
+      "text": "Negotiating shipping rates and reviewing SKU catalogs can help control product import costs, according to industry experts.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "1248bde4-b624-44ab-b50c-82da11782c02",
+      "url": "https://www.supplychaindive.com/news/tractor-supply-final-mile-delivery-2026/811258/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "Tractor Supply readies next phase of final-mile delivery plan",
+      "text": "The retailer plans to expand its delivery capabilities to over 1,200 stores as it looks to reduce transportation costs.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "95e9a53c-f643-49d2-a4ee-b57eba1ebebb",
+      "url": "https://www.supplychaindive.com/news/food-traceability-regulations-grocery-fda/810994/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "How grocers are taking charge of food traceability requirements",
+      "text": "Walmart and Kroger are among the retailers setting stricter standards that go beyond the federal requirements.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "23ee0e3e-d4b1-4eb8-98ec-6e8321c47889",
+      "url": "https://www.supplychaindive.com/news/usps-ddu-delivery-bid-portal-what-to-know/811227/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "USPS last-mile bidding process: What shippers should know",
+      "text": "Use of agency facilities near end customers will depend partly on a bidder's sortation and transportation capabilities, a Postal Service executive said.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "ec8e178e-a529-4851-8625-5387ec267095",
+      "url": "https://www.supplychaindive.com/news/trump-launches-critical-mineral-reserve-project-vault/811279/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "Trump launches $12B critical mineral reserve to curb foreign reliance",
+      "text": "The federal initiative will build the stockpile with government-backed financing and private partners to protect key U.S. industries from supply shocks.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "3ffe19a3-b777-4dd7-8765-c10204950620",
+      "url": "https://www.supplychaindive.com/news/augmenting-artificial-intelligence-employees-increase-gdp/810995/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "Teaching employees to use AI could add up to $6.6T to US economy",
+      "text": "Adding more training to artificial intelligence implementation, rather than replacing workers, could help drive the ROI companies have been missing, according to a Pearson report.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "9b102ff6-6815-4a02-820d-8f7b841e6aca",
+      "url": "https://www.supplychaindive.com/news/ups-store-rfid-labeling-tag-smart-package/811117/",
+      "source": "Supply Chain Dive - Latest News",
+      "title": "UPS expands RFID deployment to woo shippers, up productivity",
+      "text": "The carrier's UPS Store locations are now processing 1.3 million packages with the technology daily as retailers seek improved shipment visibility.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "e50bd357-d24a-462b-9eee-c6c4c8f5a8e2",
+      "url": "http://arxiv.org/abs/2601.22904v1",
+      "source": "arXiv",
+      "title": "DINO-SAE: DINO Spherical Autoencoder for High-Fidelity Image Reconstruction and Generation",
+      "text": "TITLE: DINO-SAE: DINO Spherical Autoencoder for High-Fidelity Image Reconstruction and Generation\n\nAUTHORS: Hun Chang, Byunghee Cha, Jong Chul Ye\n\nCATEGORIES: cs.CV, cs.AI, cs.LG\n\nABSTRACT:\nRecent studies have explored using pretrained Vision Foundation Models (VFMs) such as DINO for generative autoencoders, showing strong generative performance. Unfortunately, existing approaches often suffer from limited reconstruction fidelity due to the loss of high-frequency details. In this work, we present the DINO Spherical Autoencoder (DINO-SAE), a framework that bridges semantic representation and pixel-level reconstruction. Our key insight is that semantic information in contrastive representations is primarily encoded in the direction of feature vectors, while forcing strict magnitude matching can hinder the encoder from preserving fine-grained details. To address this, we introduce Hierarchical Convolutional Patch Embedding module that enhances local structure and texture preservation, and Cosine Similarity Alignment objective that enforces semantic consistency while allowing flexible feature magnitudes for detail retention. Furthermore, leveraging the observation that SSL-based foundation model representations intrinsically lie on a hypersphere, we employ Riemannian Flow Matching to train a Diffusion Transformer (DiT) directly on this spherical latent manifold. Experiments on ImageNet-1K demonstrate that our approach achieves state-of-the-art reconstruction quality, reaching 0.37 rFID and 26.2 dB PSNR, while maintaining strong semantic alignment to the pretrained VFM. Notably, our Riemannian Flow Matching-based DiT exhibits efficient convergence, achieving a gFID of 3.47 at 80 epochs.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "40bcef52-7cd2-491d-b828-4472e7e7bdee",
+      "url": "http://arxiv.org/abs/2602.02072v1",
+      "source": "arXiv",
+      "title": "Calibrating Adaptive Smoothing Methods for Freeway Traffic Reconstruction",
+      "text": "TITLE: Calibrating Adaptive Smoothing Methods for Freeway Traffic Reconstruction\n\nAUTHORS: Junyi Ji, Derek Gloudemans, Gergely Zachár, Matthew Nice, William Barbour et al. (6 authors)\n\nCATEGORIES: cs.LG\n\nABSTRACT:\nThe adaptive smoothing method (ASM) is a widely used approach for traffic state reconstruction. This article presents a Python implementation of ASM, featuring end-to-end calibration using real-world ground truth data. The calibration is formulated as a parameterized kernel optimization problem. The model is calibrated using data from a full-state observation testbed, with input from a sparse radar sensor network. The implementation is developed in PyTorch, enabling integration with various deep learning methods. We evaluate the results in terms of speed distribution, spatio-temporal error distribution, and spatial error to provide benchmark metrics for the traffic reconstruction problem. We further demonstrate the usability of the calibrated method across multiple freeways. Finally, we discuss the challenges of reproducibility in general traffic model calibration and the limitations of ASM. This article is reproducible and can serve as a benchmark for various freeway operation tasks.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "0d09d664-430d-40a2-b471-5389c6bd6bae",
+      "url": "http://arxiv.org/abs/2602.02035v1",
+      "source": "arXiv",
+      "title": "Bandwidth-Efficient Multi-Agent Communication through Information Bottleneck and Vector Quantization",
+      "text": "TITLE: Bandwidth-Efficient Multi-Agent Communication through Information Bottleneck and Vector Quantization\n\nAUTHORS: Ahmad Farooq, Kamran Iqbal\n\nCATEGORIES: cs.RO, cs.AI, cs.IT\n\nABSTRACT:\nMulti-agent reinforcement learning systems deployed in real-world robotics applications face severe communication constraints that significantly impact coordination effectiveness. We present a framework that combines information bottleneck theory with vector quantization to enable selective, bandwidth-efficient communication in multi-agent environments. Our approach learns to compress and discretize communication messages while preserving task-critical information through principled information-theoretic optimization. We introduce a gated communication mechanism that dynamically determines when communication is necessary based on environmental context and agent states. Experimental evaluation on challenging coordination tasks demonstrates that our method achieves 181.8% performance improvement over no-communication baselines while reducing bandwidth usage by 41.4%. Comprehensive Pareto frontier analysis shows dominance across the entire success-bandwidth spectrum with area-under-curve of 0.198 vs 0.142 for next-best methods. Our approach significantly outperforms existing communication strategies and establishes a theoretically grounded framework for deploying multi-agent systems in bandwidth-constrained environments such as robotic swarms, autonomous vehicle fleets, and distributed sensor networks.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "3de81a62-ddf0-4c01-b78d-aee1f0b06b08",
+      "url": "http://arxiv.org/abs/2601.22765v1",
+      "source": "arXiv",
+      "title": "Bayesian Matrix Completion Under Geometric Constraints",
+      "text": "TITLE: Bayesian Matrix Completion Under Geometric Constraints\n\nAUTHORS: Rohit Varma Chiluvuri, Santosh Nannuru\n\nCATEGORIES: eess.SP, cs.LG\n\nABSTRACT:\nThe completion of a Euclidean distance matrix (EDM) from sparse and noisy observations is a fundamental challenge in signal processing, with applications in sensor network localization, acoustic room reconstruction, molecular conformation, and manifold learning. Traditional approaches, such as rank-constrained optimization and semidefinite programming, enforce geometric constraints but often struggle under sparse or noisy conditions. This paper introduces a hierarchical Bayesian framework that places structured priors directly on the latent point set generating the EDM, naturally embedding geometric constraints. By incorporating a hierarchical prior on latent point set, the model enables automatic regularization and robust noise handling. Posterior inference is performed using a Metropolis-Hastings within Gibbs sampler to handle coupled latent point posterior. Experiments on synthetic data demonstrate improved reconstruction accuracy compared to deterministic baselines in sparse regimes.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "d62aab58-0e90-490a-a309-7e8dadbb2607",
+      "url": "http://arxiv.org/abs/2601.20634v1",
+      "source": "arXiv",
+      "title": "A Foundation Model for Virtual Sensors",
+      "text": "TITLE: A Foundation Model for Virtual Sensors\n\nAUTHORS: Leon Götz, Lars Frederik Peiss, Erik Sauer, Andreas Udo Sass, Thorsten Bagdonat et al. (7 authors)\n\nCATEGORIES: cs.LG\n\nABSTRACT:\nVirtual sensors use machine learning to predict target signals from available measurements, replacing expensive physical sensors in critical applications. Existing virtual sensor approaches require application-specific models with hand-selected inputs for each sensor, cannot leverage task synergies, and lack consistent benchmarks. At the same time, emerging time series foundation models are computationally expensive and limited to predicting their input signals, making them incompatible with virtual sensors. We introduce the first foundation model for virtual sensors addressing both limitations. Our unified model can simultaneously predict diverse virtual sensors exploiting synergies while maintaining computational efficiency. It learns relevant input signals for each virtual sensor, eliminating expert knowledge requirements while adding explainability. In our large-scale evaluation on a standard benchmark and an application-specific dataset with over 18 billion samples, our architecture achieves 415x reduction in computation time and 951x reduction in memory requirements, while maintaining or even improving predictive quality compared to baselines. Our model scales gracefully to hundreds of virtual sensors with nearly constant parameter count, enabling practical deployment in large-scale sensor networks.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "7b9bc460-bbb8-4e54-84f4-a538d1585c06",
+      "url": "http://arxiv.org/abs/2601.12745v1",
+      "source": "arXiv",
+      "title": "A Graph Prompt Fine-Tuning Method for WSN Spatio-Temporal Correlation Anomaly Detection",
+      "text": "TITLE: A Graph Prompt Fine-Tuning Method for WSN Spatio-Temporal Correlation Anomaly Detection\n\nAUTHORS: Miao Ye, Jing Cui, Yuan huang, Qian He, Yong Wang et al. (6 authors)\n\nCATEGORIES: cs.LG, cs.AI\n\nABSTRACT:\nAnomaly detection of multi-temporal modal data in Wireless Sensor Network (WSN) can provide an important guarantee for reliable network operation. Existing anomaly detection methods in multi-temporal modal data scenarios have the problems of insufficient extraction of spatio-temporal correlation features, high cost of anomaly sample category annotation, and imbalance of anomaly samples. In this paper, a graph neural network anomaly detection backbone network incorporating spatio-temporal correlation features and a multi-task self-supervised training strategy of \"pre-training - graph prompting - fine-tuning\" are designed for the characteristics of WSN graph structure data. First, the anomaly detection backbone network is designed by improving the Mamba model based on a multi-scale strategy and inter-modal fusion method, and combining it with a variational graph convolution module, which is capable of fully extracting spatio-temporal correlation features in the multi-node, multi-temporal modal scenarios of WSNs. Secondly, we design a three-subtask learning \"pre-training\" method with no-negative comparative learning, prediction, and reconstruction to learn generic features of WSN data samples from unlabeled data, and design a \"graph prompting-fine-tuning\" mechanism to guide the pre-trained self-supervised learning. The model is fine-tuned through the \"graph prompting-fine-tuning\" mechanism to guide the pre-trained self-supervised learning model to complete the parameter fine-tuning, thereby reducing the training cost and enhancing the detection generalization performance. The F1 metrics obtained from experiments on the public dataset and the actual collected dataset are up to 91.30% and 92.31%, respectively, which provides better detection performance and generalization ability than existing methods designed by the method.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "1b5f944e-a1be-45fe-9e03-8703aa2274ff",
+      "url": "http://arxiv.org/abs/2601.07901v1",
+      "source": "arXiv",
+      "title": "Decentralized Online Convex Optimization with Unknown Feedback Delays",
+      "text": "TITLE: Decentralized Online Convex Optimization with Unknown Feedback Delays\n\nAUTHORS: Hao Qiu, Mengxiao Zhang, Juliette Achddou\n\nCATEGORIES: stat.ML, cs.AI, cs.LG\n\nABSTRACT:\nDecentralized online convex optimization (D-OCO), where multiple agents within a network collaboratively learn optimal decisions in real-time, arises naturally in applications such as federated learning, sensor networks, and multi-agent control. In this paper, we study D-OCO under unknown, time-and agent-varying feedback delays. While recent work has addressed this problem (Nguyen et al., 2024), existing algorithms assume prior knowledge of the total delay over agents and still suffer from suboptimal dependence on both the delay and network parameters. To overcome these limitations, we propose a novel algorithm that achieves an improved regret bound of O N $\\sqrt$ d tot + N $\\sqrt$ T (1-$σ$2) 1/4 , where T is the total horizon, d tot denotes the average total delay across agents, N is the number of agents, and 1 -$σ$ 2 is the spectral gap of the network. Our approach builds upon recent advances in D-OCO (Wan et al., 2024a), but crucially incorporates an adaptive learning rate mechanism via a decentralized communication protocol. This enables each agent to estimate delays locally using a gossip-based strategy without the prior knowledge of the total delay. We further extend our framework to the strongly convex setting and derive a sharper regret bound of O N $δ$max ln T $α$ , where $α$ is the strong convexity parameter and $δ$ max is the maximum number of missing observations averaged over agents. We also show that our upper bounds for both settings are tight up to logarithmic factors. Experimental results validate the effectiveness of our approach, showing improvements over existing benchmark algorithms.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "79d06141-b9dd-43b7-a705-b00cb7e83ecf",
+      "url": "http://arxiv.org/abs/2601.10743v1",
+      "source": "arXiv",
+      "title": "UBiGTLoc: A Unified BiLSTM-Graph Transformer Localization Framework for IoT Sensor Networks",
+      "text": "TITLE: UBiGTLoc: A Unified BiLSTM-Graph Transformer Localization Framework for IoT Sensor Networks\n\nAUTHORS: Ayesh Abu Lehyeh, Anastassia Gharib, Tian Xia, Dryver Huston, Safwan Wshah\n\nCATEGORIES: eess.SP, cs.LG, cs.NI\n\nABSTRACT:\nSensor nodes localization in wireless Internet of Things (IoT) sensor networks is crucial for the effective operation of diverse applications, such as smart cities and smart agriculture. Existing sensor nodes localization approaches heavily rely on anchor nodes within wireless sensor networks (WSNs). Anchor nodes are sensor nodes equipped with global positioning system (GPS) receivers and thus, have known locations. These anchor nodes operate as references to localize other sensor nodes. However, the presence of anchor nodes may not always be feasible in real-world IoT scenarios. Additionally, localization accuracy can be compromised by fluctuations in Received Signal Strength Indicator (RSSI), particularly under non-line-of-sight (NLOS) conditions. To address these challenges, we propose UBiGTLoc, a Unified Bidirectional Long Short-Term Memory (BiLSTM)-Graph Transformer Localization framework. The proposed UBiGTLoc framework effectively localizes sensor nodes in both anchor-free and anchor-presence WSNs. The framework leverages BiLSTM networks to capture temporal variations in RSSI data and employs Graph Transformer layers to model spatial relationships between sensor nodes. Extensive simulations demonstrate that UBiGTLoc consistently outperforms existing methods and provides robust localization across both dense and sparse WSNs while relying solely on cost-effective RSSI data.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "c41532b4-ef74-4911-81ab-c7b3383fbfa6",
+      "url": "http://arxiv.org/abs/2601.05984v1",
+      "source": "arXiv",
+      "title": "Community-Based Model Sharing and Generalisation: Anomaly Detection in IoT Temperature Sensor Networks",
+      "text": "TITLE: Community-Based Model Sharing and Generalisation: Anomaly Detection in IoT Temperature Sensor Networks\n\nAUTHORS: Sahibzada Saadoon Hammad, Joaquín Huerta Guijarro, Francisco Ramos, Michael Gould Carlson, Sergio Trilles Oliver\n\nCATEGORIES: cs.LG\n\nABSTRACT:\nThe rapid deployment of Internet of Things (IoT) devices has led to large-scale sensor networks that monitor environmental and urban phenomena in real time. Communities of Interest (CoIs) provide a promising paradigm for organising heterogeneous IoT sensor networks by grouping devices with similar operational and environmental characteristics. This work presents an anomaly detection framework based on the CoI paradigm by grouping sensors into communities using a fused similarity matrix that incorporates temporal correlations via Spearman coefficients, spatial proximity using Gaussian distance decay, and elevation similarities. For each community, representative stations based on the best silhouette are selected and three autoencoder architectures (BiLSTM, LSTM, and MLP) are trained using Bayesian hyperparameter optimization with expanding window cross-validation and tested on stations from the same cluster and the best representative stations of other clusters. The models are trained on normal temperature patterns of the data and anomalies are detected through reconstruction error analysis. Experimental results show a robust within-community performance across the evaluated configurations, while variations across communities are observed. Overall, the results support the applicability of community-based model sharing in reducing computational overhead and to analyse model generalisability across IoT sensor networks.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "e2c4cc51-1b38-4f9b-a5e8-9d9f011f96e0",
+      "url": "http://arxiv.org/abs/2601.04855v1",
+      "source": "arXiv",
+      "title": "Rethinking GNNs and Missing Features: Challenges, Evaluation and a Robust Solution",
+      "text": "TITLE: Rethinking GNNs and Missing Features: Challenges, Evaluation and a Robust Solution\n\nAUTHORS: Francesco Ferrini, Veronica Lachi, Antonio Longa, Bruno Lepri, Matono Akiyoshi et al. (8 authors)\n\nCATEGORIES: cs.LG, cs.AI\n\nABSTRACT:\nHandling missing node features is a key challenge for deploying Graph Neural Networks (GNNs) in real-world domains such as healthcare and sensor networks. Existing studies mostly address relatively benign scenarios, namely benchmark datasets with (a) high-dimensional but sparse node features and (b) incomplete data generated under Missing Completely At Random (MCAR) mechanisms. For (a), we theoretically prove that high sparsity substantially limits the information loss caused by missingness, making all models appear robust and preventing a meaningful comparison of their performance. To overcome this limitation, we introduce one synthetic and three real-world datasets with dense, semantically meaningful features. For (b), we move beyond MCAR and design evaluation protocols with more realistic missingness mechanisms. Moreover, we provide a theoretical background to state explicit assumptions on the missingness process and analyze their implications for different methods. Building on this analysis, we propose GNNmim, a simple yet effective baseline for node classification with incomplete feature data. Experiments show that GNNmim is competitive with respect to specialized architectures across diverse datasets and missingness regimes.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "abd50928-71c1-4e93-826c-7e29c08f95c0",
+      "url": "https://techcrunch.com/2026/02/05/sapiom-raises-15m-to-help-ai-agents-buy-their-own-tech-tools/",
+      "source": "TechCrunch",
+      "title": "Sapiom raises $15M to help AI agents buy their own tech tools",
+      "text": "The startup -- with backing from Accel -- is building a financial layer that handles the authentication and micro-payments required for AI agents.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "1653c300-ed83-41d3-b941-78889ecc4bdd",
+      "url": "https://techcrunch.com/2026/02/05/reddit-looks-to-ai-search-as-its-next-big-opportunity/",
+      "source": "TechCrunch",
+      "title": "Reddit looks to AI search as its next big opportunity",
+      "text": "During the company's fourth-quarter earnings call on Thursday, it offered an update on its plans to merge traditional and AI search together and hinted that although search is not yet monetized, \"it's an enormous market and opportunity.\"",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "8825cc6d-eb8b-4318-ba1b-123f4b824d7a",
+      "url": "https://techcrunch.com/2026/02/05/aws-revenue-continues-to-soar-as-cloud-demand-remains-high/",
+      "source": "TechCrunch",
+      "title": "AWS revenue continues to soar as cloud demand remains high",
+      "text": "AWS recorded its best quarter, in terms of revenue growth, in 13 quarters in Q4 2025 as AI drives AWS adoption.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "7836d873-9a25-46be-a59a-ed5fe65d8be7",
+      "url": "https://techcrunch.com/2026/02/05/amazon-and-google-are-winning-the-ai-capex-race-but-whats-the-prize/",
+      "source": "TechCrunch",
+      "title": "Amazon and Google are winning the AI capex race — but what’s the prize?",
+      "text": "In 2026, Amazon plans to spend $200 billion in capex. Google is just behind at $175 billion to $185 billion. It's a lot of money!",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "9d1ff7e9-d65c-4e27-bc93-45c33f1b04a5",
+      "url": "https://techcrunch.com/2026/02/05/the-washington-post-is-retreating-from-silicon-valley-when-it-matters-most/",
+      "source": "TechCrunch",
+      "title": "The Washington Post is retreating from Silicon Valley when it matters most",
+      "text": "The Bezos-owned newspaper gutted its San Francisco bureau and coverage of tech — including journalists reporting on Amazon and Blue Origin.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "10472c87-0fee-4e1d-8063-cc59cafedaa4",
+      "url": "https://techcrunch.com/2026/02/05/a16z-vc-wants-founders-to-stop-stressing-over-insane-arr-numbers/",
+      "source": "TechCrunch",
+      "title": "a16z VC wants founders to stop stressing over insane ARR numbers",
+      "text": "Andreessen Horowitz VC Jennifer Li⁠, who oversees some of the firm's fastest-growing AI companies, warns founders not to believe every ARR claim made on X.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "59c3ac7a-1845-4d3f-9baa-cc607a4c0580",
+      "url": "https://techcrunch.com/2026/02/05/openai-launches-new-agentic-coding-model-only-minutes-after-anthropic-drops-its-own/",
+      "source": "TechCrunch",
+      "title": "OpenAI launches new agentic coding model only minutes after Anthropic drops its own",
+      "text": "The new model is built to accelerate the capabilities of Codex, the agentic coding tool OpenAI launched earlier this week.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "11ece6eb-894c-4c53-a490-f08732064f03",
+      "url": "https://techcrunch.com/2026/02/05/one-of-europes-largest-universities-knocked-offline-for-days-after-cyberattack/",
+      "source": "TechCrunch",
+      "title": "One of Europe’s largest universities knocked offline for days after cyberattack",
+      "text": "An alleged ransomware attack has taken down the systems of the Sapienza University of Rome.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "afe64fbe-84c5-40d7-9491-4961728fe063",
+      "url": "https://techcrunch.com/2026/02/05/elon-musk-is-getting-serious-about-orbital-data-centers/",
+      "source": "TechCrunch",
+      "title": "Elon Musk is getting serious about orbital data centers",
+      "text": "We’re starting to see the idea of Musk-owned orbital AI data clusters cohere into an actual plan.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "8992b0a5-4d16-4b31-8e5b-3217009cc6a9",
+      "url": "https://techcrunch.com/2026/02/05/nasa-astronauts-can-now-bring-their-phones-with-them-on-their-mission-to-the-moon/",
+      "source": "TechCrunch",
+      "title": "NASA astronauts can now bring their phones with them on their mission to the moon",
+      "text": "Get ready for some selfies that are out of this world. Crew-12 is expected to head to the International Space Station next week, while the highly anticipated Artemis II mission -- which will bring humans around the moon for the first time since the 1960s -- was delayed until March.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "d0aa0381-82c2-46b3-b321-edd5079910dc",
+      "url": "https://techcrunch.com/2026/02/05/openai-launches-a-way-for-enterprises-to-build-and-manage-ai-agents/",
+      "source": "TechCrunch",
+      "title": "OpenAI launches a way for enterprises to build and manage AI agents",
+      "text": "OpenAI launched Frontier, a new platform designed for enterprises to build and deploy agents while treating them like human employees.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "2423ebbd-849a-492d-8a17-0ea7d3083521",
+      "url": "https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/",
+      "source": "TechCrunch",
+      "title": "Anthropic releases Opus 4.6 with new ‘agent teams’",
+      "text": "The newest version of Anthropic's model is designed to broaden its capabilities and appeal, allowing for a greater variety of uses and customers.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "8731ae9a-3b3b-4c1a-a5e4-cfa36fe589c6",
+      "url": "https://techcrunch.com/2026/02/05/secondary-sales-shift-from-founder-windfalls-to-employee-retention-tools/",
+      "source": "TechCrunch",
+      "title": "Secondary sales shift from founder windfalls to employee-retention tools",
+      "text": "AI startups like Clay and ElevenLabs are using early liquidity to keep their best talent.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "05d055ce-2c2b-477c-9c30-657eb18279cb",
+      "url": "https://techcrunch.com/2026/02/05/meta-tests-a-standalone-app-for-its-ai-generated-vibes-videos/",
+      "source": "TechCrunch",
+      "title": "Meta tests a stand-alone app for its AI-generated ‘Vibes’ videos",
+      "text": "Launched last September, Vibes lets you create and share short-form AI-generated videos and access a dedicated feed that displays AI videos from others.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "8a3924a9-c58e-47ea-b594-b0f089a83083",
+      "url": "https://techcrunch.com/2026/02/05/pacific-fusion-finds-a-cheaper-way-to-make-its-fusion-reactor-work/",
+      "source": "TechCrunch",
+      "title": "Pacific Fusion finds a cheaper way to make its fusion reactor work",
+      "text": "The fusion power startup recently completed some experiments at Sandia National Laboratories and shared the results exclusively with TechCrunch.",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "531b54eb-a51f-48b9-a3ff-14b0211dbd01",
+      "url": "https://venturebeat.com/security/recruitment-fraud-cloud-iam-2-billion-attack-surface",
+      "source": "VentureBeat",
+      "title": "How recruitment fraud turned cloud IAM into a $2 billion attack surface",
+      "text": "A developer gets a LinkedIn message from a recruiter. The role looks legitimate. The coding assessment requires installing a package. That package exfiltrates all cloud credentials from the developer’s machine — GitHub personal access tokens, AWS API keys, Azure service principals and more — are exfiltrated, and the adversary is inside the cloud environment within minutes. Your email security never saw it. Your dependency scanner might have flagged the package. Nobody was watching what happened next. The attack chain is quickly becoming known as the identity and access management (IAM) pivot, and it represents a fundamental gap in how enterprises monitor identity-based attacks. CrowdStrike Intelligence research published on January 29 documents how adversary groups operationalized this attack chain at an industrial scale. Threat actors are cloaking the delivery of trojanized Python and npm packages through recruitment fraud, then pivoting from stolen developer credentials to full cloud IAM compromise. In one late-2024 case, attackers delivered malicious Python packages to a European FinTech company through recruitment-themed lures, pivoted to cloud IAM configurations and diverted cryptocurrency to adversary-controlled wallets. Entry to exit never touched the corporate email gateway, and there is no digital evidence to go on. On a recent episode of CrowdStrike’s Adversary Universe podcast , Adam Meyers, the company's SVP of intelligence and head of counter adversary operations, described the scale: More than $2 billion associated with cryptocurrency operations run by one adversary unit. Decentralized currency, Meyers explained, is ideal because it allows attackers to avoid sanctions and detection simultaneously. CrowdStrike's field CTO of the Americas, Cristian Rodriguez, explained that revenue success has driven organizational specialization. What was once a single threat group has split into three distinct units targeting cryptocurrency, fintech and espionage objectives. That case wasn’t isolated. The Cybersecurity and Infrastructure Security Agency ( CISA ) and security company JFrog have tracked overlapping campaigns across the npm ecosystem, with JFrog identifying 796 compromised packages in a self-replicating worm that spread through infected dependencies. The research further documents WhatsApp messaging as a primary initial compromise vector, with adversaries delivering malicious ZIP files containing trojanized applications through the platform. Corporate email security never intercepts this channel. Most security stacks are optimized for an entry point that these attackers abandoned entirely. When dependency scanning isn’t enough Adversaries are shifting entry vectors in real-time. Trojanized packages aren’t arriving through typosquatting as in the past — they’re hand-delivered via personal messaging channels and social platforms that corporate email gateways don’t touch. CrowdStrike documented adversaries tailoring employment-themed lures to specific industries and roles, and observed deployments of specialized malware at FinTech firms as recently as June 2025. CISA documented this at scale in September, issuing an advisory on a widespread npm supply chain compromise targeting GitHub personal access tokens and AWS, GCP and Azure API keys. Malicious code was scanned for credentials during package installation and exfiltrated to external domains. Dependency scanning catches the package. That’s the first control, and most organizations have it. Almost none have the second, which is runtime behavioral monitoring that detects credential exfiltration during the install process itself. “When you strip this attack down to its essentials, what stands out isn’t a breakthrough technique,” Shane Barney, CISO at Keeper Security, said in an analysis of a recent cloud attack chain . “It’s how little resistance the environment offered once the attacker obtained legitimate access.” Adversaries are getting better at creating lethal, unmonitored pivots Google Cloud’s Threat Horizons Report found that weak or absent credentials accounted for 47.1% of cloud incidents in the first half of 2025, with misconfigurations adding another 29.4%. Those numbers have held steady across consecutive reporting periods. This is a chronic condition, not an emerging threat. Attackers with valid credentials don’t need to exploit anything. They log in. Research published earlier this month demonstrated exactly how fast this pivot executes . Sysdig documented an attack chain where compromised credentials reached cloud administrator privileges in eight minutes, traversing 19 IAM roles before enumerating Amazon Bedrock AI models and disabling model invocation logging. Eight minutes. No malware. No exploit. Just a valid credential and the absence of IAM behavioral baselines. Ram Varadarajan, CEO at Acalvio , put it bluntly : Breach speed has shifted from days to minutes, and defending against this class of attack demands technology that can ",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "a1fd2046-ff87-4628-b090-d876d77e0767",
+      "url": "https://venturebeat.com/infrastructure/ttt-discover-optimizes-gpu-kernels-2x-faster-than-human-experts-by-training",
+      "source": "VentureBeat",
+      "title": "TTT-Discover optimizes GPU kernels 2x faster than human experts — by training during inference",
+      "text": "Researchers from Stanford, Nvidia, and Together AI have developed a new technique that can discover new solutions to very complex problems. For example, they managed to optimize a critical GPU kernel to run 2x faster than the previous state-of-the-art written by human experts. Their technique, called “ Test-Time Training to Discover ” (TTT-Discover), challenges the current paradigm of letting models “think longer” for reasoning problems. TTT-Discover allows the model to continue training during the inference process and update its weights for the problem at hand. The limits of 'frozen' reasoning Current enterprise AI strategies often rely on \"frozen\" models. Whether you use a closed or open reasoning model, the model's parameters are static. When you prompt these models, they search for answers within the fixed manifold of their training data. This works well for problems that resemble what the model has seen before. However, true discovery problems, like inventing a novel algorithm or proving a new mathematical theorem, are, by definition, out-of-distribution. If the solution requires a leap of logic that doesn't exist in the training set, a frozen model will likely fail, no matter how much compute you throw at it during inference. In comments to VentureBeat, Mert Yuksekgonul, a co-author of the paper and doctorate student at Stanford, illustrated this distinction using a famous mathematical breakthrough: \"I believe that thinking models wouldn't be able to prove, for example, P != NP, without test-time training, just like Andrew Wiles wouldn't be able to prove Fermat's Last Theorem without the 7 years he spent pursuing this single problem in isolation and continuously learning from his own failures.\" TTT-Discover treats the test problem not as a query to be answered, but as an environment to be mastered. As the model attempts to solve the problem, it generates different types of data: failures, partial successes, and errors. Instead of discarding this data, TTT-Discover uses it to update the model's weights in real-time, effectively allowing the model to laser focus on that specific challenge as opposed to developing a very general problem-solving framework. A different approach to reinforcement learning TTT-Discover provides a fundamental shift on how reasoning models are trained. In standard reinforcement learning (RL) training, the goal is a generalist policy that performs well on average across many tasks. In TTT-Discover, the goal is to find the best solution to a very specific problem, and the policy is “a means towards this end,” according to the authors. Once the model discovers the artifact (i.e., the optimized code, the proof, or the molecule) the neural network that produced it can be discarded. To achieve this, the researchers engineered two specific components that differentiate TTT-Discover from standard reinforcement learning: Entropic objective : Standard RL optimizes for the average expected reward. If a model tries a risky path and fails, standard RL punishes it. TTT-Discover flips this. It uses an \"entropic objective\" that exponentially weighs high-reward outcomes. This forces the model to ignore \"safe,\" average answers and aggressively hunt for \"eureka\" outliers, solutions that have a low probability of being found but offer a massive reward. PUCT search: The system introduces PUCT, a tree-search algorithm inspired by AlphaZero . It explores different solution paths, building a dataset of attempts. The model then trains on this dataset in real-time, learning to recognize which partial steps lead to high-reward outcomes. Crucially, this method works best on problems with a continuous reward signal. The system needs a way to measure incremental progress such as \"runtime in microseconds\" or \"error rate\" rather than a binary \"pass/fail\" signal. This allows the model to follow the gradual improvement toward the optimal solution. The economics of 'heavy inference' For enterprises accustomed to paying fractions of a cent per API call, the cost profile of TTT-Discover requires a mindset shift. In their experiments, the researchers reported that a single discovery run involves approximately 50 training steps and thousands of rollouts, costing roughly $500 per problem. TTT-Discover could be for “static, high-value assets” as opposed to trivial and recurring problems that can be solved with existing models and approaches. Consider a cloud-native enterprise running a data pipeline that processes petabytes of information nightly. If that pipeline relies on a specific SQL query or GPU kernel, optimizing that code by just 1% could save hundreds of thousands of dollars in annual compute costs. In this context, spending $500 to find a kernel that is 50% faster is a trivial expense with an immediate ROI. \"This makes the most sense for low-frequency, high-impact decisions where a single improvement is worth far more than the compute cost,\" Yuksekgonul said. \"Supply chain routing, drug design, and material",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "c307c7fc-2924-48e5-9d1f-9cf9699a5699",
+      "url": "https://venturebeat.com/technology/openais-gpt-5-3-codex-drops-as-anthropic-upgrades-claude-ai-coding-wars-heat",
+      "source": "VentureBeat",
+      "title": "OpenAI’s GPT-5.3-Codex drops as Anthropic upgrades Claude — AI coding wars heat up ahead of Super Bowl ads",
+      "text": "OpenAI on Wednesday released GPT-5.3-Codex , which the company calls its most capable coding agent to date, in an announcement timed to land at the exact same moment Anthropic unveiled its own flagship model upgrade, Claude Opus 4.6 . The synchronized launches mark the opening salvo in what industry observers are calling the AI coding wars — a high-stakes battle to capture the enterprise software development market. The dueling announcements came amid an already heated week between the two AI giants, who are also set to air competing Super Bowl advertisements on Sunday, and whose executives have been trading barbs publicly over business models, access, and corporate ethics. \"I love building with this model; it feels like more of a step forward than the benchmarks suggest,\" OpenAI CEO Sam Altman wrote on X minutes after the launch. He later added: \"It was amazing to watch how much faster we were able to ship 5.3-Codex by using 5.3-Codex, and for sure this is a sign of things to come.\" That claim — that the model helped build itself — is a significant milestone in AI development. According to OpenAI's announcement, the Codex team used early versions of GPT-5.3-Codex to debug its own training runs, manage deployment infrastructure, and diagnose test results and evaluations. The company describes it as \"our first model that was instrumental in creating itself.\" OpenAI's new coding model posts record-breaking benchmark scores, outpacing Anthropic's Claude by double digits The new model posts substantial gains across multiple industry benchmarks. GPT-5.3-Codex achieves 57% on SWE-Bench Pro , a rigorous evaluation of real-world software engineering that spans four programming languages and tests contamination-resistant, industrially relevant challenges. It scores 77.3% on Terminal-Bench 2.0 , which measures the terminal skills essential for coding agents, and 64% on OSWorld , an agentic computer-use benchmark where models must complete productivity tasks in visual desktop environments. The Terminal-Bench 2.0 result is particularly striking. According to performance data released Wednesday, GPT-5.3-Codex scored 77.3% compared to GPT-5.2-Codex's 64.0% and the base GPT-5.2 model's 62.2% — a 13-percentage-point leap in a single generation. One user on X noted that the score \"absolutely demolished\" Anthropic's Opus 4.6, which reportedly achieved 65.4% on the same benchmark. OpenAI also claims the model accomplishes these results with dramatically improved efficiency: less than half the tokens of its predecessor for equivalent tasks, plus more than 25% faster inference per token. \"Notably, GPT-5.3-Codex does so with fewer tokens than any prior model, letting users simply build more,\" the company stated in its announcement. From coding assistant to computer operator: GPT-5.3-Codex aims to automate the entire software development lifecycle Perhaps more significant than the benchmark improvements is OpenAI's positioning of GPT-5.3-Codex as a model that transcends pure coding. The company explicitly states that \"Codex goes from an agent that can write and review code to an agent that can do nearly anything developers and professionals can do on a computer.\" This expanded capability set includes debugging, deploying, monitoring, writing product requirement documents, editing copy, conducting user research, building slide decks, and analyzing data in spreadsheet applications. The model shows strong performance on GDPVal, an OpenAI evaluation released in 2025 that measures performance on well-specified knowledge-work tasks across 44 occupations. The expansion signals OpenAI's ambition to capture not just the developer tools market but the broader enterprise productivity software space — a market that includes established players like Microsoft , Salesforce , and ServiceNow , all of whom are racing to embed AI agents into their platforms. OpenAI's first 'high capability' cybersecurity model prompts new safety protocols and a $10 million defense fund The pivot toward general-purpose computing brings new security considerations. In a notable disclosure, OpenAI revealed that GPT-5.3-Codex is the first model it classifies as \"High capability\" for cybersecurity-related tasks under its Preparedness Framework, and the first directly trained to identify software vulnerabilities. \"While we don't have definitive evidence it can automate cyber attacks end-to-end, we're taking a precautionary approach and deploying our most comprehensive cybersecurity safety stack to date,\" the company stated. Mitigations include dual-use safety training, automated monitoring, trusted access for advanced capabilities, and enforcement pipelines incorporating threat intelligence. Altman highlighted this development on X : \"This is our first model that hits 'high' for cybersecurity on our preparedness framework. We are piloting a Trusted Access framework, and committing $10 million in API credits to accelerate cyber defense.\" The company is also expanding the",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "90f2f2ed-92ce-47a6-93b6-443e0cfcd7d3",
+      "url": "https://venturebeat.com/technology/anthropics-claude-opus-4-6-brings-1m-token-context-and-agent-teams-to-take",
+      "source": "VentureBeat",
+      "title": "Anthropic's Claude Opus 4.6 brings 1M token context and 'agent teams' to take on OpenAI's Codex",
+      "text": "Anthropic on Thursday released Claude Opus 4.6 , a major upgrade to its flagship artificial intelligence model that the company says plans more carefully, sustains longer autonomous workflows, and outperforms competitors including OpenAI's GPT-5.2 on key enterprise benchmarks — a release that arrives at a tumultuous moment for the AI industry and global software markets. The launch comes just three days after OpenAI released its own Codex desktop application in a direct challenge to Anthropic's Claude Code momentum , and amid a $285 billion rout in software and services stocks that investors attribute partly to fears that Anthropic's AI tools could disrupt established enterprise software businesses. For the first time, Anthropic's Opus-class models will feature a 1 million token context window, allowing the AI to process and reason across vastly more information than previous versions. The company also introduced \"agent teams\" in Claude Code — a research preview feature that enables multiple AI agents to work simultaneously on different aspects of a coding project, coordinating autonomously. \"We're focused on building the most capable, reliable, and safe AI systems,\" an Anthropic spokesperson told VentureBeat about the announcements. \"Opus 4.6 is even better at planning, helping solve the most complex coding tasks. And the new agent teams feature means users can split work across multiple agents — one on the frontend, one on the API, one on the migration — each owning its piece and coordinating directly with the others.\" Why OpenAI and Anthropic are locked in an all-out war for enterprise developers The release intensifies an already fierce competition between Anthropic and OpenAI , the two most valuable privately held AI companies in the world. OpenAI on Monday released a new desktop application for its Codex artificial intelligence coding system, a tool the company says transforms software development from a collaborative exercise with a single AI assistant into something more akin to managing a team of autonomous workers. AI coding assistants have exploded in popularity over the last year, and OpenAI said more than 1 million developers have used Codex in the past month . The new Codex app is part of OpenAI's ongoing effort to lure users and market share away from rivals like Anthropic and Cursor . The timing of Anthropic's release — just 72 hours after OpenAI's Codex launch — underscores the breakneck pace of competition in AI development tools. OpenAI faces intensifying competition from Anthropic, which posted the largest share increase of any frontier lab since May 2025, according to a recent Andreessen Horowitz survey. Forty-four percent of enterprises now use Anthropic in production, driven by rapid capability gains in software development since late 2024. The desktop launch is a strategic counter to Claude Code's momentum. According to Anthropic's announcement, Opus 4.6 achieves the highest score on Terminal-Bench 2.0 , an agentic coding evaluation, and leads all other frontier models on Humanity's Last Exam , a complex multi-discipline reasoning test. On GDPval-AA — a benchmark measuring performance on economically valuable knowledge work tasks in finance, legal and other domains — Opus 4.6 outperforms OpenAI's GPT-5.2 by approximately 144 ELO points, which translates to obtaining a higher score approximately 70% of the time. Inside Claude Code's $1 billion revenue milestone and growing enterprise footprint The stakes are substantial. Asked about Claude Code's financial performance, the Anthropic spokesperson noted that in November, the company announced that Claude Code reached $1 billion in run rate revenue only six months after becoming generally available in May 2025. The spokesperson highlighted major enterprise deployments: \"Claude Code is used by Uber across teams like software engineering, data science, finance, and trust and safety; wall-to-wall deployment across Salesforce's global engineering org; tens of thousands of devs at Accenture; and companies across industries like Spotify, Rakuten, Snowflake, Novo Nordisk, and Ramp.\" That enterprise traction has translated into skyrocketing valuations. Earlier this month, Anthropic signed a term sheet for a $10 billion funding round at a $350 billion valuation . Bloomberg reported that Anthropic is simultaneously working on a tender offer that would allow employees to sell shares at that valuation, offering liquidity to staffers who have watched the company's worth multiply since its 2021 founding. How Opus 4.6 solves the 'context rot' problem that has plagued AI models One of Opus 4.6's most significant technical improvements addresses what the AI industry calls \" context rot \"—the degradation of model performance as conversations grow longer. Anthropic says Opus 4.6 scores 76% on MRCR v2 , a needle-in-a-haystack benchmark testing a model's ability to retrieve information hidden in vast amounts of text, compared to just 18.5% for Sonnet 4.5. \"T",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "8e8038af-01d3-4d26-87ae-fedd03f3a16b",
+      "url": "https://venturebeat.com/data/fundamental-emerges-from-stealth-with-first-major-foundation-model-trained",
+      "source": "VentureBeat",
+      "title": "Beyond the lakehouse: Fundamental's NEXUS bypasses manual ETL with a native foundation model for tabular data",
+      "text": "The deep learning revolution has a curious blind spot: the spreadsheet. While Large Language Models (LLMs) have mastered the nuances of human prose and image generators have conquered the digital canvas, the structured, relational data that underpins the global economy — the rows and columns of ERP systems, CRMs, and financial ledgers — has so far been treated as just another file format similar to text or PDFs. That's left enterprises to forecast business outcomes using the typical bespoke, labor-intensive data science process of manual feature engineering and classic machine learning algorithms that predate modern deep learning. But now Fundamental , a San Francisco-based AI firm co-founded by DeepMind alumni, is launching today with $255 million in total funding to bridge this gap . Emerging from stealth, the company is debuting NEXUS, a Large Tabular Model (LTM) designed to treat business data not as a simple sequence of words, but as a complex web of non-linear relationships. The tech: moving beyond sequential logic Most current AI models are built on sequential logic — predicting the next word in a sentence or the next pixel in a frame. However, enterprise data is inherently non-sequential. A customer’s churn risk isn't just a timeline; it's a multi-dimensional intersection of transaction frequency, support ticket sentiment, and regional economic shifts. Existing LLMs struggle with this because they are poorly suited to the size and dimensionality constraints of enterprise-scale tables. \"The most valuable data in the world lives in tables and until now there has been no good foundation model built specifically to understand it,\" said Jeremy Fraenkel, CEO and Co-founder of Fundamental. In a recent interview with VentureBeat, Fraenkel emphasized that while the AI world is obsessed with text, audio, and video, tables remain the largest modality for enterprises. \"LLMs really cannot handle this type of data very well,\" he explained, \"and enterprises currently rely on very old-school machine learning algorithms in order to make predictions.\" NEXUS was trained on billions of real-world tabular datasets using Amazon SageMaker HyperPod. Unlike traditional XGBoost or Random Forest models, which require data scientists to manually define features — the specific variables the model should look at — NEXUS is designed to ingest raw tables directly. It identifies latent patterns across columns and rows that human analysts might miss, effectively reading the hidden language of the grid to understand non-linear interactions. The tokenization trap A primary reason traditional LLMs fail at tabular data is how they process numbers. Fraenkel explains that LLMs tokenize numbers the same way they tokenize words, breaking them into smaller chunks. \"The problem is they apply the same thing to numbers. Tables are, by and large, all numerical,\" Fraenkel noted. \"If you have a number like 2.3, the '2', the '.', and the '3' are seen as three different tokens. That essentially means you lose the understanding of the distribution of numbers. It's not like a calculator; you don't always get the right answer because the model doesn't understand the concept of numbers natively.\" Furthermore, tabular data is order-invariant in a way that language is not. Fraenkel uses a healthcare example to illustrate: \"If I give you a table with hundreds of thousands of patients and ask you to predict which of them has diabetes, it shouldn't matter if the first column is height and the second is weight, or vice versa.\" While LLMs are highly sensitive to the order of words in a prompt, NEXUS is architected to understand that shifting column positions should not impact the underlying prediction. Operating at the predictive layer Recent high-profile integrations, such as Anthropic’s Claude appearing directly within Microsoft Excel , have suggested that LLMs are already solving tables. However, Fraenkel distinguishes Fundamental’s work as operating at a fundamentally different layer: the predictive layer. \"What they are doing is essentially at the formula layer—formulas are text, they are like code,\" he said. \"We aren't trying to allow you to build a financial model in Excel. We are helping you make a forecast.\" NEXUS is designed for split-second decisions where a human isn't in the loop, such as a credit card provider determining if a transaction is fraudulent the moment you swipe. While tools like Claude can summarize a spreadsheet, NEXUS is built to predict the next row—whether that is an equipment failure in a factory or the probability of a patient being readmitted to a hospital. Architecture and availability The core value proposition of Fundamental is the radical reduction of time-to-insight. Traditionally, building a predictive model could take months of manual labor. \"You have to hire an army of data scientists to build all of those data pipelines to process and clean the data,\" Fraenkel explained. \"If there are missing values or inconsistent dat",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "77c9b126-2b3a-4414-94c6-224ef684174e",
+      "url": "https://venturebeat.com/orchestration/ai-for-transformation-how-saps-joule-for-consultants-reimagines-project",
+      "source": "VentureBeat",
+      "title": "AI for transformation: How SAP’s Joule for Consultants reimagines project delivery",
+      "text": "Presented by SAP SAP’s AI solution, Joule, has already transformed how business users work — turning siloed data and tasks into intelligent, connected workflows. But consultants on SAP projects face a different set of needs: navigating complex implementations, evolving best practices, and the pressure to deliver faster. They need timely, expert-level guidance. They need an AI partner that can deliver accurate SAP knowledge in an instant. Enter SAP Joule for Consultants, purpose-built to help system integrators and consulting teams drive smarter, faster outcomes for their clients. \"The consultant's focus is not using our business applications — it’s to help implement those systems, perform upgrades, and at the largest scale, help our customers transform their on-premises SAP ERP to SAP Business Suite in the cloud,\" says Victor Alvarez, head of product marketing, Joule, at SAP. \"Acting as a knowledge-grounded AI teammate, SAP Joule for Consultants delivers trusted answers at critical moments, guides design decisions, and keeps projects aligned with SAP’s latest best practices.\" It can both compress timelines and improve project execution at every stage of delivery, resulting in a higher quality of service, he adds. \"Our customers want to complete their SAP projects as quickly as possible to realize the value of those initiatives sooner,\" Alvarez says. \"SAP Joule for Consultants puts the most accurate and up-to-date information at the fingertips of the consultants and system integrators performing these projects. It helps consultants decide and act with agility, reduce overall costs, and shorten project timelines without sacrificing quality.\" Building a better AI teammate AI is no longer an option in consulting. It’s reshaping how projects are designed, delivered, and scaled. For SAP consulting practices, this shift is especially pronounced as SAP cloud transformation and implementation projects demand deep knowledge and expertise. AI can help surface knowledge in seconds, making consultants more productive and improving project outcomes. As a result, practice leaders are not considering whether to use AI, but which AI solution to put at the core of their delivery model. What sets SAP Joule for Consultants apart is its underlying knowledge base. Any AI solution can generate an answer. What matters most is if the answer is accurate and can be trusted to guide project execution. SAP Joule for Consultants is grounded in SAP’s most authoritative, comprehensive, and up-to-date knowledge base. The knowledge base is expertly curated by SAP and includes exclusive content not available to third-party solutions or AI-enabled search engines. “We recognized an opportunity to help our partners transform their consulting practices with the most reliable AI assistance available,” Alvarez says. “We’ve leveraged our expertise and vast set of non-public customer enablement content to ground SAP Joule for Consultants with the most complete, accurate, and trustworthy knowledge.” For SAP consultants at every level Consultants at all experience levels have traditionally spent enormous time searching for information before they can take the next step — whether it’s making an architectural decision that shapes an entire implementation or solving a specific, tactical issue. All that research time is slashed to an extraordinary degree with SAP Joule for Consultants. By delivering expert-level answers drawn from a continually updated knowledge base, the solution helps consultants keep work moving and make smarter decisions that minimize rework. \"If you think about cloud transformation, there’s a huge return on investment,” Alvarez explains. “For SAP customers, this ROI goes beyond traditional cloud benefits to also unlock the AI innovations available in SAP Business Suite. SAP Joule for Consultants is part of our commitment to help our customers reduce time to value and achieve AI impact at scale.\" Enabling SAP customers too The solution isn't just for consultants; it’s also for the IT departments within SAP customers. Organizations don’t have the luxury of engaging a consultant for every SAP project — sometimes the work needs to, or can be, done in-house. So, in the same way that SAP Joule for Consultants enables consultants with expert-level knowledge, internal IT teams can benefit from on-demand answers and guidance to accelerate internally staffed projects. \"They can use SAP Joule for Consultants to access the knowledge needed to take on more complex projects too,\" Alvarez says. \"That opens up more opportunity to engage system integrators on the more strategic and impactful projects.” IT teams also benefit from elevated collaboration with their consulting partners. SAP Joule for Consultants helps bridge knowledge gaps that traditionally limit how much internal staff can contribute to and influence project outcomes. \"SAP Joule for Consultants makes customers more informed, so that they can collaborate with their consultant partners i",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    },
+    {
+      "id": "aa707837-57f5-44ab-9c2b-baa2e04c96e9",
+      "url": "https://venturebeat.com/orchestration/the-brownie-recipe-problem-why-llms-must-have-fine-grained-context-to",
+      "source": "VentureBeat",
+      "title": "The ‘brownie recipe problem’: why LLMs must have fine-grained context to deliver real-time results",
+      "text": "Today’s LLMs excel at reasoning, but can still struggle with context. This is particularly true in real-time ordering systems like Instacart . Instacart CTO Anirban Kundu calls it the \"brownie recipe problem.\" It's not as simple as telling an LLM ‘I want to make brownies.’ To be truly assistive when planning the meal, the model must go beyond that simple directive to understand what’s available in the user’s market based on their preferences — say, organic eggs versus regular eggs — and factor that into what’s deliverable in their geography so food doesn’t spoil. This among other critical factors. For Instacart, the challenge is juggling latency with the right mix of context to provide experiences in, ideally, less than one second’s time. “If reasoning itself takes 15 seconds, and if every interaction is that slow, you're gonna lose the user,” Kundu said at VentureBeat's AI Impact event. Mixing reasoning, real-world state, personalization In grocery delivery, there’s a “world of reasoning” and a “world of state” (what’s available in the real world), Kundu noted, both of which must be understood by an LLM along with user preference. But it’s not as simple as loading the entirety of a user’s purchase history and known interests into a reasoning model. “Your LLM is gonna blow up into a size that will be unmanageable,” said Kundu. To get around this, Instacart splits processing into chunks. First, data is fed into a large foundational model that can understand intent and categorize products. That processed data is then routed to small language models (SLMs) designed for catalog context (the types of food or other items that work together) and semantic understanding. In the case of catalog context, the SLM must be able to process multiple levels of details around the order itself as well as the different products. For instance, what products go together and what are their relevant replacements if the first choice isn't in stock? These substitutions are “very, very important” for a company like Instacart, which Kundu said has “over double digit cases” where a product isn’t available in a local market. In terms of semantic understanding, say a shopper is looking to buy healthy snacks for children. The model needs to understand what a healthy snack is and what foods are appropriate for, and appeal to, an 8 year old, then identify relevant products. And, when those particular products aren’t available in a given market, the model has to also find related subsets of products. Then there’s the logistical element. For example, a product like ice cream melts quickly, and frozen vegetables also don’t fare well when left out in warmer temperatures. The model must have this context and calculate an acceptable deliverability time. “So you have this intent understanding, you have this categorization, then you have this other portion about logistically, how do you do it?”, Kundu noted. Avoiding 'monolithic' agent systems Like many other companies, Instacart is experimenting with AI agents, finding that a mix of agents works better than a “single monolith” that does multiple different tasks. The Unix philosophy of a modular operating system with smaller, focused tools helps address different payment systems, for instance, that have varying failure modes, Kundu explained. “Having to build all of that within a single environment was very unwieldy,” he said. Further, agents on the back end talk to many third-party platforms, including point-of-sale (POS) and catalog systems. Naturally, not all of them behave the same way; some are more reliable than others, and they have different update intervals and feeds. “So being able to handle all of those things, we've gone down this route of microagents rather than agents that are dominantly large in nature,” said Kundu. To manage agents, Instacart has integrated with OpenAI’s model context protocol (MCP), which standardizes and simplifies the process of connecting AI models to different tools and data sources. The company also uses Google’s Universal Commerce Protocol (UCP) open standard, which allows AI agents to directly interact with merchant systems. However, Kundu's team still deals with challenges. As he noted, it's not about whether integration is possible, but how reliably those integrations behave and how well they're understood by users. Discovery can be difficult, not just in identifying available services, but understanding which ones are appropriate for which task. Instacart has had to implement MCP and UCP in “very different” cases, and the biggest problems they’ve run into are failure modes and latency, Kundu noted. “The response times and understandings of both of those services are very, very different I would say we spend probably two thirds of the time fixing those error cases.”",
+      "scraping_date": "2026-02-06T11:59:11Z",
+      "is_processed": false
+    }
+  ]
+}

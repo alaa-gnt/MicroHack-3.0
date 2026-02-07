@@ -1,0 +1,314 @@
+/* ═══════════════════════════════════
+   Create Alert Rule Modal
+   ═══════════════════════════════════ */
+
+/* ── Overlay ── */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: backdropFade 250ms ease forwards;
+}
+
+@keyframes backdropFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* ── Container ── */
+.modal-container {
+    position: relative;
+    background: #ffffff;
+    border-radius: 24px;
+    width: 520px;
+    max-width: 90vw;
+    padding: 36px 40px 32px 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+    animation: modalEnter 300ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes modalEnter {
+    from {
+        opacity: 0;
+        transform: scale(0.92);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* ── Close button ── */
+.modal-close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 28px;
+    height: 28px;
+    background: #E53935;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    transition: background 200ms ease;
+}
+
+.modal-close-btn:hover {
+    background: #C62828;
+}
+
+/* ── Title ── */
+.modal-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+/* ── Form labels ── */
+.form-label {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.form-label.blue {
+    color: #3F51B5;
+}
+
+.form-label.black {
+    color: #000;
+}
+
+.form-label.category-label {
+    margin-top: 22px;
+}
+
+.form-label.slider-section-label {
+    margin-top: 22px;
+    margin-bottom: 18px;
+}
+
+/* ── Input ── */
+.form-input {
+    width: 100%;
+    background: #F0F0F0;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 15px;
+    color: #000;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 200ms ease;
+}
+
+.form-input:focus {
+    border-color: #3F51B5;
+}
+
+/* ── Checkbox grid ── */
+.checkbox-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 60px;
+    margin-bottom: 10px;
+}
+
+/* ── Checkbox item ── */
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox-item.all-categories {
+    margin-bottom: 4px;
+}
+
+.checkbox-item input[type='checkbox'] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.checkbox-custom {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    transition: background 200ms ease, border-color 200ms ease;
+    flex-shrink: 0;
+}
+
+.checkbox-item input[type='checkbox']:checked + .checkbox-custom {
+    background: #3F51B5;
+    border-color: #3F51B5;
+}
+
+.checkbox-item input[type='checkbox']:checked + .checkbox-custom::after {
+    content: '';
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) translateY(-1px);
+}
+
+.checkbox-item:hover .checkbox-custom {
+    border-color: #3F51B5;
+}
+
+.checkbox-label {
+    font-size: 15px;
+    color: #000;
+}
+
+/* ── Slider row ── */
+.slider-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.slider-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3F51B5;
+    min-width: 100px;
+}
+
+.slider-input {
+    flex: 1;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    border-radius: 3px;
+    background: linear-gradient(
+        to right,
+        #000 0%,
+        #000 var(--value),
+        #E0E0E0 var(--value),
+        #E0E0E0 100%
+    );
+    outline: none;
+    cursor: pointer;
+}
+
+.slider-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #000;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    transition: transform 150ms ease;
+}
+
+.slider-input::-webkit-slider-thumb:hover {
+    transform: scale(1.15);
+}
+
+.slider-input::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: #000;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.slider-value {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    min-width: 42px;
+    text-align: right;
+}
+
+/* ── Error ── */
+.form-error {
+    color: #E53935;
+    font-size: 13px;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+/* ── Submit button ── */
+.submit-btn {
+    display: block;
+    margin: 28px auto 0 auto;
+    background: #E5E5E5;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px 36px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 250ms ease, color 250ms ease, transform 150ms ease;
+}
+
+.submit-btn:hover:not(:disabled) {
+    background: linear-gradient(135deg, #272AD8 0%, #151672 100%);
+    color: #fff;
+}
+
+.submit-btn:active:not(:disabled) {
+    transform: scale(0.97);
+}
+
+.submit-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+    .modal-container {
+        padding: 28px 20px 24px 20px;
+        border-radius: 18px;
+    }
+
+    .modal-title {
+        font-size: 19px;
+    }
+
+    .checkbox-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .slider-row {
+        flex-wrap: wrap;
+    }
+
+    .slider-label {
+        min-width: 100%;
+        margin-bottom: 4px;
+    }
+
+    .slider-input {
+        flex: 1;
+        min-width: 0;
+    }
+}

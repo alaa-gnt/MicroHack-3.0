@@ -1,0 +1,374 @@
+[
+    {
+        "signal_id": "SIG-1",
+        "opportunity_id": "cd5d0e93-0775-40b5-90eb-f787a1d5b38a",
+        "signal_text": "IBM has announced its new 1,000-qubit quantum processor, named Condor.",
+        "corrected_text": "IBM has announced its new 1,000-qubit quantum processor, named Condor.",
+        "domain": "Quantum Computing",
+        "domain_confidence": 0.99,
+        "impact": 0.85,
+        "impact_confidence": 0.9,
+        "urgency": 0.75,
+        "urgency_confidence": 0.85,
+        "tri": 6.5,
+        "tri_confidence": 0.85,
+        "companies": [
+            "IBM"
+        ],
+        "technologies": [
+            "1,000-qubit quantum processor",
+            "Condor"
+        ],
+        "location": "",
+        "extraction_confidence": 0.95,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-2",
+        "opportunity_id": "012dee1e-a5f9-4c5e-938f-6a4f13d4ad04",
+        "signal_text": "A new IoT sensor system for smart grids has been implemented in Singapore.",
+        "corrected_text": "A new IoT sensor system for smart grids has been implemented in Singapore.",
+        "domain": "IoT",
+        "domain_confidence": 0.98,
+        "impact": 0.85,
+        "impact_confidence": 0.9,
+        "urgency": 0.7,
+        "urgency_confidence": 0.85,
+        "tri": 9.0,
+        "tri_confidence": 0.95,
+        "companies": [],
+        "technologies": [
+            "IoT sensor system",
+            "smart grids"
+        ],
+        "location": "Singapore",
+        "extraction_confidence": 0.95,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-3",
+        "opportunity_id": "a78c72fd-3248-4ecd-ab0a-199b293ee3f0",
+        "signal_text": "A cybersecurity breach occurred at a major financial institution.",
+        "corrected_text": "A cybersecurity breach occurred at a major financial institution.",
+        "domain": "Cybersecurity",
+        "domain_confidence": 0.99,
+        "impact": 0.9,
+        "impact_confidence": 0.95,
+        "urgency": 0.95,
+        "urgency_confidence": 0.98,
+        "tri": 0.0,
+        "tri_confidence": 0.95,
+        "companies": [],
+        "technologies": [],
+        "location": "",
+        "extraction_confidence": 0.5,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-4",
+        "opportunity_id": "be96c45c-75cb-46b2-9376-63a7a2633c3e",
+        "signal_text": "NVIDIA has developed a new AI chip for autonomous vehicles.",
+        "corrected_text": "NVIDIA has developed a new AI chip for autonomous vehicles.",
+        "domain": "AI/ML",
+        "domain_confidence": 0.98,
+        "impact": 0.85,
+        "impact_confidence": 0.9,
+        "urgency": 0.85,
+        "urgency_confidence": 0.9,
+        "tri": 8.5,
+        "tri_confidence": 0.95,
+        "companies": [
+            "NVIDIA"
+        ],
+        "technologies": [
+            "AI chip",
+            "autonomous vehicles"
+        ],
+        "location": "",
+        "extraction_confidence": 0.95,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-5",
+        "opportunity_id": "2cf8fb83-8e5f-4300-a7a2-2a2eb1cbddfc",
+        "signal_text": "A new biometric authentication system has been deployed in China.",
+        "corrected_text": "A new biometric authentication system has been deployed in China.",
+        "domain": "Cybersecurity",
+        "domain_confidence": 0.9,
+        "impact": 0.85,
+        "impact_confidence": 0.9,
+        "urgency": 0.7,
+        "urgency_confidence": 0.85,
+        "tri": 9.0,
+        "tri_confidence": 0.95,
+        "companies": [],
+        "technologies": [
+            "biometric authentication system"
+        ],
+        "location": "China",
+        "extraction_confidence": 0.9,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-6",
+        "opportunity_id": "331a3032-6430-43d1-ba64-29b7d3ea7f86",
+        "signal_text": "Google has achieved a new breakthrough in quantum computing.",
+        "corrected_text": "Google has achieved a new breakthrough in quantum computing.",
+        "domain": "Quantum Computing",
+        "domain_confidence": 0.98,
+        "impact": 0.9,
+        "impact_confidence": 0.95,
+        "urgency": 0.85,
+        "urgency_confidence": 0.9,
+        "tri": 6.5,
+        "tri_confidence": 0.8,
+        "companies": [
+            "Google"
+        ],
+        "technologies": [
+            "quantum computing"
+        ],
+        "location": "",
+        "extraction_confidence": 0.95,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-7",
+        "opportunity_id": "e0fc876c-12ad-414e-add3-c3bdc6ce8d2c",
+        "signal_text": "Microsoft is exploring underwater data centers as a solution for sustainable cooling.",
+        "corrected_text": "Microsoft is exploring underwater data centers as a solution for sustainable cooling.",
+        "domain": "Cloud Computing",
+        "domain_confidence": 0.85,
+        "impact": 0.75,
+        "impact_confidence": 0.85,
+        "urgency": 0.6,
+        "urgency_confidence": 0.8,
+        "tri": 6.5,
+        "tri_confidence": 0.85,
+        "companies": [
+            "Microsoft"
+        ],
+        "technologies": [
+            "underwater data centers"
+        ],
+        "location": "",
+        "extraction_confidence": 0.95,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-8",
+        "opportunity_id": "d8080ceb-631a-4cbe-937a-8d6a1072352f",
+        "signal_text": "Toyota collaborates with Panasonic to develop next-generation solid-state batteries.",
+        "corrected_text": "Toyota collaborates with Panasonic to develop next-generation solid-state batteries.",
+        "domain": "Clean Energy",
+        "domain_confidence": 0.9,
+        "impact": 0.85,
+        "impact_confidence": 0.9,
+        "urgency": 0.85,
+        "urgency_confidence": 0.9,
+        "tri": 7.5,
+        "tri_confidence": 0.88,
+        "companies": [
+            "Toyota",
+            "Panasonic"
+        ],
+        "technologies": [
+            "solid-state batteries"
+        ],
+        "location": "",
+        "extraction_confidence": 0.95,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-9",
+        "opportunity_id": "0a7a9086-2b48-4610-964e-eb7b944c39d3",
+        "signal_text": "SpaceX has successfully landed a Starship booster on its launch platform.",
+        "corrected_text": "SpaceX has successfully landed a Starship booster on its launch platform.",
+        "domain": "Space Technology",
+        "domain_confidence": 0.99,
+        "impact": 0.9,
+        "impact_confidence": 0.95,
+        "urgency": 0.85,
+        "urgency_confidence": 0.92,
+        "tri": 9.0,
+        "tri_confidence": 0.95,
+        "companies": [
+            "SpaceX"
+        ],
+        "technologies": [
+            "Starship"
+        ],
+        "location": "",
+        "extraction_confidence": 0.95,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-10",
+        "opportunity_id": "a9b34e15-e857-4b48-ad3f-5a38920e8777",
+        "signal_text": "Ethereum's transition to Proof of Stake has reduced its energy consumption by 99%.",
+        "corrected_text": "Ethereum's transition to Proof of Stake has reduced its energy consumption by 99%.",
+        "domain": "Blockchain",
+        "domain_confidence": 0.99,
+        "impact": 0.95,
+        "impact_confidence": 0.98,
+        "urgency": 0.8,
+        "urgency_confidence": 0.9,
+        "tri": 9.0,
+        "tri_confidence": 0.98,
+        "companies": [],
+        "technologies": [
+            "Ethereum",
+            "Proof of Stake"
+        ],
+        "location": "",
+        "extraction_confidence": 0.95,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-11",
+        "opportunity_id": "eca8d548-c040-4168-a05c-81253ec8dafc",
+        "signal_text": "Meta unveils a new augmented reality glasses prototype designed for social interactions.",
+        "corrected_text": "Meta unveils a new augmented reality glasses prototype designed for social interactions.",
+        "domain": "AR/VR",
+        "domain_confidence": 0.98,
+        "impact": 0.85,
+        "impact_confidence": 0.9,
+        "urgency": 0.75,
+        "urgency_confidence": 0.85,
+        "tri": 7.5,
+        "tri_confidence": 0.85,
+        "companies": [
+            "Meta"
+        ],
+        "technologies": [
+            "augmented reality glasses"
+        ],
+        "location": "",
+        "extraction_confidence": 0.95,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-12",
+        "opportunity_id": "f5c09af2-29de-4881-95c7-0246c2aaa765",
+        "signal_text": "Amazon has launched Project Kuiper satellites to provide global internet coverage.",
+        "corrected_text": "Amazon has launched Project Kuiper satellites to provide global internet coverage.",
+        "domain": "Space Technology",
+        "domain_confidence": 0.9,
+        "impact": 0.85,
+        "impact_confidence": 0.9,
+        "urgency": 0.75,
+        "urgency_confidence": 0.85,
+        "tri": 8.5,
+        "tri_confidence": 0.92,
+        "companies": [
+            "Amazon",
+            "Project Kuiper"
+        ],
+        "technologies": [
+            "satellites"
+        ],
+        "location": "Global",
+        "extraction_confidence": 0.95,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-13",
+        "opportunity_id": "641905a2-8245-4ce7-afcf-2ebb662cf12d",
+        "signal_text": "Apple unveils the M4 chip, featuring a Neural Engine designed for AI tasks.",
+        "corrected_text": "Apple unveils the M4 chip, featuring a Neural Engine designed for AI tasks.",
+        "domain": "AI/ML",
+        "domain_confidence": 0.98,
+        "impact": 0.85,
+        "impact_confidence": 0.9,
+        "urgency": 0.75,
+        "urgency_confidence": 0.85,
+        "tri": 8.5,
+        "tri_confidence": 0.9,
+        "companies": [
+            "Apple"
+        ],
+        "technologies": [
+            "M4 chip",
+            "Neural Engine"
+        ],
+        "location": "",
+        "extraction_confidence": 0.95,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-14",
+        "opportunity_id": "01a09e9e-059d-455a-afea-1b39e481c188",
+        "signal_text": "DeepMind's AlphaFold has predicted the structures of nearly all known proteins.",
+        "corrected_text": "DeepMind's AlphaFold has predicted the structures of nearly all known proteins.",
+        "domain": "AI/ML",
+        "domain_confidence": 0.98,
+        "impact": 0.95,
+        "impact_confidence": 0.98,
+        "urgency": 0.9,
+        "urgency_confidence": 0.95,
+        "tri": 9.5,
+        "tri_confidence": 0.98,
+        "companies": [
+            "DeepMind"
+        ],
+        "technologies": [
+            "AlphaFold"
+        ],
+        "location": "",
+        "extraction_confidence": 0.95,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    },
+    {
+        "signal_id": "SIG-15",
+        "opportunity_id": "cf185b5a-5999-4399-a1d5-5c22cf5b3b1b",
+        "signal_text": "TSMC has begun mass production of 2nm chips at its facility in Hsinchu.",
+        "corrected_text": "TSMC has begun mass production of 2nm chips at its facility in Hsinchu.",
+        "domain": "Other",
+        "domain_confidence": 0.85,
+        "impact": 0.95,
+        "impact_confidence": 0.98,
+        "urgency": 0.85,
+        "urgency_confidence": 0.9,
+        "tri": 9.0,
+        "tri_confidence": 0.95,
+        "companies": [
+            "TSMC"
+        ],
+        "technologies": [
+            "2nm chips"
+        ],
+        "location": "Hsinchu, Taiwan",
+        "extraction_confidence": 0.95,
+        "retry_count": 0,
+        "processing_errors": [],
+        "agent_thoughts": []
+    }
+]

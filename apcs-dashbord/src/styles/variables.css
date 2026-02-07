@@ -1,0 +1,25 @@
+:root {
+    /* Colors — extracted from the design image */
+    --bg-primary: #F5F5F7;
+    --bg-secondary: #ffffff;
+    --bg-sidebar: #ECECEC;
+
+    --text-primary: #000000;
+    --text-secondary: #6B7280;
+    --text-muted: #9CA3AF;
+
+    --accent-blue: #1D4ED8;
+    --accent-purple: #7C3AED;
+    --accent-red: #DC2626;
+    --accent-orange: #D97706;
+    --accent-yellow: #D97706;
+    --accent-green: #10B981;
+
+    --border-color: #E5E7EB;
+    --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    --card-radius: 16px;
+    --sidebar-width: 240px;
+
+    /* Typography */
+    --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}

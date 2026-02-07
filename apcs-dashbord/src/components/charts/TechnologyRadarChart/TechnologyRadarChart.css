@@ -1,0 +1,27 @@
+.radar-chart-wrapper {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radar-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 340px;
+}
+
+.radar-skeleton {
+    width: 260px;
+    height: 260px;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: radarShimmer 1.5s infinite;
+    border-radius: 50%;
+}
+
+@keyframes radarShimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}

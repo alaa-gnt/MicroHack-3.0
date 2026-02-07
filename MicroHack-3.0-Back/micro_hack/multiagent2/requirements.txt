@@ -1,0 +1,12 @@
+langgraph>=0.0.40
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-mistralai>=0.0.5
+mistralai>=0.1.0
+python-dotenv>=1.0.0
+datasets>=2.14.0
+pandas>=2.0.0
+pytest>=7.4.0
+psycopg[binary]>=3.1.8
+psycopg-pool>=3.1.8
+redis>=5.0.0

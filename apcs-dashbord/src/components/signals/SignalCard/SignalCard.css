@@ -1,0 +1,155 @@
+/* Signal Card — matches design image exactly */
+
+.signal-inbox-card {
+    margin-bottom: 20px;
+}
+
+/* Blue title above the card */
+.signal-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1D4ED8;
+    margin: 0 0 8px 0;
+    text-align: center;
+}
+
+/* Card body */
+.signal-card-body {
+    background-color: #E8E8E8;
+    border-radius: 14px;
+    padding: 20px 24px;
+}
+
+/* Header row */
+.signal-card-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.signal-card-category-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+}
+
+.signal-card-pipe {
+    color: #999;
+    font-weight: 400;
+}
+
+.signal-card-system {
+    font-weight: 500;
+    color: #000;
+}
+
+.signal-view-more {
+    background: none;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+    cursor: pointer;
+    padding: 4px 0;
+    font-family: inherit;
+    transition: color 0.2s ease;
+}
+
+.signal-view-more:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* Description */
+.signal-card-description {
+    margin-bottom: 10px;
+}
+
+.desc-label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.desc-text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+}
+
+/* Meta row */
+.signal-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+/* Footer: status + action buttons */
+.signal-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signal-status-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+.status-value {
+    font-weight: 700;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+/* Action buttons */
+.signal-card-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.signal-action-btn {
+    padding: 8px 22px;
+    border-radius: 8px;
+    border: 1.5px solid #D1D5DB;
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.signal-action-btn.accept-btn:hover {
+    background-color: #16A34A;
+    border-color: #16A34A;
+    color: #fff;
+}
+
+.signal-action-btn.reject-btn:hover {
+    background-color: #DC2626;
+    border-color: #DC2626;
+    color: #fff;
+}

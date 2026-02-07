@@ -1,0 +1,108 @@
+.signals-inbox-page {
+    padding: 0 40px 40px 40px;
+}
+
+.signals-inbox-title {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin: 24px 0 28px 0;
+}
+
+/* Signal list */
+.signals-inbox-list {
+    display: flex;
+    flex-direction: column;
+}
+
+/* View all */
+.signals-view-all-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+
+.signals-view-all-btn {
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 6px 0;
+    transition: opacity 0.2s ease;
+}
+
+.signals-view-all-btn:hover {
+    opacity: 0.6;
+}
+
+/* Loading skeleton */
+.signals-loading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.signal-skeleton {
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.skel-title {
+    height: 20px;
+    width: 220px;
+    background: linear-gradient(90deg, #e0e0e0 25%, #d0d0d0 50%, #e0e0e0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 6px;
+    margin: 0 auto 10px auto;
+}
+
+.skel-body {
+    background: #E8E8E8;
+    border-radius: 14px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.skel-line {
+    height: 14px;
+    background: linear-gradient(90deg, #d6d6d6 25%, #c8c8c8 50%, #d6d6d6 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 4px;
+}
+
+.skel-line.w60 { width: 60%; }
+.skel-line.w100 { width: 100%; }
+.skel-line.w80 { width: 80%; }
+.skel-line.w40 { width: 40%; }
+
+@keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* Error and empty states */
+.signals-error,
+.signals-empty {
+    text-align: center;
+    padding: 48px 24px;
+    color: #666;
+    font-size: 15px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .signals-inbox-page {
+        padding: 0 16px 20px 16px;
+    }
+
+    .signals-inbox-title {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,37 @@
+# Scraping schedule configuration
+
+schedule:
+  # How often to run (in hours)
+  interval_hours: 5
+  
+  # Alternative: cron-like schedule
+  # Runs at these hours: 0:00, 5:00, 10:00, 15:00, 20:00 UTC
+  cron_hours: [0, 5, 10, 15, 20]
+  cron_minute: 0
+  
+  # Timezone
+  timezone: "UTC"
+
+# Scraping parameters
+scraping:
+  # How many days back to search
+  days_back:
+    patents: 7
+    rss: 7
+    tech_news: 7
+    academic: 30
+  
+  # Rate limits (seconds between requests)
+  rate_limit:
+    default: 1
+    patents: 2
+    rss: 1
+    tech_news: 1
+    academic: 3
+  
+  # Maximum results per source
+  max_results:
+    patents_per_keyword: 20
+    rss_per_feed: 50
+    tech_news_per_topic: 10
+    academic_per_keyword: 50

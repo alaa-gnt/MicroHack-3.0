@@ -1,0 +1,33 @@
+{
+    "signals": [
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440001",
+            "url": "https://patents.google.com/patent/US12345678",
+            "source": "Google Patents",
+            "title": "Smart Port IoT System for Container Tracking",
+            "text": "ABSTRACT:\nA smart port system utilizing IoT sensors for real-time container tracking and logistics optimization.\n\nDESCRIPTION:\nThe invention relates to a comprehensive IoT-based monitoring system designed for maritime port operations.",
+            "scraping_date": "2026-02-06T10:30:00Z",
+            "is_processed": false
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440002",
+            "url": "https://www.porttechnology.org/news/ai-crane-rotterdam",
+            "source": "Port Technology International",
+            "title": "New AI-Powered Crane System Deployed at Rotterdam Port",
+            "text": "Rotterdam port has unveiled its latest AI-powered crane system designed to improve container handling efficiency by 40%. The system uses computer vision and machine learning algorithms to optimize container placement and reduce turnaround times.",
+            "scraping_date": "2026-02-06T10:30:00Z",
+            "is_processed": false
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440003",
+            "url": "https://arxiv.org/abs/2602.12345",
+            "source": "arXiv",
+            "title": "Deep Reinforcement Learning for Port Logistics Optimization",
+            "text": "TITLE: Deep Reinforcement Learning for Port Logistics Optimization\n\nAUTHORS: John Smith, Jane Doe\n\nABSTRACT:\nWe present a novel deep reinforcement learning approach for optimizing container stacking and retrieval operations in maritime ports.",
+            "scraping_date": "2026-02-06T10:30:00Z",
+            "is_processed": false
+        }
+    ],
+    "batch_id": "batch_550e8400e29b41d4",
+    "signals_count": 3
+}

@@ -1,0 +1,220 @@
+/* ═══════════════════════════════════
+   Innovation Pipeline page
+   ═══════════════════════════════════ */
+
+.pipeline-page {
+    padding: 32px 40px;
+    background: #F9FAFB;
+    min-height: 100vh;
+}
+
+/* ── Header ── */
+.pipeline-page__title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 8px;
+    letter-spacing: -0.025em;
+}
+
+.pipeline-page__subtitle {
+    font-size: 15px;
+    color: #6B7280;
+    margin-bottom: 40px;
+    max-width: 600px;
+}
+
+/* ── Stages grid ── */
+.pipeline-stages-grid {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 48px;
+    /* Remove horizontal scroll unless strictly necessary on very small screens */
+    flex-wrap: nowrap;
+}
+
+.pipeline-stages-grid>* {
+    flex: 1;
+    min-width: 0;
+    /* Allows cards to shrink equally */
+}
+
+/* ── Projects section ── */
+.pipeline-projects-section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ── Error ── */
+.pipeline-error {
+    text-align: center;
+    padding: 40px 24px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* ── Skeleton ── */
+.stage-card-skeleton {
+    background: #E8E8E8;
+    border-radius: 16px;
+    padding: 18px 14px 14px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.skel-bar {
+    height: 14px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #d6d6d6 25%, #c8c8c8 50%, #d6d6d6 75%);
+    background-size: 200% 100%;
+    animation: pipe-shimmer 1.5s infinite;
+}
+
+.skel-bar.w60 {
+    width: 60%;
+}
+
+.skel-bar.w40 {
+    width: 40%;
+}
+
+.skel-blue {
+    height: 90px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #c5c6ff 25%, #b0b2ff 50%, #c5c6ff 75%);
+    background-size: 200% 100%;
+    animation: pipe-shimmer 1.5s infinite;
+}
+
+.skel-btn {
+    margin-top: auto;
+}
+
+@keyframes pipe-shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+/* ═════════════ Stage Projects Modal ═════════════ */
+.pipeline-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: pmo-fade 250ms ease forwards;
+}
+
+@keyframes pmo-fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.pipeline-modal {
+    position: relative;
+    background: #fff;
+    border-radius: 24px;
+    width: 720px;
+    max-width: 92vw;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    animation: pmo-enter 400ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes pmo-enter {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.pipeline-modal__close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 28px;
+    height: 28px;
+    background: #E53935;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    transition: background 200ms ease;
+}
+
+.pipeline-modal__close:hover {
+    background: #C62828;
+}
+
+.pipeline-modal__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.pipeline-modal__count {
+    font-weight: 400;
+    color: #888;
+    font-size: 15px;
+}
+
+.pipeline-modal__body {
+    overflow-y: auto;
+    flex: 1;
+}
+
+.pipeline-modal__loading,
+.pipeline-modal__empty {
+    text-align: center;
+    padding: 32px;
+    color: #888;
+    font-size: 14px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1100px) {
+    .pipeline-stages-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .pipeline-page {
+        padding: 24px 20px;
+    }
+
+    .pipeline-page__title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pipeline-stages-grid {
+        grid-template-columns: 1fr;
+    }
+}
