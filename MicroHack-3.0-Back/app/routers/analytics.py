@@ -36,6 +36,17 @@ def get_dashboard_summary(db: Session = Depends(get_db)):
     running_pocs = db.query(func.count(POC.id)).scalar() or 0
     alerts_today = db.query(func.count(Alert.id)).filter(func.date(Alert.created_at) == today).scalar() or 0
 
+    # Breakdown of today's alerts
+    alerts_critical = db.query(func.count(Alert.id)).filter(
+        func.date(Alert.created_at) == today,
+        Alert.severity.in_(['Critical', 'High'])
+    ).scalar() or 0
+
+    alerts_minor = db.query(func.count(Alert.id)).filter(
+        func.date(Alert.created_at) == today,
+        Alert.severity.in_(['Medium', 'Low'])
+    ).scalar() or 0
+
     return {
         "status": "success",
         "trends": trends,
@@ -49,6 +60,8 @@ def get_dashboard_summary(db: Session = Depends(get_db)):
             "active_projects": active_projects,
             "running_pocs": running_pocs,
             "alerts_today": alerts_today,
+            "alerts_critical": alerts_critical,
+            "alerts_minor": alerts_minor,
             "total_active_sectors": len(set(t.domain_name for t in trends)),
             "total_technologies_tracked": len(set(tr.tech_name for tr in tech_radar)),
             "total_entities_tracked": len(entities)

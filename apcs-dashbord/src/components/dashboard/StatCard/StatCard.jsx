@@ -3,7 +3,7 @@ import "./StatCard.css";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 
-const StatCard = ({ title, value, subtitle, trend, type }) => {
+const StatCard = ({ title, value, subtitle, trend, type, critical, minor }) => {
   return (
     <motion.div
       className={`stat-card ${type || ""}`}
@@ -35,7 +35,7 @@ const StatCard = ({ title, value, subtitle, trend, type }) => {
                 strokeLinejoin="round"
               />
             </svg>
-            02 Critical
+            {critical || "00"} Critical
           </div>
           <div className="alert-item minors">
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -47,7 +47,7 @@ const StatCard = ({ title, value, subtitle, trend, type }) => {
                 strokeLinejoin="round"
               />
             </svg>
-            03 Minors
+            {minor || "00"} Minors
           </div>
         </div>
       ) : trend ? (

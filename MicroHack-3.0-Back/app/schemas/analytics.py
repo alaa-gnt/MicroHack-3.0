@@ -63,6 +63,18 @@ class StrategicBenchmarkResponse(StrategicBenchmarkBase):
     class Config:
         from_attributes = True
 
+class DashboardMetrics(BaseModel):
+    total_signals: int
+    total_opportunities: int
+    active_projects: int
+    running_pocs: int
+    alerts_today: int
+    alerts_critical: int
+    alerts_minor: int
+    total_active_sectors: int
+    total_technologies_tracked: int
+    total_entities_tracked: int
+
 class DashboardResponse(BaseModel):
     status: str
     trends: List[MarketTrendResponse]
@@ -70,4 +82,4 @@ class DashboardResponse(BaseModel):
     entities: List[EntityTrackerResponse]
     funnel: List[FunnelMetricResponse]
     benchmarks: List[StrategicBenchmarkResponse]
-    metrics: Dict[str, Any]
+    metrics: DashboardMetrics

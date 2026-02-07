@@ -96,7 +96,9 @@ const Dashboard = () => {
             value: dashboardData.metrics?.alerts_today?.toString().padStart(2, '0') || "00",
             subtitle: "Problems that need attention",
             type: "alerts",
-            icon: AlertTriangle
+            icon: AlertTriangle,
+            critical: dashboardData.metrics?.alerts_critical?.toString().padStart(2, '0') || "00",
+            minor: dashboardData.metrics?.alerts_minor?.toString().padStart(2, '0') || "00",
           },
         ]);
 
