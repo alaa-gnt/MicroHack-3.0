@@ -10,7 +10,9 @@ load_dotenv()
 def run_automation_loop():
     print("🤖 Multi-Agent 2 Watcher is ONLINE.")
     try:
-        r = redis.Redis(host='localhost', port=6379, db=0)
+        redis_host = os.getenv("REDIS_HOST", "localhost")
+        redis_port = int(os.getenv("REDIS_PORT", 6379))
+        r = redis.Redis(host=redis_host, port=redis_port, db=0)
         print("✅ Connected to Redis.")
     except Exception as e:
         print(f"❌ Redis Connection Error: {e}")

@@ -1,0 +1,99 @@
+services:
+  # Database
+  db:
+    image: postgres:15-alpine
+    container_name: microhack_db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=microhack
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+
+  # Redis for Agent communication
+  redis:
+    image: redis:7-alpine
+    container_name: microhack_redis
+    ports:
+      - "6379:6379"
+
+  # RabbitMQ for Scraper handoff
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: microhack_rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+
+  # MinIO for raw data storage
+  minio:
+    image: minio/minio:latest
+    container_name: microhack_minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      - MINIO_ROOT_USER=minioadmin
+      - MINIO_ROOT_PASSWORD=minioadmin
+    command: server /data --console-address ":9001"
+
+  # Backend API
+  api:
+    build:
+      context: ./MicroHack-3.0-Back
+      dockerfile: Dockerfile
+    container_name: microhack_api
+    env_file:
+      - ./MicroHack-3.0-Back/.env.docker
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis
+      - rabbitmq
+      - minio
+
+  # Frontend Dashboard
+  dashboard:
+    build:
+      context: ./apcs-dashbord
+      dockerfile: Dockerfile
+    container_name: microhack_dashboard
+    ports:
+      - "80:80"
+    depends_on:
+      - api
+
+  # Multi-Agent 1 (Tier 1 Analyst)
+  t1-agent:
+    build:
+      context: ./MicroHack-3.0-Back
+      dockerfile: Dockerfile.agent
+    container_name: microhack_t1_agent
+    env_file:
+      - ./MicroHack-3.0-Back/.env.docker
+    command: python micro_hack/multiagent1/main_watcher.py
+    depends_on:
+      - redis
+      - db
+
+  # Multi-Agent 2 (Tier 2 Scorer)
+  t2-agent:
+    build:
+      context: ./MicroHack-3.0-Back
+      dockerfile: Dockerfile.agent
+    container_name: microhack_t2_agent
+    env_file:
+      - ./MicroHack-3.0-Back/.env.docker
+    command: python micro_hack/multiagent2/main_watcher.py
+    depends_on:
+      - redis
+      - db
+
+volumes:
+  postgres_data:

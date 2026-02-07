@@ -2,8 +2,19 @@ import psycopg
 import uuid
 from state import Tier2State
 
-# Updated to use the microhack database from .env
-DB_URI = "postgresql://postgres:postgres@localhost:5432/microhack"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# Database Connection URI (Use environment variables for Docker compatibility)
+DB_HOST = os.getenv("POSTGRES_HOST", "localhost")
+DB_USER = os.getenv("POSTGRES_USER", "postgres")
+DB_PASS = os.getenv("POSTGRES_PASSWORD", "postgres")
+DB_NAME = os.getenv("POSTGRES_DB", "microhack")
+DB_PORT = os.getenv("POSTGRES_PORT", "5432")
+
+DB_URI = f"postgresql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
 def update_tier2_results(state: Tier2State):
     """Updates the record with the full Tier-2 analysis in the FeasibilityStudy table."""

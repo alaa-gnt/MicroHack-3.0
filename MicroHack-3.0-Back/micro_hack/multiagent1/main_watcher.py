@@ -6,16 +6,26 @@ import json
 from psycopg.rows import dict_row
 from workflow import app
 
+import os
+
 load_dotenv()
 
-# Database Connection URI
-DB_URI = "postgresql://postgres:postgres@localhost:5432/microhack"
+# Database Connection URI (Use environment variables for Docker compatibility)
+DB_HOST = os.getenv("POSTGRES_HOST", "localhost")
+DB_USER = os.getenv("POSTGRES_USER", "postgres")
+DB_PASS = os.getenv("POSTGRES_PASSWORD", "postgres")
+DB_NAME = os.getenv("POSTGRES_DB", "microhack")
+DB_PORT = os.getenv("POSTGRES_PORT", "5432")
+
+DB_URI = f"postgresql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
 def run_watcher():
     print("🤖 Multi-Agent 1 Watcher is ONLINE (Pure Redis Event Mode).")
     
     try:
-        r = redis.Redis(host='localhost', port=6379, db=0)
+        redis_host = os.getenv("REDIS_HOST", "localhost")
+        redis_port = int(os.getenv("REDIS_PORT", 6379))
+        r = redis.Redis(host=redis_host, port=redis_port, db=0)
         print("✅ Connected to Redis.")
     except Exception as re:
         print(f"❌ Redis Connection Error: {re}")
