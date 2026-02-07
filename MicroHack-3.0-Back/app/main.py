@@ -40,3 +40,28 @@ app.include_router(knowledge_base.router, prefix=f"{settings.API_V1_STR}/kb", ta
 app.include_router(opportunities.router, prefix=f"{settings.API_V1_STR}/opportunities", tags=["Opportunities"])
 app.include_router(feasibility.router, prefix=f"{settings.API_V1_STR}/feasibility-studies", tags=["Feasibility Studies"])
 app.include_router(blueprints.router, prefix=f"{settings.API_V1_STR}/blueprints", tags=["Venture Blueprints"])
+
+# Startup Event
+import threading
+from app.database.postgres import SessionLocal
+from app.services.pipeline_service import PipelineService
+
+def run_initial_scrape():
+    """
+    Runs the scraper in a background thread on startup.
+    """
+    print("🚀 [STARTUP] Triggering initial scraping pipeline...")
+    db = SessionLocal()
+    try:
+        # Run with default sources/keywords
+        PipelineService.run_scraping_pipeline(db)
+        print("✅ [STARTUP] Initial scraping pipeline completed.")
+    except Exception as e:
+        print(f"❌ [STARTUP] Initial scraping failed: {e}")
+    finally:
+        db.close()
+
+@app.on_event("startup")
+async def startup_event():
+    # Run in a separate thread so we don't block the server startup
+    threading.Thread(target=run_initial_scrape, daemon=True).start()
