@@ -26,17 +26,20 @@ Our platform is a multi-agent ecosystem designed for high-performance data proce
 ```mermaid
 graph TD
     A[Scraper] -->|Raw Signals| B(Tier-1 Agent: Analysis)
-    B -->|Enriched Signals| K[Dashboard Inbox]
-    K -- User Approval --> D(Tier-2 Agent: Deep Dive)
+    B -->|Market Signals| K[Dashboard Inbox]
+    
+    K -- 1. Choice --> D(Tier-2 Agent: Deep Dive)
     D -->|Feasibility Study| K
-    K -- Selection Approved --> E(Phase 3: Blueprinting)
-    E -->|Tech Docs & Diagrams| K
-    K -- Final Approval --> G(Coding Agent: v0/Lovable)
-    K -- Final Approval --> H(Setup Agent: Env & GitHub)
-    G --> I[Functional Prototype]
-    H --> J[Live Repository]
-    I --> K[Final Result View]
-    J --> K
+    
+    K -- 2. Approve Idea --> E(Phase 3 & 4: Blueprint & v0/Lovable)
+    E -->|Docs & Initial Code| K
+    
+    K -- 3. Final Approval --> H(Phase 5: Environment & GitHub Setup)
+    H -->|Live Repository| K
+    
+    subgraph Dashboard Interactions
+    K
+    end
 ```
 
 ---
