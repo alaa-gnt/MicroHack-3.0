@@ -14,20 +14,28 @@ Welcome to **MicroHack 3.0**, a professional-grade competitive intelligence plat
 
 Our platform is a multi-agent ecosystem designed for high-performance data processing:
 
-1.  **Scraping Engine**: Automatically harvests data from Patents, RSS feeds, Tech News, and Academic sources.
-2.  **Multi-Agent Tier 1 (Analyst)**: Uses AI (LangGraph + Gemini) to clean, categorize, and score incoming signals for Impact and Urgency.
-3.  **Multi-Agent Tier 2 (Deep Dive)**: Performs feasibility studies on high-scoring opportunities, generating tech stacks and strategic recommendations.
-4.  **Dashboard**: A React-based command center for real-time strategic surveillance.
+1.  **Phase 1: Scraping Engine**: Automatically harvests data from Patents, RSS feeds, Tech News, and Academic sources.
+2.  **Phase 2: Multi-Agent Analysis**:
+    - **Tier 1 (Analyst)**: Uses AI (LangGraph + Gemini) to clean, categorize, and score incoming signals.
+    - **Tier 2 (Deep Dive)**: Performs feasibility studies on high-scoring opportunities.
+3.  **Phase 3: Multi-Agent Blueprinting**: Generates detailed technical documentation and conception diagrams (UML/System) for the selected innovation.
+4.  **Phase 4: Multi-Agent Prototyping**: Integrates with external coding agents like **v0** and **Lovable** to generate functional code based on the blueprints.
+5.  **Phase 5: Multi-Agent Orchestration**: Automates environment setup, including GitHub repository creation, dependency management, and project structure initialization.
 
-### 🔄 Agent Workflow
+### 🔄 End-to-End Workflow
 ```mermaid
 graph TD
     A[Scraper] -->|Raw Signals| B(Tier-1 Agent: Analysis)
     B -->|Enriched Data| C{Scoring > 0.8?}
     C -- Yes --> D(Tier-2 Agent: Deep Dive)
-    C -- No --> E[Storage Only]
-    D -->|Feasibility Report| F[Venture Blueprint]
-    F --> G[Dashboard]
+    D -->|Feasibility| E(Tier-3 Agent: Blueprinting)
+    E -->|Tech Docs & Diagrams| F{User Approval}
+    F -- Approved --> G(Coding Agent: v0/Lovable)
+    F -- Approved --> H(Setup Agent: Env & GitHub)
+    G --> I[Functional Prototype]
+    H --> J[Live Repository]
+    I --> K[Dashboard Output]
+    J --> K
 ```
 
 ---
