@@ -45,11 +45,11 @@ services:
   # Backend API
   api:
     build:
-      context: ./MicroHack-3.0-Back
+      context: ./backend
       dockerfile: Dockerfile
     container_name: microhack_api
     env_file:
-      - ./MicroHack-3.0-Back/.env.docker
+      - ./backend/.env.docker
     ports:
       - "8000:8000"
     depends_on:
@@ -61,7 +61,7 @@ services:
   # Frontend Dashboard
   dashboard:
     build:
-      context: ./apcs-dashbord
+      context: ./frontend
       dockerfile: Dockerfile
     container_name: microhack_dashboard
     ports:
@@ -72,12 +72,12 @@ services:
   # Multi-Agent 1 (Tier 1 Analyst)
   t1-agent:
     build:
-      context: ./MicroHack-3.0-Back
+      context: ./backend
       dockerfile: Dockerfile.agent
     container_name: microhack_t1_agent
     env_file:
-      - ./MicroHack-3.0-Back/.env.docker
-    command: python micro_hack/multiagent1/main_watcher.py
+      - ./backend/.env.docker
+    command: python agents/multiagent1/main_watcher.py
     depends_on:
       - redis
       - db
@@ -85,12 +85,12 @@ services:
   # Multi-Agent 2 (Tier 2 Scorer)
   t2-agent:
     build:
-      context: ./MicroHack-3.0-Back
+      context: ./backend
       dockerfile: Dockerfile.agent
     container_name: microhack_t2_agent
     env_file:
-      - ./MicroHack-3.0-Back/.env.docker
-    command: python micro_hack/multiagent2/main_watcher.py
+      - ./backend/.env.docker
+    command: python agents/multiagent2/main_watcher.py
     depends_on:
       - redis
       - db

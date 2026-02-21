@@ -1,37 +1,55 @@
 # 🚀 MicroHack 3.0: Intelligence Engine & Strategic Surveillance
 
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-orange?style=for-the-badge)](https://langchain-ai.github.io/langgraph/)
+
 Welcome to **MicroHack 3.0**, a professional-grade competitive intelligence platform designed to decode market signals, identify strategic gaps, and provide actionable insights for innovation strategies.
+
+---
 
 ## 🏗️ System Architecture
 
 Our platform is a multi-agent ecosystem designed for high-performance data processing:
 
 1.  **Scraping Engine**: Automatically harvests data from Patents, RSS feeds, Tech News, and Academic sources.
-2.  **Multi-Agent Tier 1 (Analyst)**: Uses AI to clean, categorize, and score incoming signals for Impact and Urgency.
-3.  **Multi-Agent Tier 2 (Deep Dive)**: Performs feasibility studies on high-scoring opportunities, generating tech stacks and recommendations.
-4.  **Dashboard**: A React-based command center for strategic surveillance.
+2.  **Multi-Agent Tier 1 (Analyst)**: Uses AI (LangGraph + Gemini) to clean, categorize, and score incoming signals for Impact and Urgency.
+3.  **Multi-Agent Tier 2 (Deep Dive)**: Performs feasibility studies on high-scoring opportunities, generating tech stacks and strategic recommendations.
+4.  **Dashboard**: A React-based command center for real-time strategic surveillance.
+
+### 🔄 Agent Workflow
+```mermaid
+graph TD
+    A[Scraper] -->|Raw Signals| B(Tier-1 Agent: Analysis)
+    B -->|Enriched Data| C{Scoring > 0.8?}
+    C -- Yes --> D(Tier-2 Agent: Deep Dive)
+    C -- No --> E[Storage Only]
+    D -->|Feasibility Report| F[Venture Blueprint]
+    F --> G[Dashboard]
+```
 
 ---
 
-## 🛠️ Prerequisites
+## 🛠️ Tech Stack
 
-To run this platform, you only need:
-- **Docker** & **Docker Compose**
+- **Backend**: Python 3.10+, FastAPI, SQLAlchemy, Pydantic.
+- **Frontend**: React, Vite, CSS Modules.
+- **Agents**: LangGraph, LangChain, Google Gemini Pro.
+- **Infrastructure**: Docker, Redis, RabbitMQ, PostgreSQL, MinIO.
 
 ---
 
 ## ⚡ Setup & Execution
 
-### 1. Build and Run (Recommended)
-To build the images and start the entire ecosystem in one go, run:
-```powershell
-docker compose up --build
-```
+### 1. Prerequisites
+- Docker & Docker Compose installed.
 
-### 2. Manual Build
-If you only want to build the images without starting the containers:
-```powershell
-docker compose build
+### 2. Build and Run
+To build the images and start the entire ecosystem in one go, run:
+```bash
+docker compose up --build
 ```
 
 ---
@@ -46,30 +64,26 @@ Once the containers are running:
 
 ---
 
-## 🧩 Services Overview
+## 📁 Repository Structure
 
-All services are orchestrated via Docker Compose:
-
-| Service | Description | Port |
-| :--- | :--- | :--- |
-| `dashboard` | React Vite Frontend (Nginx Served) | 80 |
-| `api` | FastAPI Backend | 8000 |
-| `t1-agent` | Tier 1 analyst watcher (Redis-driven) | - |
-| `t2-agent` | Tier 2 deep-dive watcher (Redis-driven) | - |
-| `db` | PostgreSQL 15 Database | 5432 |
-| `redis` | Event-driven message broker | 6379 |
-| `minio` | S3-compatible raw data storage | 9000 |
-| `rabbitmq` | Scraper handoff queue | 5672 |
-
----
-
-## 📈 Innovation Workflow
-
-1.  **Startup**: Scraper triggers automatically on backend launch.
-2.  **Analysis**: Signals flow into `t1-agent` for instant scoring.
-3.  **Feasibility**: High-scoring signals are sent to `t2-agent` for full business analysis.
-4.  **Visualization**: Real-time results appear on the dashboard.
+```text
+.
+├── backend/            # FastAPI API & Multi-Agent Logic
+│   ├── agents/         # LangGraph Tier-1 & Tier-2 scripts
+│   ├── app/            # Main FastAPI application
+│   ├── scraper/        # Scraper Graph logic
+│   └── scripts/        # Database & Utility scripts
+├── frontend/           # React + Vite Dashboard
+├── documentation/      # Detailed ARCHITECTURE & HACKATHON info
+└── docker-compose.yml  # System Orchestration
+```
 
 ---
 
-**Developed for the MicroHack 3.0 Hackathon.** 🏆
+## 🏆 Development
+Developed for the **MicroHack 3.0 Hackathon**. This project demonstrates the power of multi-agent systems in corporate scouting and competitive intelligence.
+
+---
+
+## 🤝 Connect
+Let's connect on **[LinkedIn](https://www.linkedin.com/in/YOUR_PROFILE_HERE/)**!
